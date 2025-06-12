@@ -1,0 +1,5323 @@
+{
+  "Dell Pro Micro QCM1255": {
+    "model_name": "Dell Pro Micro QCM1255",
+    "regulatory_info": {
+      "model": "D19U",
+      "type": "D19U004"
+    },
+    "specifications": {
+      "dimensions_and_weight": {
+        "height": "182.00 mm (7.17 in.)",
+        "width": "36.00 mm (1.42 in.)",
+        "depth": "178.00 mm (7.01 in.)",
+        "weight": {
+          "minimum": "1.19 kg (2.62 lb)",
+          "maximum": "1.34 kg (2.95 lb)"
+        }
+      },
+      "processor": [
+        {
+          "type": "AMD Ryzen 7 PRO 8700T",
+          "wattage": "35 W",
+          "core_count": 8,
+          "thread_count": 16,
+          "speed": "Up to 5.1 GHz",
+          "cache": "24 MB",
+          "integrated_graphics": "AMD Radeon 780M Graphics",
+          "ai_technology": "AMD Ryzen AI",
+          "npu_performance": "Up to 16 TOPS"
+        },
+        {
+          "type": "AMD Ryzen 5 PRO 8600T",
+          "wattage": "35 W",
+          "core_count": 6,
+          "thread_count": 12,
+          "speed": "Up to 5.0 GHz",
+          "cache": "22 MB",
+          "integrated_graphics": "AMD Radeon 760M Graphics",
+          "ai_technology": "AMD Ryzen AI",
+          "npu_performance": "Up to 16 TOPS"
+        },
+        {
+          "type": "AMD Ryzen 5 8600T",
+          "wattage": "35 W",
+          "core_count": 6,
+          "thread_count": 12,
+          "speed": "Up to 5.0 GHz",
+          "cache": "22 MB",
+          "integrated_graphics": "AMD Radeon 760M Graphics",
+          "ai_technology": "AMD Ryzen AI",
+          "npu_performance": "Up to 16 TOPS"
+        },
+        {
+          "type": "AMD Ryzen 5 PRO 8500T",
+          "wattage": "35 W",
+          "core_count": 6,
+          "thread_count": 12,
+          "speed": "Up to 5.0 GHz",
+          "cache": "22 MB",
+          "integrated_graphics": "AMD Radeon 740M Graphics",
+          "ai_technology": "None"
+        },
+        {
+          "type": "AMD Ryzen 5 8500T",
+          "wattage": "35 W",
+          "core_count": 6,
+          "thread_count": 12,
+          "speed": "Up to 5.0 GHz",
+          "cache": "22 MB",
+          "integrated_graphics": "AMD Radeon 740M Graphics",
+          "ai_technology": "None"
+        },
+        {
+          "type": "AMD Ryzen 3 PRO 8300T",
+          "wattage": "35 W",
+          "core_count": 4,
+          "thread_count": 8,
+          "speed": "Up to 4.9 GHz",
+          "cache": "12 MB",
+          "integrated_graphics": "AMD Radeon 740M Graphics",
+          "ai_technology": "None"
+        },
+        {
+          "type": "AMD Ryzen 3 8300T",
+          "wattage": "35 W",
+          "core_count": 4,
+          "thread_count": 8,
+          "speed": "Up to 4.9 GHz",
+          "cache": "12 MB",
+          "integrated_graphics": "AMD Radeon 740M Graphics",
+          "ai_technology": "None"
+        }
+      ],
+      "chipset": {
+        "type": "AMD PRO 600 Series",
+        "processor_support": "AMD Ryzen 7/5/3",
+        "dram_bus_width": "128-bit",
+        "flash_eprom": "64 MB + 2 MB",
+        "pcie_bus": "Up to Gen4"
+      },
+      "operating_systems": [
+        "Windows 11 Home",
+        "Windows 11 Pro",
+        "Windows 11 Enterprise",
+        "Windows 11 Pro National Education",
+        "Ubuntu Linux 24.04 LTS, 64-bit"
+      ],
+      "memory": {
+        "slots": "Two SoDIMM slots",
+        "type": "DDR5",
+        "speed": "4800 MT/s, 5600 MT/s",
+        "max_configuration": "64 GB",
+        "min_configuration": "8 GB",
+        "size_per_slot": "8 GB, 16 GB, or 32 GB"
+      },
+      "ports_and_slots": {
+        "external_front": [
+          {
+            "type": "Headset (headphone and microphone combo) port"
+          },
+          {
+            "type": "USB 3.2 Gen 1 (5 Gbps) port"
+          },
+          {
+            "type": "USB 3.2 Gen 2 (10 Gbps) Type-C port"
+          }
+        ],
+        "external_back": [
+          {
+            "type": "Optional external antenna port"
+          },
+          {
+            "type": "DisplayPort 1.4a port"
+          },
+          {
+            "type": "HDMI 2.1 port"
+          },
+          {
+            "type": "USB 3.2 Gen 1 (5 Gbps) port"
+          },
+          {
+            "type": "USB 3.2 Gen 1 (5 Gbps) port with SmartPower On"
+          },
+          {
+            "type": "Two USB 2.0 (480 Mbps) ports"
+          },
+          {
+            "type": "Two USB 3.2 Gen 2 (10 Gbps) ports"
+          },
+          {
+            "type": "RJ45 ethernet port (1 Gbps)"
+          },
+          {
+            "type": "Kensington security-cable slot and padlock ring"
+          },
+          {
+            "type": "Power-adapter port"
+          }
+        ],
+        "optional_external_module": [
+          "HDMI 2.1 port",
+          "DisplayPort 1.4a port",
+          "VGA port",
+          "USB Type-C with DisplayPort Alt Mode",
+          "Two USB 3.2 Gen 2 ports",
+          "PS2 port",
+          "Serial port"
+        ],
+        "internal": [
+          "One M.2 2230 slot for Wi-Fi and Bluetooth combo card",
+          "Two M.2 2230/2280 Gen4 slots for solid-state drive"
+        ]
+      },
+      "network": {
+        "ethernet": {
+          "model": "Realtek RTL8111H",
+          "transfer_rate": "10/100/1000 Mbps"
+        },
+        "wireless": [
+          {
+            "model": "MediaTek MT7925",
+            "transfer_rate": "Up to 5760 Mbps",
+            "bluetooth": "Bluetooth 5.4"
+          },
+          {
+            "model": "MediaTek MT7920",
+            "transfer_rate": "Up to 1200 Mbps",
+            "bluetooth": "Bluetooth 5.4"
+          }
+        ]
+      },
+      "storage": {
+        "supported_drive_types": [
+          {
+            "type": "M.2 2230 solid-state drive",
+            "interface": "QLC PCIe Gen4 NVMe, Class 25",
+            "capacity": "Up to 1 TB"
+          },
+          {
+            "type": "M.2 2230 solid-state drive",
+            "interface": "TLC Gen4 PCIe NVMe, Class 35",
+            "capacity": "Up to 1 TB"
+          },
+          {
+            "type": "M.2 2280 solid-state drive",
+            "interface": "TLC Gen4 PCIe NVMe, Class 40, Self-Encrypting Opal 2.0, Class 40",
+            "capacity": "Up to 1 TB"
+          }
+        ]
+      },
+      "power_adapter": [
+        {
+          "type": "90 W",
+          "input_voltage": "100 VAC\u2013240 VAC",
+          "input_current_max": "1.50 A"
+        },
+        {
+          "type": "65 W",
+          "input_voltage": "100 VAC\u2013240 VAC",
+          "input_current_max": "1.70 A"
+        }
+      ],
+      "gpu": {
+        "integrated": [
+          {
+            "controller": "AMD Radeon 780M/760M/740M",
+            "memory_size": "Shared system memory",
+            "processor": "AMD Ryzen 7/5/3"
+          }
+        ]
+      },
+      "hardware_security": [
+        "Kensington security-cable slot",
+        "Padlock ring",
+        "Chassis lock slot support",
+        "Chassis intrusion switch",
+        "Lockable cable covers",
+        "Supply chain tamper alerts",
+        "SafeID including Trusted Platform Module (TPM) 2.0",
+        "Smart card keyboard (FIPS)",
+        "Microsoft 10 Device Guard & Credential Guard (Enterprise SKU)",
+        "SafeBIOS",
+        "Microsoft Windows BitLocker",
+        "Local hard drive data wipe through BIOS (Secure Erase)",
+        "Self-encrypting storage drives (Opal, FIPS)"
+      ]
+    },
+    "troubleshooting": {
+      "diagnostic_light_codes": [
+        {
+          "code": "1,1",
+          "description": "TPM Detection Failure"
+        },
+        {
+          "code": "1,2",
+          "description": "Unrecoverable SPI Flash Failure"
+        },
+        {
+          "code": "1,5",
+          "description": "EC unable to program i-Fuse"
+        },
+        {
+          "code": "1,6",
+          "description": "Generic catch-all for ungraceful EC code flow errors"
+        },
+        {
+          "code": "1,7",
+          "description": "Non-RPMC Flash on Boot Guard fused system"
+        },
+        {
+          "code": "2,1",
+          "description": "CPU configuration or CPU failure"
+        },
+        {
+          "code": "2,2",
+          "description": "System board: BIOS or Read-Only Memory (ROM) failure"
+        },
+        {
+          "code": "2,3",
+          "description": "No memory or Random-Access Memory (RAM) detected"
+        },
+        {
+          "code": "2,4",
+          "description": "Memory or Random-Access Memory (RAM) failure"
+        },
+        {
+          "code": "2,5",
+          "description": "Invalid memory installed"
+        },
+        {
+          "code": "2,6",
+          "description": "System board/Chipset Error"
+        },
+        {
+          "code": "2,7",
+          "description": "LCD failure SBIOS message"
+        },
+        {
+          "code": "2,8",
+          "description": "Display power-rail failure on the system board"
+        },
+        {
+          "code": "3,1",
+          "description": "CMOS battery failure"
+        },
+        {
+          "code": "3,2",
+          "description": "PCI of Video card/chip failure"
+        },
+        {
+          "code": "3,3",
+          "description": "Recovery image not found"
+        },
+        {
+          "code": "3,4",
+          "description": "Recovery image found but invalid"
+        },
+        {
+          "code": "3,5",
+          "description": "EC power-rail error"
+        },
+        {
+          "code": "3,6",
+          "description": "Flash corruption detected by SBIOS"
+        },
+        {
+          "code": "3,7",
+          "description": "Timeout waiting on ME to reply to HECI message"
+        },
+        {
+          "code": "4,1",
+          "description": "Memory DIMM power rail failure"
+        },
+        {
+          "code": "4,2",
+          "description": "CPU Power cable connection issue"
+        }
+      ]
+    }
+  },
+  "Dell Pro Slim Plus QBS1250": {
+    "model_name": "Dell Pro Slim Plus QBS1250",
+    "regulatory_info": {
+      "model": "D18S",
+      "type": "D18S002"
+    },
+    "specifications": {
+      "dimensions_and_weight": {
+        "height": "290.00 mm (11.42 in.)",
+        "width": "92.60 mm (3.65 in.)",
+        "depth": "292.80 mm (11.53 in.)",
+        "weight": {
+          "minimum": "3.97 kg (8.75 lb)",
+          "maximum": "5.09 kg (11.22 lb)"
+        }
+      },
+      "processor": [
+        {
+          "type": "Intel Core Ultra 9 285T vPro",
+          "wattage": "35 W",
+          "core_count": 24,
+          "thread_count": 24,
+          "speed": "Up to 5.4 GHz",
+          "cache": "36 MB",
+          "integrated_graphics": "Intel Graphics",
+          "ai_technology": "Intel AI Boost",
+          "npu_performance": "Up to 13 TOPS"
+        },
+        {
+          "type": "Intel Core Ultra 7 265T vPro",
+          "wattage": "35 W",
+          "core_count": 20,
+          "thread_count": 20,
+          "speed": "Up to 5.3 GHz",
+          "cache": "30 MB",
+          "integrated_graphics": "Intel Graphics",
+          "ai_technology": "Intel AI Boost",
+          "npu_performance": "Up to 13 TOPS"
+        },
+        {
+          "type": "Intel Core Ultra 5 245T vPro",
+          "wattage": "35 W",
+          "core_count": 14,
+          "thread_count": 14,
+          "speed": "Up to 5.1 GHz",
+          "cache": "24 MB",
+          "integrated_graphics": "Intel Graphics",
+          "ai_technology": "Intel AI Boost",
+          "npu_performance": "Up to 13 TOPS"
+        },
+        {
+          "type": "Intel Core Ultra 5 235T vPro",
+          "wattage": "35 W",
+          "core_count": 14,
+          "thread_count": 14,
+          "speed": "Up to 5.0 GHz",
+          "cache": "24 MB",
+          "integrated_graphics": "Intel Graphics",
+          "ai_technology": "Intel AI Boost",
+          "npu_performance": "Up to 13 TOPS"
+        }
+      ],
+      "chipset": {
+        "type": "Intel Q870",
+        "processor_support": "Intel Core Ultra 9/7/5",
+        "dram_bus_width": "128-bit",
+        "flash_eprom": "32 MB + 32 MB",
+        "pcie_bus": "Up to Gen4"
+      },
+      "operating_systems": [
+        "Windows 11 Home",
+        "Windows 11 Pro",
+        "Windows 11 Enterprise",
+        "Windows 11 Pro National Education",
+        "Ubuntu Linux 24.04 LTS, 64-bit"
+      ],
+      "memory": {
+        "slots": "Two SoDIMM slots",
+        "type": "DDR5",
+        "speed": "5600 MT/s, 6400 MT/s",
+        "max_configuration": "64 GB",
+        "min_configuration": "8 GB",
+        "size_per_slot": "8 GB, 16 GB, or 32 GB"
+      },
+      "ports_and_slots": {
+        "external_front": [
+          {
+            "type": "SD-card 4.0 slot (optional)"
+          },
+          {
+            "type": "Headset (headphone and microphone combo) port"
+          },
+          {
+            "type": "USB 2.0 (480 Mbps) port"
+          },
+          {
+            "type": "USB 2.0 (480 Mbps) port with PowerShare"
+          },
+          {
+            "type": "USB 3.2 Gen 2 (10 Gbps) port"
+          },
+          {
+            "type": "USB 3.2 Gen 2x2 (20 Gbps) Type-C port"
+          }
+        ],
+        "external_back": [
+          {
+            "type": "Three DisplayPort 1.4a (HBR3) ports"
+          },
+          {
+            "type": "USB 3.2 Gen 1 (5 Gbps) port"
+          },
+          {
+            "type": "Two USB 2.0 (480 Mbps) port with SmartPower On"
+          },
+          {
+            "type": "Two USB 3.2 Gen 2 (10 Gbps) ports"
+          },
+          {
+            "type": "USB 3.2 Gen 2 (10 Gbps) Type-C port"
+          },
+          {
+            "type": "RJ45 ethernet port (1 Gbps)"
+          }
+        ],
+        "optional_external_module": [
+          "Thunderbolt 4 port with DisplayPort Alt Mode and USB 3.2 Gen-2 Type-C port",
+          "DisplayPort 2.1 (UHBR20) port",
+          "HDMI 2.1 FRL port",
+          "VGA port",
+          "USB Type-C with DisplayPort Alt Mode port",
+          "Two USB-A 3.2 Gen 2 port ports",
+          "PS2 port",
+          "Serial port",
+          "Fiber optic port (5 Gbps, peer-to-peer)",
+          "RJ45 ethernet port (5 Gbps)"
+        ],
+        "internal": [
+          "One M.2 2230 slot for Wi-Fi and Bluetooth combo card",
+          "One M.2 2230/2280 Gen5 slot for solid-state drive",
+          "Two M.2 2230/2280 Gen4 slots for solid-state drive"
+        ]
+      },
+      "network": {
+        "ethernet": {
+          "model": "Intel WGI219LM",
+          "transfer_rate": "10/100/1000 Mbps"
+        },
+        "wireless": [
+          {
+            "model": "Intel BE200",
+            "transfer_rate": "Up to 5760 Mbps",
+            "bluetooth": "Bluetooth 5.4"
+          },
+          {
+            "model": "Intel AX211",
+            "transfer_rate": "Up to 2400 Mbps",
+            "bluetooth": "Bluetooth 5.3"
+          },
+          {
+            "model": "MediaTek MT7920",
+            "transfer_rate": "Up to 1200 Mbps",
+            "bluetooth": "Bluetooth 5.4"
+          }
+        ]
+      },
+      "storage": {
+        "supported_drive_types": [
+          {
+            "type": "M.2 2230 solid-state drive",
+            "interface": "QLC PCIe Gen4 NVMe, Class 25",
+            "capacity": "512 GB"
+          },
+          {
+            "type": "M.2 2230 solid-state drive",
+            "interface": "TLC Gen4 PCIe NVMe, Class 35",
+            "capacity": "Up to 1 TB"
+          },
+          {
+            "type": "M.2 2280 solid-state drive",
+            "interface": "TLC Gen4 PCIe NVMe, Class 40, Self-Encrypting Opal 2.0, Class 40",
+            "capacity": "Up to 2 TB"
+          }
+        ]
+      },
+      "power_adapter": [
+        {
+          "type": "180 W",
+          "input_voltage": "100 VAC\u2013240 VAC",
+          "input_current_max": "2.34 A"
+        },
+        {
+          "type": "240 W",
+          "input_voltage": "100 VAC\u2013240 VAC",
+          "input_current_max": "3.5 A"
+        }
+      ],
+      "gpu": {
+        "integrated": {
+          "controller": "Intel Graphics",
+          "processor": "Intel Core Ultra 9/Ultra 7/Ultra 5"
+        }
+      },
+      "hardware_security": [
+        "Kensington security-cable slot",
+        "Padlock ring",
+        "Chassis lock slot support",
+        "Chassis intrusion switch",
+        "Lockable cable covers",
+        "Supply chain tamper alerts",
+        "SafeID including Trusted Platform Module (TPM) 2.0",
+        "Smart card keyboard (FIPS)",
+        "Microsoft 10 Device Guard & Credential Guard (Enterprise SKU)",
+        "SafeBIOS",
+        "Microsoft Windows BitLocker",
+        "Local hard drive data wipe through BIOS (Secure Erase)",
+        "Self-encrypting storage drives (Opal, FIPS)",
+        "Intel Secure Boot",
+        "Intel Authenticate"
+      ]
+    },
+    "troubleshooting": {
+      "diagnostic_light_codes": [
+        {
+          "code": "1,1",
+          "description": "TPM Detection Failure"
+        },
+        {
+          "code": "1,2",
+          "description": "Unrecoverable SPI Flash Failure"
+        },
+        {
+          "code": "1,5",
+          "description": "EC unable to program i-Fuse"
+        },
+        {
+          "code": "1,6",
+          "description": "Generic catch-all for ungraceful EC code flow errors"
+        },
+        {
+          "code": "1,7",
+          "description": "Non-RPMC Flash on Boot Guard fused system"
+        },
+        {
+          "code": "2,1",
+          "description": "CPU configuration or CPU failure"
+        },
+        {
+          "code": "2,2",
+          "description": "System board: BIOS or Read-Only Memory (ROM) failure"
+        },
+        {
+          "code": "2,3",
+          "description": "No memory or Random-Access Memory (RAM) detected"
+        },
+        {
+          "code": "2,4",
+          "description": "Memory or Random-Access Memory (RAM) failure"
+        },
+        {
+          "code": "2,5",
+          "description": "Invalid memory installed"
+        },
+        {
+          "code": "2,6",
+          "description": "System board/Chipset Error"
+        },
+        {
+          "code": "2,7",
+          "description": "LCD failure SBIOS message"
+        },
+        {
+          "code": "2,8",
+          "description": "Display power-rail failure on the system board"
+        },
+        {
+          "code": "3,1",
+          "description": "CMOS battery failure"
+        },
+        {
+          "code": "3,2",
+          "description": "PCI of Video card/chip failure"
+        },
+        {
+          "code": "3,3",
+          "description": "Recovery image not found"
+        },
+        {
+          "code": "3,4",
+          "description": "Recovery image found but invalid"
+        },
+        {
+          "code": "3,5",
+          "description": "EC power-rail error"
+        },
+        {
+          "code": "3,6",
+          "description": "Flash corruption detected by SBIOS"
+        },
+        {
+          "code": "3,7",
+          "description": "Timeout waiting on ME to reply to HECI message"
+        },
+        {
+          "code": "4,1",
+          "description": "Memory DIMM power rail failure"
+        },
+        {
+          "code": "4,2",
+          "description": "CPU Power cable connection issue"
+        }
+      ]
+    }
+  },
+  "Dell Pro Slim QCS1250": {
+    "model_name": "Dell Pro Slim QCS1250",
+    "regulatory_info": {
+      "model": "D18S",
+      "type": "D18S003/D18S004"
+    },
+    "specifications": {
+      "dimensions_and_weight": {
+        "height": "290.00 mm (11.42 in.)",
+        "width": "92.60 mm (3.65 in.)",
+        "depth": "292.80 mm (11.53 in.)",
+        "weight": {
+          "minimum": "3.93 kg (8.66 lb)",
+          "maximum": "5.02 kg (11.06 lb)"
+        }
+      },
+      "processor": [
+        {
+          "type": "AMD Ryzen 7 PRO 8700T",
+          "wattage": "35 W",
+          "core_count": 8
+        },
+        {
+          "type": "AMD Ryzen 7 8700G",
+          "wattage": "65 W",
+          "core_count": 8
+        },
+        {
+          "type": "AMD Ryzen 5 PRO 8600T",
+          "wattage": "35 W",
+          "core_count": 6
+        },
+        {
+          "type": "AMD Ryzen 5 8600G",
+          "wattage": "65 W",
+          "core_count": 6
+        },
+        {
+          "type": "AMD Ryzen 5 PRO 8500T",
+          "wattage": "35 W",
+          "core_count": 6
+        },
+        {
+          "type": "AMD Ryzen 5 8500G",
+          "wattage": "65 W",
+          "core_count": 6
+        },
+        {
+          "type": "AMD Ryzen 3 PRO 8300T",
+          "wattage": "35 W",
+          "core_count": 4
+        },
+        {
+          "type": "AMD Ryzen 3 8300T",
+          "wattage": "35 W",
+          "core_count": 4
+        }
+      ],
+      "chipset": {
+        "type": "AMD PRO 600 Series",
+        "processor_support": "AMD Ryzen 7/5/3",
+        "dram_bus_width": "128-bit",
+        "flash_eprom": "64 MB + 2 MB",
+        "pcie_bus": "Up to Gen4"
+      },
+      "operating_systems": [
+        "Windows 11 Home",
+        "Windows 11 Pro",
+        "Windows 11 Enterprise",
+        "Windows 11 Pro National Education",
+        "Ubuntu Linux 24.04 LTS, 64-bit"
+      ],
+      "memory": {
+        "slots": "Two SoDIMM slots",
+        "type": "DDR5",
+        "speed": "4800 MT/s, 5600 MT/s",
+        "max_configuration": "64 GB",
+        "min_configuration": "8 GB",
+        "size_per_slot": "8 GB, 16 GB, or 32 GB"
+      },
+      "ports_and_slots": {
+        "external_front": [
+          {
+            "type": "SD-card 4.0 slot (optional)"
+          },
+          {
+            "type": "Headset (headphone and microphone combo) port"
+          },
+          {
+            "type": "USB 2.0 (480 Mbps) port"
+          },
+          {
+            "type": "USB 2.0 (480 Mbps) port with PowerShare"
+          },
+          {
+            "type": "USB 3.2 Gen 1 (5 Gbps) port"
+          },
+          {
+            "type": "USB 3.2 Gen 2 (10 Gbps) Type-C port"
+          }
+        ],
+        "external_back": [
+          {
+            "type": "DisplayPort 1.4a (HBR3) port"
+          },
+          {
+            "type": "HDMI 2.1 (TMDS) port"
+          },
+          {
+            "type": "USB 3.2 Gen 1 (5 Gbps) port"
+          },
+          {
+            "type": "Two USB 2.0 (480 Mbps) port with SmartPower On"
+          },
+          {
+            "type": "Two USB 3.2 Gen 2 (10 Gbps) ports"
+          },
+          {
+            "type": "RJ45 ethernet port (1 Gbps)"
+          }
+        ],
+        "optional_external_module": [
+          "HDMI 2.1 FRL port",
+          "DisplayPort 1.4a (HBR3) port",
+          "VGA port",
+          "USB Type-C with DisplayPort Alt Mode port",
+          "Two USB 3.2 Gen 2 ports",
+          "PS2 port",
+          "Serial port"
+        ],
+        "internal": [
+          "One M.2 2230 slot for Wi-Fi and Bluetooth combo card",
+          "Three M.2 2230/2280 Gen4 slots for solid-state drive"
+        ]
+      },
+      "network": {
+        "ethernet": {
+          "model": "Realtek RTL8111H",
+          "transfer_rate": "10/100/1000 Mbps"
+        },
+        "wireless": [
+          {
+            "model": "MediaTek MT7925",
+            "transfer_rate": "Up to 5760 Mbps",
+            "bluetooth": "Bluetooth 5.4"
+          },
+          {
+            "model": "MediaTek MT7920",
+            "transfer_rate": "Up to 1200 Mbps",
+            "bluetooth": "Bluetooth 5.4"
+          }
+        ]
+      },
+      "storage": {
+        "supported_drive_types": [
+          {
+            "type": "M.2 2230 solid-state drive",
+            "interface": "QLC PCIe Gen4 NVMe, Class 25",
+            "capacity": "Up to 1 TB"
+          },
+          {
+            "type": "M.2 2230 solid-state drive",
+            "interface": "TLC Gen4 PCIe NVMe, Class 35",
+            "capacity": "Up to 1 TB"
+          },
+          {
+            "type": "M.2 2280 solid-state drive",
+            "interface": "TLC Gen4 PCIe NVMe, Class 40, Self-Encrypting Opal 2.0, Class 40",
+            "capacity": "Up to 1 TB"
+          }
+        ]
+      },
+      "power_adapter": [
+        {
+          "type": "90 W",
+          "input_voltage": "100 VAC\u2013240 VAC",
+          "input_current_max": "1.50 A"
+        },
+        {
+          "type": "130 W",
+          "input_voltage": "100 VAC\u2013240 VAC",
+          "input_current_max": "2.5 A"
+        }
+      ],
+      "gpu": {
+        "integrated": [
+          {
+            "controller": "AMD Radeon 780M/760M/740M",
+            "processor": "AMD Ryzen 7/5/3"
+          }
+        ]
+      },
+      "hardware_security": [
+        "Kensington security-cable slot",
+        "Padlock ring",
+        "Chassis lock slot support",
+        "Chassis intrusion switch",
+        "Lockable cable covers",
+        "Supply chain tamper alerts",
+        "SafeID including Trusted Platform Module (TPM) 2.0",
+        "Smart card keyboard (FIPS)",
+        "Microsoft 10 Device Guard & Credential Guard (Enterprise SKU)",
+        "SafeBIOS",
+        "Microsoft Windows BitLocker",
+        "Local hard drive data wipe through BIOS (Secure Erase)",
+        "Self-encrypting storage drives (Opal, FIPS)"
+      ]
+    },
+    "troubleshooting": {
+      "diagnostic_light_codes": [
+        {
+          "code": "1,1",
+          "description": "TPM Detection Failure"
+        },
+        {
+          "code": "1,2",
+          "description": "Unrecoverable SPI Flash Failure"
+        },
+        {
+          "code": "1,5",
+          "description": "EC unable to program i-Fuse"
+        },
+        {
+          "code": "1,6",
+          "description": "Generic catch-all for ungraceful EC code flow errors"
+        },
+        {
+          "code": "1,7",
+          "description": "Non-RPMC Flash on Boot Guard fused system"
+        },
+        {
+          "code": "2,1",
+          "description": "CPU configuration or CPU failure"
+        },
+        {
+          "code": "2,2",
+          "description": "System board: BIOS or Read-Only Memory (ROM) failure"
+        },
+        {
+          "code": "2,3",
+          "description": "No memory or Random-Access Memory (RAM) detected"
+        },
+        {
+          "code": "2,4",
+          "description": "Memory or Random-Access Memory (RAM) failure"
+        },
+        {
+          "code": "2,5",
+          "description": "Invalid memory installed"
+        },
+        {
+          "code": "2,6",
+          "description": "System board/Chipset Error"
+        },
+        {
+          "code": "2,7",
+          "description": "LCD failure SBIOS message"
+        },
+        {
+          "code": "2,8",
+          "description": "Display power-rail failure on the system board"
+        },
+        {
+          "code": "3,1",
+          "description": "CMOS battery failure"
+        },
+        {
+          "code": "3,2",
+          "description": "PCI of Video card/chip failure"
+        },
+        {
+          "code": "3,3",
+          "description": "Recovery image not found"
+        },
+        {
+          "code": "3,4",
+          "description": "Recovery image found but invalid"
+        },
+        {
+          "code": "3,5",
+          "description": "EC power-rail error"
+        },
+        {
+          "code": "3,6",
+          "description": "Flash corruption detected by SBIOS"
+        },
+        {
+          "code": "3,7",
+          "description": "Timeout waiting on ME to reply to HECI message"
+        },
+        {
+          "code": "4,1",
+          "description": "Memory DIMM power rail failure"
+        },
+        {
+          "code": "4,2",
+          "description": "CPU Power cable connection issue"
+        }
+      ]
+    }
+  },
+  "Dell Pro Slim QCS1255": {
+    "model_name": "Dell Pro Slim QCS1255",
+    "regulatory_info": {
+      "model": "D18S",
+      "type": "D18S005"
+    },
+    "specifications": {
+      "dimensions_and_weight": {
+        "height": "290.00 mm (11.42 in.)",
+        "width": "92.60 mm (3.65 in.)",
+        "depth": "292.80 mm (11.53 in.)",
+        "weight": {
+          "minimum": "3.93 kg (8.66 lb)",
+          "maximum": "5.02 kg (11.06 lb)"
+        }
+      },
+      "processor": [
+        {
+          "type": "AMD Ryzen 7 PRO 8700G",
+          "wattage": "65 W",
+          "core_count": 8,
+          "thread_count": 16,
+          "speed": "Up to 5.1 GHz",
+          "cache": "24 MB",
+          "integrated_graphics": "AMD Radeon 780M",
+          "ai_technology": "AMD Ryzen AI",
+          "npu_performance": "Up to 16 TOPS"
+        },
+        {
+          "type": "AMD Ryzen 7 PRO 8700T",
+          "wattage": "35 W",
+          "core_count": 8,
+          "thread_count": 16,
+          "speed": "Up to 5.1 GHz",
+          "cache": "24 MB",
+          "integrated_graphics": "AMD Radeon 780M",
+          "ai_technology": "AMD Ryzen AI",
+          "npu_performance": "Up to 16 TOPS"
+        },
+        {
+          "type": "AMD Ryzen 5 PRO 8600G",
+          "wattage": "65 W",
+          "core_count": 6,
+          "thread_count": 12,
+          "speed": "Up to 5.0 GHz",
+          "cache": "22 MB",
+          "integrated_graphics": "AMD Radeon 760M",
+          "ai_technology": "AMD Ryzen AI",
+          "npu_performance": "Up to 16 TOPS"
+        },
+        {
+          "type": "AMD Ryzen 5 8600G",
+          "wattage": "65 W",
+          "core_count": 6,
+          "thread_count": 12,
+          "speed": "Up to 5.0 GHz",
+          "cache": "22 MB",
+          "integrated_graphics": "AMD Radeon 760M",
+          "ai_technology": "AMD Ryzen AI",
+          "npu_performance": "Up to 16 TOPS"
+        },
+        {
+          "type": "AMD Ryzen 5 PRO 8500G",
+          "wattage": "65 W",
+          "core_count": 6,
+          "thread_count": 12,
+          "speed": "Up to 5.0 GHz",
+          "cache": "22 MB",
+          "integrated_graphics": "AMD Radeon 740M",
+          "ai_technology": "None"
+        },
+        {
+          "type": "AMD Ryzen 5 8500G",
+          "wattage": "65 W",
+          "core_count": 6,
+          "thread_count": 12,
+          "speed": "Up to 5.0 GHz",
+          "cache": "22 MB",
+          "integrated_graphics": "AMD Radeon 740M",
+          "ai_technology": "None"
+        },
+        {
+          "type": "AMD Ryzen 3 PRO 8300G",
+          "wattage": "65 W",
+          "core_count": 4,
+          "thread_count": 8,
+          "speed": "Up to 4.9 GHz",
+          "cache": "12 MB",
+          "integrated_graphics": "AMD Radeon 740M",
+          "ai_technology": "None"
+        },
+        {
+          "type": "AMD Ryzen 3 8300G",
+          "wattage": "65 W",
+          "core_count": 4,
+          "thread_count": 8,
+          "speed": "Up to 4.9 GHz",
+          "cache": "12 MB",
+          "integrated_graphics": "AMD Radeon 740M",
+          "ai_technology": "None"
+        }
+      ],
+      "chipset": {
+        "type": "AMD PRO 600 Series",
+        "processor_support": "AMD Ryzen 7/5/3",
+        "dram_bus_width": "128-bit",
+        "flash_eprom": "64 MB + 2 MB",
+        "pcie_bus": "Up to Gen4"
+      },
+      "operating_systems": [
+        "Windows 11 Home",
+        "Windows 11 Pro",
+        "Windows 11 Enterprise",
+        "Windows 11 Pro National Education",
+        "Ubuntu Linux 24.04 LTS, 64-bit"
+      ],
+      "memory": {
+        "slots": "Two SoDIMM slots",
+        "type": "DDR5",
+        "speed": "4800 MT/s, 5600 MT/s",
+        "max_configuration": "64 GB",
+        "min_configuration": "8 GB",
+        "size_per_slot": "8 GB, 16 GB, or 32 GB"
+      },
+      "ports_and_slots": {
+        "external_front": [
+          {
+            "type": "SD-card 4.0 slot (optional)"
+          },
+          {
+            "type": "Headset (headphone and microphone combo) port"
+          },
+          {
+            "type": "USB 2.0 (480 Mbps) port"
+          },
+          {
+            "type": "USB 2.0 (480 Mbps) port with PowerShare"
+          },
+          {
+            "type": "USB 3.2 Gen 1 (5 Gbps) port"
+          },
+          {
+            "type": "USB 3.2 Gen 2 (10 Gbps) Type-C port"
+          }
+        ],
+        "external_back": [
+          {
+            "type": "DisplayPort 1.4a (HBR3) port"
+          },
+          {
+            "type": "HDMI 2.1 (TMDS) port"
+          },
+          {
+            "type": "USB 3.2 Gen 1 (5 Gbps) port"
+          },
+          {
+            "type": "Two USB 2.0 (480 Mbps) port with SmartPower On"
+          },
+          {
+            "type": "Two USB 3.2 Gen 2 (10 Gbps) ports"
+          },
+          {
+            "type": "RJ45 ethernet port (1 Gbps)"
+          }
+        ],
+        "optional_external_module": [
+          "HDMI 2.1 FRL port",
+          "DisplayPort 1.4a (HBR3) port",
+          "VGA port",
+          "USB Type-C with DisplayPort Alt Mode port",
+          "Two USB 3.2 Gen 2 ports",
+          "PS2 port",
+          "Serial port"
+        ],
+        "internal": [
+          "One M.2 2230 slot for Wi-Fi and Bluetooth combo card",
+          "Three M.2 2230/2280 Gen4 slots for solid-state drive"
+        ]
+      },
+      "network": {
+        "ethernet": {
+          "model": "Realtek RTL8111H",
+          "transfer_rate": "10/100/1000 Mbps"
+        },
+        "wireless": [
+          {
+            "model": "MediaTek MT7925",
+            "transfer_rate": "Up to 5760 Mbps",
+            "bluetooth": "Bluetooth 5.4"
+          },
+          {
+            "model": "MediaTek MT7920",
+            "transfer_rate": "Up to 1200 Mbps",
+            "bluetooth": "Bluetooth 5.4"
+          }
+        ]
+      },
+      "storage": {
+        "supported_drive_types": [
+          {
+            "type": "M.2 2230 solid-state drive",
+            "interface": "QLC PCIe Gen4 NVMe, Class 25",
+            "capacity": "Up to 1 TB"
+          },
+          {
+            "type": "M.2 2230 solid-state drive",
+            "interface": "TLC Gen4 PCIe NVMe, Class 35",
+            "capacity": "Up to 1 TB"
+          },
+          {
+            "type": "M.2 2280 solid-state drive",
+            "interface": "TLC Gen4 PCIe NVMe, Class 40, Self-Encrypting Opal 2.0, Class 40",
+            "capacity": "Up to 1 TB"
+          }
+        ]
+      },
+      "power_adapter": [
+        {
+          "type": "90 W",
+          "input_voltage": "100 VAC\u2013240 VAC",
+          "input_current_max": "1.50 A"
+        },
+        {
+          "type": "130 W",
+          "input_voltage": "100 VAC\u2013240 VAC",
+          "input_current_max": "2.5 A"
+        }
+      ],
+      "gpu": {
+        "integrated": [
+          {
+            "controller": "AMD Radeon 780M/760M/740M",
+            "processor": "AMD Ryzen 7/5/3"
+          }
+        ]
+      },
+      "hardware_security": [
+        "Kensington security-cable slot",
+        "Padlock ring",
+        "Chassis lock slot support",
+        "Chassis intrusion switch",
+        "Lockable cable covers",
+        "Supply chain tamper alerts",
+        "SafeID including Trusted Platform Module (TPM) 2.0",
+        "Smart card keyboard (FIPS)",
+        "Microsoft 10 Device Guard & Credential Guard (Enterprise SKU)",
+        "SafeBIOS",
+        "Microsoft Windows BitLocker",
+        "Local hard drive data wipe through BIOS (Secure Erase)",
+        "Self-encrypting storage drives (Opal, FIPS)"
+      ],
+      "troubleshooting": {
+        "diagnostic_light_codes": [
+          {
+            "code": "1,1",
+            "description": "TPM Detection Failure"
+          },
+          {
+            "code": "1,2",
+            "description": "Unrecoverable SPI Flash Failure"
+          },
+          {
+            "code": "1,5",
+            "description": "EC unable to program i-Fuse"
+          },
+          {
+            "code": "1,6",
+            "description": "Generic catch-all for ungraceful EC code flow errors"
+          },
+          {
+            "code": "1,7",
+            "description": "Non-RPMC Flash on Boot Guard fused system"
+          },
+          {
+            "code": "2,1",
+            "description": "CPU configuration or CPU failure"
+          },
+          {
+            "code": "2,2",
+            "description": "System board: BIOS or Read-Only Memory (ROM) failure"
+          },
+          {
+            "code": "2,3",
+            "description": "No memory or Random-Access Memory (RAM) detected"
+          },
+          {
+            "code": "2,4",
+            "description": "Memory or Random-Access Memory (RAM) failure"
+          },
+          {
+            "code": "2,5",
+            "description": "Invalid memory installed"
+          },
+          {
+            "code": "2,6",
+            "description": "System board/Chipset Error"
+          },
+          {
+            "code": "2,7",
+            "description": "LCD failure SBIOS message"
+          },
+          {
+            "code": "2,8",
+            "description": "Display power-rail failure on the system board"
+          },
+          {
+            "code": "3,1",
+            "description": "CMOS battery failure"
+          },
+          {
+            "code": "3,2",
+            "description": "PCI of Video card/chip failure"
+          },
+          {
+            "code": "3,3",
+            "description": "Recovery image not found"
+          },
+          {
+            "code": "3,4",
+            "description": "Recovery image found but invalid"
+          },
+          {
+            "code": "3,5",
+            "description": "EC power-rail error"
+          },
+          {
+            "code": "3,6",
+            "description": "Flash corruption detected by SBIOS"
+          },
+          {
+            "code": "3,7",
+            "description": "Timeout waiting on ME to reply to HECI message"
+          },
+          {
+            "code": "4,1",
+            "description": "Memory DIMM power rail failure"
+          },
+          {
+            "code": "4,2",
+            "description": "CPU Power cable connection issue"
+          }
+        ]
+      }
+    }
+  },
+  "Dell Pro Tower Plus QBT1250": {
+    "model_name": "Dell Pro Tower Plus QBT1250",
+    "regulatory_info": {
+      "model": "D34M",
+      "type": "D34M001"
+    },
+    "specifications": {
+      "dimensions_and_weight": {
+        "height": "324.30 mm (12.77 in.)",
+        "width": "154.00 mm (6.06 in.)",
+        "depth": "293.00 mm (11.54 in.)",
+        "weight": {
+          "minimum": "5.37 kg (11.84 lb)",
+          "maximum": "6.60 kg (14.55 lb)"
+        }
+      },
+      "processor": [
+        {
+          "type": "Intel Core i9-14900",
+          "wattage": "65 W",
+          "core_count": 24,
+          "thread_count": 32,
+          "speed": "Up to 5.8 GHz",
+          "cache": "36 MB",
+          "integrated_graphics": "Intel UHD Graphics 770"
+        },
+        {
+          "type": "Intel Core i7-14700",
+          "wattage": "65 W",
+          "core_count": 20,
+          "thread_count": 28,
+          "speed": "Up to 5.4 GHz",
+          "cache": "33 MB",
+          "integrated_graphics": "Intel UHD Graphics 770"
+        },
+        {
+          "type": "Intel Core i5-14600",
+          "wattage": "65 W",
+          "core_count": 14,
+          "thread_count": 20,
+          "speed": "Up to 5.2 GHz",
+          "cache": "24 MB",
+          "integrated_graphics": "Intel UHD Graphics 770"
+        },
+        {
+          "type": "Intel Core i5-14500",
+          "wattage": "65 W",
+          "core_count": 14,
+          "thread_count": 20,
+          "speed": "Up to 5.0 GHz",
+          "cache": "24 MB",
+          "integrated_graphics": "Intel UHD Graphics 770"
+        },
+        {
+          "type": "Intel Core i5-14400",
+          "wattage": "65 W",
+          "core_count": 10,
+          "thread_count": 16,
+          "speed": "Up to 4.7 GHz",
+          "cache": "20 MB",
+          "integrated_graphics": "Intel UHD Graphics 730"
+        },
+        {
+          "type": "Intel Core i3-14100",
+          "wattage": "60 W",
+          "core_count": 4,
+          "thread_count": 8,
+          "speed": "Up to 4.7 GHz",
+          "cache": "12 MB",
+          "integrated_graphics": "Intel UHD Graphics 730"
+        },
+        {
+          "type": "Intel 300",
+          "wattage": "46 W",
+          "core_count": 2,
+          "thread_count": 4,
+          "speed": "3.9 GHz",
+          "cache": "6 MB",
+          "integrated_graphics": "Intel UHD Graphics 710"
+        }
+      ],
+      "chipset": {
+        "type": "Intel B760",
+        "processor_support": "Intel Core i9/i7/i5/i3, Intel 300",
+        "dram_bus_width": "64-bit",
+        "flash_eprom": "32 MB",
+        "pcie_bus": "Up to Gen4"
+      },
+      "operating_systems": [
+        "Windows 11 Home",
+        "Windows 11 Pro",
+        "Windows 11 Pro National Education",
+        "Ubuntu 22.04.3 LTS, 64-bit"
+      ],
+      "memory": {
+        "slots": "Two UDIMM slots",
+        "type": "DDR5",
+        "speed": "up to 4800 MT/s",
+        "max_configuration": "64 GB",
+        "min_configuration": "8 GB",
+        "size_per_slot": "8 GB, 16 GB, 32 GB"
+      },
+      "ports_and_slots": {
+        "external_front": [
+          {
+            "type": "Headset (headphone and microphone combo) port"
+          },
+          {
+            "type": "Two USB 2.0 (480 Mbps) ports"
+          },
+          {
+            "type": "Two USB 3.2 Gen 1 (5 Gbps) ports"
+          }
+        ],
+        "external_back": [
+          {
+            "type": "Line-out audio port"
+          },
+          {
+            "type": "DisplayPort 1.4 port"
+          },
+          {
+            "type": "HDMI 1.4b port"
+          },
+          {
+            "type": "Two USB 3.2 Gen 1 (5 Gbps) ports"
+          },
+          {
+            "type": "Two USB 2.0 (480 Mbps) ports with Smart Power On"
+          },
+          {
+            "type": "RJ45 ethernet port"
+          },
+          {
+            "type": "Power-cord connector"
+          }
+        ],
+        "optional_external_module": [
+          "VGA port",
+          "DisplayPort 1.4 port",
+          "HDMI 2.1 port",
+          "Serial port"
+        ],
+        "internal": [
+          "One M.2 2230 slot for WiFi and Bluetooth card",
+          "One M.2 2230/2280 slot for solid-state drive",
+          "Two SATA 3.0 slots",
+          "One PCIe x16 slot",
+          "Two PCIe x1 slots"
+        ]
+      },
+      "network": {
+        "ethernet": {
+          "model": "Realtek RTL8111H",
+          "transfer_rate": "10/100/1000 Mbps"
+        },
+        "wireless": [
+          {
+            "model": "Intel Wi-Fi 6E AX211",
+            "bluetooth": "5.3"
+          },
+          {
+            "model": "Realtek RTL8852BE",
+            "bluetooth": "5.3"
+          },
+          {
+            "model": "Realtek RTL8821CE",
+            "bluetooth": "4.1"
+          }
+        ]
+      },
+      "storage": {
+        "supported_drive_types": [
+          {
+            "type": "3.5-inch hard drive",
+            "interface": "SATA AHCI, up to 6 Gbps",
+            "capacity": "Up to 2 TB"
+          },
+          {
+            "type": "M.2 2230/2280 solid-state drive",
+            "interface": "PCIe Gen4x4 NVMe, up to 64 GT/s",
+            "capacity": "Up to 1 TB"
+          },
+          {
+            "type": "Slim optical drive",
+            "interface": "SATA, up to 1.50 Gbps"
+          }
+        ]
+      },
+      "power_supply": [
+        {
+          "type": "180 W",
+          "input_voltage": "90 VAC\u2013264 VAC"
+        },
+        {
+          "type": "300 W",
+          "input_voltage": "90 VAC\u2013264 VAC"
+        }
+      ],
+      "gpu": {
+        "integrated": [
+          {
+            "controller": "Intel UHD Graphics 710",
+            "processor": "Intel 300"
+          },
+          {
+            "controller": "Intel UHD Graphics 730",
+            "processor": "Intel Core i3-14100/i5-14400"
+          },
+          {
+            "controller": "Intel UHD Graphics 770",
+            "processor": "Intel Core i5-14500/i5-14600/i7-14700/i9-14900"
+          }
+        ],
+        "discrete": [
+          {
+            "controller": "NVIDIA GeForce RTX 3050",
+            "memory_size": "8 GB",
+            "memory_type": "GDDR6"
+          },
+          {
+            "controller": "AMD Radeon RX 6500",
+            "memory_size": "4 GB",
+            "memory_type": "GDDR6"
+          },
+          {
+            "controller": "AMD Radeon RX 6300",
+            "memory_size": "2 GB",
+            "memory_type": "GDDR6"
+          }
+        ]
+      },
+      "hardware_security": [
+        "Kensington security-cable slot",
+        "Padlock ring",
+        "Trusted Platform Module (TPM) 2.0"
+      ]
+    },
+    "troubleshooting": {
+      "diagnostic_light_codes": [
+        {
+          "code": "2,1",
+          "description": "CPU failure"
+        },
+        {
+          "code": "2,2",
+          "description": "System board: BIOS or ROM (Read-Only Memory) failure"
+        },
+        {
+          "code": "2,3",
+          "description": "No memory or RAM (Random-Access Memory) detected"
+        },
+        {
+          "code": "2,4",
+          "description": "Memory or RAM (Random-Access Memory) failure"
+        },
+        {
+          "code": "2,5",
+          "description": "Invalid memory installed"
+        },
+        {
+          "code": "2,6",
+          "description": "System board, chipset error, Clock failure, Gate A20 failure, Super I/O failure, or Keyboard controller failure"
+        },
+        {
+          "code": "2,7",
+          "description": "CPU or System board failure"
+        },
+        {
+          "code": "3,1",
+          "description": "Coin-cell battery failure"
+        },
+        {
+          "code": "3,2",
+          "description": "PCI or video card/chip failure"
+        },
+        {
+          "code": "3,3",
+          "description": "BIOS recovery 1: BIOS recovery image not found"
+        },
+        {
+          "code": "3,4",
+          "description": "BIOS recovery 2: Recovery image found but invalid"
+        },
+        {
+          "code": "3,5",
+          "description": "Power-rail failure"
+        },
+        {
+          "code": "3,6",
+          "description": "Paid-flash corruption"
+        },
+        {
+          "code": "3,7",
+          "description": "Memory detected, but has failed"
+        }
+      ]
+    }
+  },
+  "Dell Pro 24 All-in-One QC24251": {
+    "model_name": "Dell Pro 24 All-in-One QC24251",
+    "regulatory_info": {
+      "model": "W31C",
+      "type": "W31C004"
+    },
+    "specifications": {
+      "dimensions_and_weight": {
+        "height": "354.30 mm (13.95 in.)",
+        "width": "540 mm (21.26 in.)",
+        "depth": "57.90 mm (2.28 in.)",
+        "weight": [
+          {
+            "type": "Fixed stand",
+            "minimum": "7.12 kg (15.69 lb)",
+            "maximum": "8.43 kg (18.57 lb)"
+          },
+          {
+            "type": "HAS stand",
+            "minimum": "8.09 kg (17.83 lb)",
+            "maximum": "9.40 kg (20.71 lb)"
+          },
+          {
+            "type": "without stand",
+            "minimum": "5.22 kg (11.49 lb)",
+            "maximum": "6.53 kg (14.38 lb)"
+          }
+        ]
+      },
+      "processor": [
+        {
+          "type": "Intel Core i7-14700T",
+          "wattage": "35 W",
+          "core_count": 20,
+          "thread_count": 28,
+          "speed": "Up to 5.2 GHz",
+          "cache": "33 MB",
+          "integrated_graphics": "Intel UHD Graphics 770"
+        },
+        {
+          "type": "Intel Core i5-14500T",
+          "wattage": "35 W",
+          "core_count": 14,
+          "thread_count": 20,
+          "speed": "Up to 4.8 GHz",
+          "cache": "24 MB",
+          "integrated_graphics": "Intel UHD Graphics 770"
+        },
+        {
+          "type": "Intel Core i3-14100T",
+          "wattage": "35 W",
+          "core_count": 4,
+          "thread_count": 8,
+          "speed": "Up to 4.4 GHz",
+          "cache": "12 MB",
+          "integrated_graphics": "Intel UHD Graphics 730"
+        },
+        {
+          "type": "Intel Core 300T",
+          "wattage": "35 W",
+          "core_count": 2,
+          "thread_count": 4,
+          "speed": "3.4 GHz",
+          "cache": "6 MB",
+          "integrated_graphics": "Intel UHD Graphics 710"
+        }
+      ],
+      "chipset": {
+        "type": "Intel Q670",
+        "processor_support": "Intel Core i7/i5/i3, Intel 300T",
+        "dram_bus_width": "64-bit",
+        "flash_eprom": "32 MB + 16 MB",
+        "pcie_bus": "Up to Gen4"
+      },
+      "operating_systems": [
+        "Windows 11 Home",
+        "Windows 11 Pro",
+        "Windows 11 Pro National Education",
+        "Ubuntu Linux 24.04 LTS"
+      ],
+      "memory": {
+        "slots": "Two SoDIMM slots",
+        "type": "DDR5",
+        "speed": "4800 MT/s, 5600 MT/s",
+        "max_configuration": "64 GB",
+        "min_configuration": "8 GB",
+        "size_per_slot": "8 GB, 16 GB, or 32 GB"
+      },
+      "ports_and_slots": {
+        "external": [
+          {
+            "location": "Right",
+            "type": "USB 3.2 Gen 2 (10 Gbps) port with PowerShare"
+          },
+          {
+            "location": "Left",
+            "type": "Global headset jack"
+          },
+          {
+            "location": "Bottom",
+            "type": "SD-card slot"
+          },
+          {
+            "location": "Bottom",
+            "type": "USB 3.2 Gen 2 (10 Gbps) Type-C port"
+          },
+          {
+            "location": "Back",
+            "type": "HDMI-in 1.4 FHD/HDCP 1.4 port"
+          },
+          {
+            "location": "Back",
+            "type": "HDMI-out 2.1 TMDS 4k/HDCP 2.3 port"
+          },
+          {
+            "location": "Back",
+            "type": "DisplayPort++ 1.4a HBR3/HDCP 2.3 port"
+          },
+          {
+            "location": "Back",
+            "type": "RJ45 ethernet port (1 Gbps)"
+          },
+          {
+            "location": "Back",
+            "type": "Two USB 3.2 Gen 2 (10 Gbps) ports"
+          },
+          {
+            "location": "Back",
+            "type": "Two USB 3.2 Gen 1 (5 Gbps) ports with SmartPower On"
+          },
+          {
+            "location": "Back",
+            "type": "Power-cable connector"
+          }
+        ],
+        "internal": [
+          "One M.2 2230 slot for Wi-Fi and Bluetooth combo card",
+          "Two M.2 2230/2280 slots for solid-state drive"
+        ]
+      },
+      "network": {
+        "ethernet": {
+          "model": "Intel i219-LM",
+          "transfer_rate": "10/100/1000 Mbps"
+        },
+        "wireless": [
+          {
+            "model": "Intel Wi-Fi 6E AX211",
+            "transfer_rate": "Up to 2400 Mbps",
+            "bluetooth": "Bluetooth 5.3"
+          },
+          {
+            "model": "Intel Wi-Fi 7 BE200",
+            "transfer_rate": "Up to 5760 Mbps",
+            "bluetooth": "Bluetooth 5.4"
+          },
+          {
+            "model": "MediaTek Wi-Fi 6 MT7920",
+            "transfer_rate": "Up to 1200 Mbps",
+            "bluetooth": "Bluetooth 5.4"
+          }
+        ]
+      },
+      "storage": {
+        "supported_drive_types": [
+          {
+            "type": "M.2 2230 Solid State Drive",
+            "interface": "QLC PCIe Gen4 NVMe, up to 64 Gbps",
+            "capacity": "Up to 2 TB"
+          },
+          {
+            "type": "M.2 2230 Solid State Drive",
+            "interface": "TLC PCIe Gen4 NVMe, up to 64 Gbps",
+            "capacity": "Up to 512 GB"
+          }
+        ]
+      },
+      "power_supply": {
+        "type": "160 W internal power supply unit (80PLUS Bronze Certified)",
+        "input_voltage": "90 VAC\u2013264 VAC",
+        "input_current_max": "2.80 A"
+      },
+      "gpu": {
+        "integrated": [
+          {
+            "controller": "Intel UHD Graphics 770",
+            "processor": "Intel Core i5/i7"
+          },
+          {
+            "controller": "Intel UHD Graphics 730",
+            "processor": "Intel Core i3"
+          },
+          {
+            "controller": "Intel UHD Graphics 710",
+            "processor": "Intel 300T"
+          }
+        ]
+      },
+      "hardware_security": [
+        "Kensington security-cable slot",
+        "Chassis intrusion switch",
+        "Trusted Platform Module TPM 2.0",
+        "SPI Flash Tamper Detection Circuit",
+        "FIPs 140-2 certification",
+        "Dell SafeBIOS",
+        "SafeID",
+        "Self-Encrypting Drives (SED)",
+        "D-Pedigree (Secure Supply Chain Functionality)"
+      ],
+      "display": [
+        {
+          "type": "Full High Definition (FHD), ComfortView Plus",
+          "touch": "Non-touch",
+          "resolution": "1920 x 1080",
+          "refresh_rate": "100 Hz (maximum)"
+        },
+        {
+          "type": "Full High Definition (FHD), ComfortView Plus",
+          "touch": "Touch",
+          "resolution": "1920 x 1080",
+          "refresh_rate": "75 Hz (maximum)"
+        }
+      ],
+      "camera": [
+        {
+          "type": "FHD RGB camera",
+          "resolution": "2.07 megapixels (still), 1920x1080 (video)"
+        },
+        {
+          "type": "5MP RGB + Infrared camera",
+          "resolution": "5.18 megapixels (still), 2880x1800 (video)"
+        }
+      ]
+    },
+    "troubleshooting": {
+      "diagnostic_light_codes": [
+        {
+          "code": "1,1",
+          "description": "TPM detection failure"
+        },
+        {
+          "code": "1,2",
+          "description": "Unrecoverable SPI Flash Failure"
+        },
+        {
+          "code": "1,5",
+          "description": "EC unable to program i-Fuse"
+        },
+        {
+          "code": "1,6",
+          "description": "Generic catch-all for ungraceful EC code flow errors"
+        },
+        {
+          "code": "2,1",
+          "description": "CPU failure"
+        },
+        {
+          "code": "2,2",
+          "description": "System board failure (included BIOS corruption or ROM error)"
+        },
+        {
+          "code": "2,3",
+          "description": "No memory/RAM detected"
+        },
+        {
+          "code": "2,4",
+          "description": "Memory/RAM failure"
+        },
+        {
+          "code": "2,5",
+          "description": "Invalid memory installed"
+        },
+        {
+          "code": "2,6",
+          "description": "System board/Chipset Error"
+        },
+        {
+          "code": "2,7",
+          "description": "LCD failure (SBIOS message)"
+        },
+        {
+          "code": "2,8",
+          "description": "LCD failure (EC detection of power rail failure)"
+        },
+        {
+          "code": "3,1",
+          "description": "CMOS battery failure"
+        },
+        {
+          "code": "3,2",
+          "description": "PCI or Video card/chip failure"
+        },
+        {
+          "code": "3,3",
+          "description": "BIOS Recovery image not found"
+        },
+        {
+          "code": "3,4",
+          "description": "BIOS Recovery image found but invalid"
+        },
+        {
+          "code": "3,5",
+          "description": "Power rail failure"
+        },
+        {
+          "code": "3,6",
+          "description": "Flash corruption detected by SBIOS."
+        },
+        {
+          "code": "3,7",
+          "description": "Timeout waiting on ME to reply to HECI message."
+        }
+      ]
+    }
+  },
+  "Dell Pro Max Tower T2 FCT2250": {
+    "model_name": "Dell Pro Max Tower T2 FCT2250",
+    "regulatory_info": {
+      "model": "D33M ",
+      "type": "D33M001 "
+    },
+    "specifications": {
+      "dimensions_and_weight": {
+        "height": "387.00 mm (15.24 in.) ",
+        "width": "187.70 mm (7.40 in.) ",
+        "depth": "438.00 mm (17.24 in.) ",
+        "weight": {
+          "minimum": "9.70 kg (21.38 lbs.) ",
+          "maximum": "20.40 kg (44.97 lbs.) "
+        }
+      },
+      "processor": [
+        {
+          "type": "Intel Core Ultra 5 235",
+          "wattage": "65 W ",
+          "core_count": 14,
+          "thread_count": 14,
+          "speed": "Up to 5 GHz ",
+          "cache": "24 MB ",
+          "integrated_graphics": "Intel Graphics "
+        },
+        {
+          "type": "Intel Core Ultra 5 245",
+          "wattage": "65 W ",
+          "core_count": 14,
+          "thread_count": 14,
+          "speed": "Up to 5.10 GHz ",
+          "cache": "24 MB ",
+          "integrated_graphics": "Intel Graphics "
+        },
+        {
+          "type": "Intel Core Ultra 5 245K",
+          "wattage": "125 W ",
+          "core_count": 14,
+          "thread_count": 14,
+          "speed": "Up to 5.20 GHz ",
+          "cache": "24 MB ",
+          "integrated_graphics": "Intel Graphics "
+        },
+        {
+          "type": "Intel Core Ultra 7 265",
+          "wattage": "65 W ",
+          "core_count": 20,
+          "thread_count": 20,
+          "speed": "Up to 5.30 GHz ",
+          "cache": "30 MB ",
+          "integrated_graphics": "Intel Graphics "
+        },
+        {
+          "type": "Intel Core Ultra 7 265K",
+          "wattage": "125 W ",
+          "core_count": 20,
+          "thread_count": 20,
+          "speed": "Up to 5.50 GHz ",
+          "cache": "30 MB ",
+          "integrated_graphics": "Intel Graphics "
+        },
+        {
+          "type": "Intel Core Ultra 9 285",
+          "wattage": "65 W ",
+          "core_count": 24,
+          "thread_count": 24,
+          "speed": "Up to 5.60 GHz ",
+          "cache": "36 MB ",
+          "integrated_graphics": "Intel Graphics "
+        },
+        {
+          "type": "Intel Core Ultra 9 285K",
+          "wattage": "125 W ",
+          "core_count": 24,
+          "thread_count": 24,
+          "speed": "Up to 5.70 GHz ",
+          "cache": "36 MB ",
+          "integrated_graphics": "Intel Graphics "
+        }
+      ],
+      "chipset": {
+        "type": "Intel W880 ",
+        "processor_support": "Intel Core Ultra 5/7/9",
+        "dram_bus_width": "64-bit ",
+        "flash_eprom": "32 MB + 32 MB ",
+        "pcie_bus": "Up to Gen5 "
+      },
+      "operating_systems": [
+        "Windows 11 Home ",
+        "Windows 11 Pro ",
+        "Windows 11 Pro National Academic ",
+        "Windows 11 IoT Enterprise 2024 LTSC ",
+        "Ubuntu Linux 24.04 LTS "
+      ],
+      "memory": {
+        "slots": "Four UDIMM slots ",
+        "type": "DDR5 ",
+        "speed": [
+          "5600 MT/s : 1 DIMM-1R/2R ",
+          "4800 MT/s : 2 DIMM-1R ",
+          "4400 MT/s : 2 DIMM-2R "
+        ],
+        "max_configuration": "128 GB ",
+        "min_configuration": "8 GB ",
+        "size_per_slot": [
+          "8 GB",
+          "16 GB",
+          "32 GB "
+        ],
+        "supported_configurations": [
+          "8 GB: 1 x 8 GB, DDR5, 5600 MT/s, UDIMM, Non-ECC, single-channel ",
+          "16 GB: 2 x 8 GB, DDR5, 5600 MT/s, UDIMM, Non-ECC, dual-channel ",
+          "16 GB: 1 x 16 GB, DDR5, 5600 MT/s, UDIMM, Non-ECC, single-channel ",
+          "32 GB: 2 x 16 GB, DDR5, 5600 MT/s, UDIMM, Non-ECC, dual-channel ",
+          "32 GB: 4 x 8 GB, DDR5, 4800 MT/s, UDIMM, Non-ECC, dual-channel ",
+          "64 GB: 2 x 32 GB, DDR5, 5600 MT/s, UDIMM, Non-ECC, dual-channel ",
+          "64 GB: 4 x 16 GB, DDR5, 4800 MT/s, UDIMM, Non-ECC, dual-channel ",
+          "128 GB: 4 x 32 GB, DDR5, 4400 MT/s, UDIMM, Non-ECC, dual-channel ",
+          "16 GB: 1 x 16 GB, DDR5, 5600 MT/s, UDIMM, ECC, single-channel ",
+          "32 GB: 2 x 16 GB, DDR5, 5600 MT/s, UDIMM, ECC, dual-channel ",
+          "64 GB: 2 x 32 GB, DDR5, 5600 MT/s, UDIMM, ECC, dual-channel ",
+          "64 GB: 4 x 16 GB, DDR5, 4800 MT/s, UDIMM, ECC, dual-channel ",
+          "128 GB: 4 x 32 GB, DDR5, 4400 MT/s, UDIMM, ECC, dual-channel "
+        ]
+      },
+      "ports_and_slots": {
+        "external_front": [
+          {
+            "type": "Global headset jack ",
+            "description": "Connect headphones or a headset (headphone and microphone combo). "
+          },
+          {
+            "type": "USB 3.2 Gen 1 (5 Gbps) port ",
+            "description": "Provides data transfer speeds up to 5 Gbps. "
+          },
+          {
+            "type": "USB 3.2 Gen 1 (5 Gbps) port with PowerShare ",
+            "description": "Provides data transfer speeds up to 5 Gbps.  PowerShare enables you to charge connected USB devices. "
+          },
+          {
+            "type": "USB 3.2 Gen 2 (10 Gbps) Type-C port ",
+            "description": "Provides data transfer speeds up to 10 Gbps. "
+          },
+          {
+            "type": "USB 3.2 Gen 2x2 (20 Gbps) Type-C port with PowerShare ",
+            "description": "Provides data transfer rate of up to 20 Gbps.  PowerShare enables you to charge connected USB devices. "
+          },
+          {
+            "type": "SD Express 7.0-card slot (optional) ",
+            "description": "Reads from and writes to the SD card. "
+          }
+        ],
+        "external_back": [
+          {
+            "type": "Power-cord connector ",
+            "description": "Connect a power cable to provide power to your computer. "
+          },
+          {
+            "type": "Two DisplayPort 1.4a HBR3 ports ",
+            "description": "Connect an external display or a projector. "
+          },
+          {
+            "type": "USB 3.2 Gen 2x2 (20 Gbps) capable Type-C port ",
+            "description": "Provides data transfer speeds up to 20 Gbps. "
+          },
+          {
+            "type": "Thunderbolt4 port ",
+            "description": "Connect devices that support thunderbolt Connectivity. "
+          },
+          {
+            "type": "Two USB 2.0 (480 Mbps) ports with SmartPower ",
+            "description": "Provides data transfer speeds up to 480 Mbps. "
+          },
+          {
+            "type": "Two USB 3.2 Gen 2 (10 Gbps) ports ",
+            "description": "Provides data transfer speeds up to 10 Gbps. "
+          },
+          {
+            "type": "RJ45 ethernet port (1 Gbps) ",
+            "description": "Transfer rate of 10/100/1000 Mbps. "
+          },
+          {
+            "type": "Legacy serial port ",
+            "description": "Connect a peripheral or device to the RS-232 serial port. "
+          }
+        ],
+        "optional_external_module": [
+          {
+            "type": "VGA port",
+            "max_resolution": "1920 x 1200 at 60 Hz "
+          },
+          {
+            "type": "HDMI 2.1 (FRL) port",
+            "max_resolution": "5120 x 3200 at 60 Hz "
+          },
+          {
+            "type": "DisplayPort 2.1 (UHBR20) port",
+            "max_resolution": "7680 x 4320 at 60 Hz "
+          },
+          {
+            "type": "Two USB 3.2 Gen 2 (10 Gbps) ports",
+            "speed": "up to 10 Gbps "
+          },
+          {
+            "type": "USB 3.2 Gen 2 (10 Gbps) Type-C with DisplayPort alt mode port",
+            "speed": "up to 10 Gbps ",
+            "max_resolution": "5120 x 3200 at 60 Hz "
+          },
+          {
+            "type": "One Thunderbolt 4 port + One USB 3.2 Gen 2 (10 Gbps) Type-C port",
+            "speed": "up to 10 Gbps "
+          },
+          {
+            "type": "RJ45 ethernet port (5 Gbps) "
+          },
+          {
+            "type": "Fiber optic port (5 Gbps, peer-to-peer) "
+          }
+        ],
+        "internal": [
+          "One M.2 2230 slot for WiFi and Bluetooth combo card ",
+          "Three M.2 2230/2280 slots for solid-state drive ",
+          "Three SATA 3.0 slot for 3.5-inch hard-disk drive ",
+          "One SATA 3.0 slot for slimline optical drive ",
+          "One PEG full-height Gen5 PCIe x16 slot ",
+          "One full-height, half-length Gen3 x4 PCIe closed-end slot ",
+          "One full-height, full-length Gen4 x4 PCIe open-end slot ",
+          "One full-height, full-length Gen3 x4 PCIe open-end slot "
+        ]
+      },
+      "network": {
+        "ethernet": {
+          "model": "Intel i219-LM ",
+          "transfer_rate": "10/100/1000 Mbps "
+        },
+        "wireless": [
+          {
+            "model": "Intel Wi-Fi 7 BE200 ",
+            "transfer_rate": "Up to 5760 Mbps ",
+            "frequency_bands": "2.4 GHz/5 GHz/6 GHz ",
+            "standards": [
+              "WiFi 802.11a/b/g ",
+              "Wi-Fi 4 (WiFi 802.11n) ",
+              "Wi-Fi 5 (WiFi 802.11ac) ",
+              "Wi-Fi 6E (WiFi 802.11ax) ",
+              "Wi-Fi 7 (WiFi 802.11be) "
+            ],
+            "encryption": [
+              "64-bit/128-bit WEP ",
+              "AES-CCMP ",
+              "TKIP "
+            ],
+            "bluetooth": "Bluetooth 5.4 wireless card "
+          },
+          {
+            "model": "Qualcomm Wi-Fi 7 DBS WCN7851 ",
+            "transfer_rate": "Up to 5760 Mbps ",
+            "frequency_bands": "2.4 GHz/5 GHz/6 GHz ",
+            "standards": [
+              "WiFi 802.11a/b/g ",
+              "Wi-Fi 4 (WiFi 802.11n) ",
+              "Wi-Fi 5 (WiFi 802.11ac) ",
+              "Wi-Fi 6 (WiFi 802.11ax) ",
+              "Wi-Fi 7 (WiFi 802.11be) "
+            ],
+            "encryption": [
+              "64-bit/128-bit WEP ",
+              "AES-CCMP ",
+              "TKIP "
+            ],
+            "bluetooth": "Bluetooth 5.4 wireless card "
+          }
+        ]
+      },
+      "audio": {
+        "type": "High Definition Audio ",
+        "controller": "Realtek ALC3204 ",
+        "internal_interface": "High Definition Audio (HDA) interface ",
+        "external_interface": "One global headset jack "
+      },
+      "storage": {
+        "supported_drive_types": [
+          {
+            "type": "3.5-inch, 5400 RPM, hard drive",
+            "interface": "SATA AHCI, up to 6 Gbps",
+            "capacity": "4 TB "
+          },
+          {
+            "type": "3.5-inch, 7200 RPM, hard drive",
+            "interface": "SATA AHCI, up to 6 Gbps",
+            "capacity": "1 TB, 2 TB "
+          },
+          {
+            "type": "3.5-inch, 7200 RPM, hard drive, SAS, Enterprise",
+            "interface": "SATA AHCI, up to 6 Gbps",
+            "capacity": "4 TB, 8 TB "
+          },
+          {
+            "type": "M.2 2230 solid-state drive, Class 35",
+            "interface": "PCIe Gen4 x4 NVMe, up to 64 GT/s",
+            "capacity": "256 GB "
+          },
+          {
+            "type": "M.2 2280 self-encrypting Opal 2.0 solid-state drive, Class 40",
+            "interface": "PCIe Gen4 x4 NVMe, up to 64 GT/s",
+            "capacity": "512 GB, 1 TB, 2 TB, 4 TB "
+          },
+          {
+            "type": "M.2 2280 self-encrypting Opal 2.0 solid-state drive, Class 40",
+            "interface": "PCIe Gen5 x4 NVMe, up to 128 GT/s",
+            "capacity": "1 TB "
+          }
+        ],
+        "raid_support": "RAID 0, RAID 1, and RAID 5 are supported. "
+      },
+      "power_supply": [
+        {
+          "type": "360 W, Platinum ",
+          "input_voltage": "90 VAC\u2013264 VAC ",
+          "input_frequency": "47 Hz\u201363 Hz ",
+          "input_current_max": "5 A ",
+          "operating_temp": "5\u00b0C to 45\u00b0C (41\u00b0F to 113\u00b0F) ",
+          "storage_temp": "-40\u00b0C to 70\u00b0C (-40\u00b0F to 158\u00b0F) ",
+          "connectors": [
+            "Two 4-pin connectors for the processor ",
+            "One 8-pin connector for the system board ",
+            "One 8-pin header for graphic card "
+          ]
+        },
+        {
+          "type": "500 W, Platinum ",
+          "input_voltage": "90 VAC\u2013264 VAC ",
+          "input_frequency": "47 Hz\u201363 Hz ",
+          "input_current_max": "7 A ",
+          "operating_temp": "5\u00b0C to 45\u00b0C (41\u00b0F to 113\u00b0F) ",
+          "storage_temp": "-40\u00b0C to 70\u00b0C (-40\u00b0F to 158\u00b0F) ",
+          "connectors": [
+            "One 12-pin header for the processor ",
+            "One 14-pin header for the system board ",
+            "One 8-pin header for graphic card "
+          ]
+        },
+        {
+          "type": "1500 W, Platinum ",
+          "input_voltage": "90 VAC\u2013264 VAC ",
+          "input_frequency": "47 Hz\u201363 Hz ",
+          "input_current_max": "13.5 A ",
+          "operating_temp": "5\u00b0C to 45\u00b0C (41\u00b0F to 113\u00b0F) ",
+          "storage_temp": "-40\u00b0C to 70\u00b0C (-40\u00b0F to 158\u00b0F) ",
+          "connectors": [
+            "One 12-pin header for the processor ",
+            "One 14-pin header for the system board ",
+            "Two 6-pin and two 8-pin headers for the graphic card "
+          ]
+        }
+      ],
+      "gpu": {
+        "integrated": [
+          {
+            "controller": "Intel Graphics ",
+            "memory_size": "Shared system memory ",
+            "processor": "Intel Core Ultra 5/7/9 "
+          }
+        ],
+        "discrete": [
+          {
+            "controller": "NVIDIA RTX A400",
+            "memory_size": "4 GB ",
+            "memory_type": "GDDR6 "
+          },
+          {
+            "controller": "NVIDIA RTX A1000",
+            "memory_size": "8 GB ",
+            "memory_type": "GDDR6 "
+          },
+          {
+            "controller": "NVIDIA RTX 2000 Ada",
+            "memory_size": "16 GB",
+            "memory_type": "GDDR6"
+          },
+          {
+            "controller": "NVIDIA RTX 4000 Ada",
+            "memory_size": "20 GB ",
+            "memory_type": "GDDR6 "
+          },
+          {
+            "controller": "NVIDIA RTX 4500 Ada",
+            "memory_size": "24 GB ",
+            "memory_type": "GDDR6 "
+          },
+          {
+            "controller": "NVIDIA RTX 5000 Ada",
+            "memory_size": "32 GB",
+            "memory_type": "GDDR6"
+          },
+          {
+            "controller": "NVIDIA RTX 6000 Ada",
+            "memory_size": "48 GB ",
+            "memory_type": "GDDR6 "
+          },
+          {
+            "controller": "AMD Radeon Pro W7500",
+            "memory_size": "8 GB ",
+            "memory_type": "GDDR6 "
+          },
+          {
+            "controller": "AMD Radeon PRO W7600",
+            "memory_size": "8 GB",
+            "memory_type": "GDDR6"
+          }
+        ]
+      },
+      "hardware_security": [
+        "Chassis intrusion switch ",
+        "Chassis lock slot support ",
+        "Intel Authenticate ",
+        "Intel Secure Boot ",
+        "Security-cable slot (Kensington lock) ",
+        "Local hard drive data wipe through BIOS (Secure Erase) ",
+        "Lockable cable covers ",
+        "Microsoft 10 Device Guard and Credential Guard (Enterprise SKU) ",
+        "Microsoft Windows BitLocker ",
+        "SafeBIOS: includes Dell Off-host BIOS Verification, BIOS Resilience, BIOS Recovery, and additional BIOS Controls ",
+        "SafeID including Trusted Platform Module (TPM) 2.0 ",
+        "Self-encrypting storage drives (Opal, FIPS) ",
+        "Smart card keyboard (FIPS) ",
+        "Supply chain tamper alerts ",
+        "Trusted Platform Module TPM 2.0 "
+      ],
+      "environment": {
+        "operating_temperature": "0\u00b0C to 35\u00b0C (32\u00b0F to 95\u00b0F) ",
+        "storage_temperature": "-40\u00b0C to 65\u00b0C (-40\u00b0F to 149\u00b0F) ",
+        "operating_humidity": "10% to 90% (non-condensing) ",
+        "storage_humidity": "0% to 95% (non-condensing) ",
+        "operating_vibration": "0.66 GRMS ",
+        "storage_vibration": "1.30 GRMS ",
+        "operating_shock": "110 G\u2020 ",
+        "storage_shock": "160 G\u2020 ",
+        "operating_altitude": "-15.2 m to 3048 m (-49.87 ft to 10000 ft) ",
+        "storage_altitude": "-15.2 m to 10668 m (-49.87 ft to 35000 ft) "
+      }
+    },
+    "troubleshooting": {
+      "diagnostic_light_codes": [
+        {
+          "code": "1,1",
+          "description": "TPM Detection Failure "
+        },
+        {
+          "code": "1,2",
+          "description": "Unrecoverable SPI Flash Failure "
+        },
+        {
+          "code": "1,5",
+          "description": "EC unable to program i-Fuse "
+        },
+        {
+          "code": "1,6",
+          "description": "Generic catch-all for ungraceful EC code flow errors "
+        },
+        {
+          "code": "1,7",
+          "description": "Non-RPMC Flash on Boot Guard fused system "
+        },
+        {
+          "code": "1,8",
+          "description": "Chipset \u201cCatastrophic Error\u201d signal has tripped "
+        },
+        {
+          "code": "2,1",
+          "description": "CPU configuration or CPU failure "
+        },
+        {
+          "code": "2,2",
+          "description": "System board: BIOS or Read-Only Memory (ROM) failure "
+        },
+        {
+          "code": "2,3",
+          "description": "No memory or Random-Access Memory (RAM) detected "
+        },
+        {
+          "code": "2,4",
+          "description": "Memory or Random-Access Memory (RAM) failure "
+        },
+        {
+          "code": "2,5",
+          "description": "Invalid memory installed "
+        },
+        {
+          "code": "2,6",
+          "description": "System board/Chipset Error "
+        },
+        {
+          "code": "2,7",
+          "description": "LCD failure SBIOS message "
+        },
+        {
+          "code": "2,8",
+          "description": "Display power-rail failure on the system board "
+        },
+        {
+          "code": "3,1",
+          "description": "CMOS battery failure "
+        },
+        {
+          "code": "3,2",
+          "description": "PCI of Video card/chip failure "
+        },
+        {
+          "code": "3,3",
+          "description": "Recovery image not found "
+        },
+        {
+          "code": "3,4",
+          "description": "Recovery image found but invalid "
+        },
+        {
+          "code": "3,5",
+          "description": "EC power-rail error "
+        },
+        {
+          "code": "3,6",
+          "description": "Flash corruption detected by SBIOS "
+        },
+        {
+          "code": "3,7",
+          "description": "Timeout waiting on ME to reply to HECI message "
+        },
+        {
+          "code": "4,1",
+          "description": "Memory DIMM power rail failure "
+        },
+        {
+          "code": "4,2",
+          "description": "CPU Power cable connection issue "
+        }
+      ]
+    },
+    "components": {
+      "major_components": [
+        "Side cover",
+        "Air shroud",
+        "Memory module",
+        "M.2 2280 solid state drive",
+        "Processor",
+        "WLAN card",
+        "Cable hub",
+        "Rear system fan",
+        "5.25-inch front flexbay",
+        "GPU end holder",
+        "Front bezel",
+        "3.5-inch hard drive",
+        "Powered-graphics card",
+        "Voltage-regulator heatsink",
+        "Processor heatsink",
+        "Front system fan "
+      ],
+      "screw_list": [
+        {
+          "component": "Side cover",
+          "screw_type": "Captive screw ",
+          "quantity": 1
+        },
+        {
+          "component": "M.2 2230/2280 solid state drive",
+          "screw_type": "M2x3.5",
+          "quantity": 1
+        },
+        {
+          "component": "WLAN card",
+          "screw_type": "M2x3.5",
+          "quantity": 1
+        },
+        {
+          "component": "WLAN Internal antenna",
+          "screw_type": "M3x3 ",
+          "quantity": 2
+        },
+        {
+          "component": "Power supply unit cover",
+          "screw_type": "#6-32",
+          "quantity": 1
+        },
+        {
+          "component": "1500 W Power supply unit",
+          "screw_type": "#6-32 ",
+          "quantity": 4
+        },
+        {
+          "component": "360 W Power supply unit",
+          "screw_type": "#6-32",
+          "quantity": 3
+        },
+        {
+          "component": "Processor fan and 125 W heat-sink assembly",
+          "screw_type": "Captive screw",
+          "quantity": 4
+        },
+        {
+          "component": "Processor fan and 65 W heat-sink assembly",
+          "screw_type": "Captive screw ",
+          "quantity": 4
+        },
+        {
+          "component": "VR heat sink",
+          "screw_type": "Captive screw",
+          "quantity": 2
+        },
+        {
+          "component": "Front fan 1",
+          "screw_type": "M3x5 ",
+          "quantity": 1
+        },
+        {
+          "component": "Front fan 2",
+          "screw_type": "M3x5",
+          "quantity": 1
+        },
+        {
+          "component": "Rear fan (1500 W PSU)",
+          "screw_type": "M3x5 ",
+          "quantity": 1
+        },
+        {
+          "component": "System board",
+          "screw_type": "#6-32",
+          "quantity": 10
+        },
+        {
+          "component": "System board",
+          "screw_type": "M2 ",
+          "quantity": 2
+        },
+        {
+          "component": "Optional modules (DisplayPort, HDMI, LAN, Thunderbolt, USB, VGA)",
+          "screw_type": "M2x4 ",
+          "quantity": 2
+        },
+        {
+          "component": "Optional 5 GbE Optical module",
+          "screw_type": "M2x4",
+          "quantity": 3
+        }
+      ]
+    }
+  },
+  "Dell Pro Max Slim FCS1250": {
+    "model_name": "Dell Pro Max Slim FCS1250",
+    "regulatory_info": {
+      "model": "D18S ",
+      "type": "D18S001 "
+    },
+    "specifications": {
+      "dimensions_and_weight": {
+        "height": "303.50 mm (11.95 in.) ",
+        "width": "95.00 mm (3.74 in.) ",
+        "depth": "293.00 mm (11.53 in.) ",
+        "weight": {
+          "minimum": "3.97 kg (8.75 lb) ",
+          "maximum": "6.11 kg (13.47 lb) "
+        }
+      },
+      "processor": [
+        {
+          "type": "Intel Core Ultra 5 235",
+          "wattage": "65 W ",
+          "core_count": 14,
+          "thread_count": 14,
+          "speed": "Up to 5 GHz",
+          "cache": "24 MB ",
+          "integrated_graphics": "Intel Graphics "
+        },
+        {
+          "type": "Intel Core Ultra 5 245",
+          "wattage": "65 W ",
+          "core_count": 14,
+          "thread_count": 14,
+          "speed": "Up to 5.10 GHz",
+          "cache": "24 MB ",
+          "integrated_graphics": "Intel Graphics "
+        },
+        {
+          "type": "Intel Core Ultra 5 245K",
+          "wattage": "125 W ",
+          "core_count": 14,
+          "thread_count": 14,
+          "speed": "Up to 5.20 GHz",
+          "cache": "24 MB ",
+          "integrated_graphics": "Intel Graphics "
+        },
+        {
+          "type": "Intel Core Ultra 7 265",
+          "wattage": "65 W ",
+          "core_count": 20,
+          "thread_count": 20,
+          "speed": "Up to 5.30 GHz",
+          "cache": "30 MB ",
+          "integrated_graphics": "Intel Graphics "
+        },
+        {
+          "type": "Intel Core Ultra 7 265K",
+          "wattage": "125 W ",
+          "core_count": 20,
+          "thread_count": 20,
+          "speed": "Up to 5.50 GHz",
+          "cache": "30 MB",
+          "integrated_graphics": "Intel Graphics "
+        },
+        {
+          "type": "Intel Core Ultra 9 285",
+          "wattage": "65 W ",
+          "core_count": 24,
+          "thread_count": 24,
+          "speed": "Up to 5.60 GHz",
+          "cache": "36 MB",
+          "integrated_graphics": "Intel Graphics "
+        },
+        {
+          "type": "Intel Core Ultra 9 285K",
+          "wattage": "125 W ",
+          "core_count": 24,
+          "thread_count": 24,
+          "speed": "Up to 5.70 GHz",
+          "cache": "36 MB",
+          "integrated_graphics": "Intel Graphics "
+        }
+      ],
+      "chipset": {
+        "type": "Intel W880 ",
+        "processor_support": "Intel Core Ultra 5/7/9 ",
+        "dram_bus_width": "64-bit/128-bit ",
+        "flash_eprom": "32 MB RPMC + 32 MB nRPMC ",
+        "pcie_bus": "Up to Gen4"
+      },
+      "operating_systems": [
+        "Windows 11 Home",
+        "Windows 11 Pro",
+        "Windows 11 Pro National Academic",
+        "Windows 11 Enterprise",
+        "Ubuntu Linux 24.04 LTS "
+      ],
+      "memory": {
+        "slots": "Four UDIMM slots ",
+        "type": "DDR5",
+        "speed": [
+          "4400 MT/s ",
+          "4800 MT/s ",
+          "5600 MT/s "
+        ],
+        "max_configuration": "128 GB ",
+        "min_configuration": "8 GB",
+        "size_per_slot": [
+          "8 GB",
+          "16 GB",
+          "32 GB "
+        ],
+        "supported_configurations": [
+          "8 GB: 1 x 8 GB, DDR5, 5600 MT/s, UDIMM, Non-ECC, single-channel ",
+          "16 GB: 2 x 8 GB, DDR5, 5600 MT/s, UDIMM, Non-ECC, dual-channel ",
+          "16 GB: 1 x 16 GB, DDR5, 5600 MT/s, UDIMM, Non-ECC, single-channel ",
+          "32 GB: 2 x 16 GB, DDR5, 5600 MT/s, UDIMM, Non-ECC, dual-channel ",
+          "32 GB: 4 x 8 GB, DDR5, 4800 MT/s, UDIMM, Non-ECC, dual-channel ",
+          "64 GB: 2 x 32 GB, DDR5, 5600 MT/s, UDIMM, Non-ECC, dual-channel ",
+          "64 GB: 4 x 16 GB, DDR5, 4800 MT/s, UDIMM, Non-ECC, dual-channel ",
+          "128 GB: 4 x 32 GB, DDR5, 4400 MT/s, UDIMM, Non-ECC, dual-channel ",
+          "16 GB: 1 x 16 GB, DDR5, 5600 MT/s, UDIMM, ECC, single-channel ",
+          "32 GB: 2 x 16 GB, DDR5, 5600 MT/s, UDIMM, ECC, dual-channel ",
+          "64 GB: 2 x 32 GB, DDR5, 5600 MT/s, UDIMM, ECC, dual-channel ",
+          "64 GB: 4 x 16 GB, DDR5, 4800 MT/s, UDIMM, ECC, dual-channel ",
+          "128 GB: 4 x 32 GB, DDR5, 4400 MT/s, UDIMM, ECC, dual-channel "
+        ]
+      },
+      "ports_and_slots": {
+        "external_front": [
+          {
+            "type": "SD-card 4.0 slot (optional) ",
+            "description": "Reads from and writes to the SD card. "
+          },
+          {
+            "type": "Global headset jack ",
+            "description": "Connect headphones or a headset (headphone and microphone combo). "
+          },
+          {
+            "type": "USB 2.0 (480 Mbps) port with PowerShare ",
+            "description": "Provides data transfer speeds up to 480 Mbps.  PowerShare enables you to charge connected USB devices. "
+          },
+          {
+            "type": "USB 2.0 (480 Mbps) port ",
+            "description": "Provides data transfer speeds up to 480 Mbps. "
+          },
+          {
+            "type": "USB 3.2 Gen 2x2 (20 Gbps) Type-C port ",
+            "description": "Provides data transfer rate of up to 20 Gbps. "
+          },
+          {
+            "type": "USB 3.2 Gen 2 (10 Gbps) port ",
+            "description": "Provides data transfer speeds up to 10 Gbps. "
+          }
+        ],
+        "external_back": [
+          {
+            "type": "DisplayPort 1.4a HBR3 ports ",
+            "description": "Connect an external display or a projector. "
+          },
+          {
+            "type": "USB 3.2 Gen 2 (10 Gbps) Type-C port ",
+            "description": "Provides data transfer speeds up to 10 Gbps. "
+          },
+          {
+            "type": "USB 3.2 Gen 1 (5 Gbps) ports ",
+            "description": "Provides data transfer speeds up to 5 Gbps. "
+          },
+          {
+            "type": "USB 2.0 (480 Mbps) ports with SmartPower On ",
+            "description": "Provides data transfer speeds up to 480 Mbps. "
+          },
+          {
+            "type": "RJ45 ethernet port (1 Gbps) ",
+            "description": "Transfer rate of 10/100/1000 Mbps. "
+          },
+          {
+            "type": "Legacy serial port (optional) ",
+            "description": "Connect a peripheral or device to the RS-232 serial port. "
+          }
+        ],
+        "optional_external_module": [
+          {
+            "type": "VGA port",
+            "max_resolution": "1920 x 1200 at 60 Hz "
+          },
+          {
+            "type": "HDMI 2.1 (FRL) port",
+            "max_resolution": "5120 x 3200 at 60 Hz "
+          },
+          {
+            "type": "DisplayPort 2.1 (UHBR20) port",
+            "max_resolution": "7680 x 4320 at 60 Hz "
+          },
+          {
+            "type": "Dual USB 3.2 Gen 2 (10 Gbps) ports",
+            "speed": "up to 10 Gbps "
+          },
+          {
+            "type": "USB 3.2 Gen 2 (10 Gbps) Type-C with DisplayPort port",
+            "speed": "up to 10 Gbps ",
+            "max_resolution": "5120 x 3200 at 60 Hz "
+          },
+          {
+            "type": "One Thunderbolt 4 port + One USB 3.2 Gen 2 (10 Gbps) Type-C",
+            "speed": "up to 10 Gbps "
+          },
+          {
+            "type": "RJ45 ethernet port (5 Gbps) "
+          },
+          {
+            "type": "LC fiber optic cable (5 Gbps) "
+          }
+        ],
+        "internal": [
+          "One M.2 2230 slot for WiFi and Bluetooth combo card ",
+          "One M.2 2230/2280 slot for solid state drive ",
+          "One M.2 2230/2280 slot for solid state drive (without bracket) ",
+          "One M.2 2230 slot for solid state drive ",
+          "One SATA 3.0 slot for a 3.5-inch hard drive ",
+          "One SATA 3.0 slot for slimline optical drive ",
+          "One half-height Gen4 PCIe x16 slot ",
+          "One half-height, Gen3 PCIe x4 slot ",
+          "One half-height, Gen3 PCIe x1 slot "
+        ]
+      },
+      "network": {
+        "ethernet": {
+          "model": "Intel i219-LM ",
+          "transfer_rate": "10/100/1000 Mbps "
+        },
+        "wireless": [
+          {
+            "model": "Intel Wi-Fi 7 BE200 ",
+            "transfer_rate": "Up to 5760 Mbps ",
+            "frequency_bands": "2.4 GHz/5 GHz/6 GHz",
+            "standards": [
+              "WiFi 802.11a/b/g ",
+              "Wi-Fi 4 (WiFi 802.11n) ",
+              "Wi-Fi 5 (WiFi 802.11ac) ",
+              "Wi-Fi 6E (WiFi 802.11ax) ",
+              "Wi-Fi 7 (WiFi 802.11be) "
+            ],
+            "encryption": [
+              "64-bit/128-bit WEP ",
+              "AES-CCMP ",
+              "TKIP "
+            ],
+            "bluetooth": "Bluetooth 5.4 wireless card"
+          },
+          {
+            "model": "Qualcomm FastConnect 7800 ",
+            "transfer_rate": "Up to 5760 Mbps ",
+            "frequency_bands": "2.4 GHz/5 GHz/6 GHz",
+            "standards": [
+              "WiFi 802.11a/b/g ",
+              "Wi-Fi 4 (WiFi 802.11n) ",
+              "Wi-Fi 5 (WiFi 802.11ac) ",
+              "Wi-Fi 6 (WiFi 802.11ax) ",
+              "Wi-Fi 7 (WiFi 802.11be) "
+            ],
+            "encryption": [
+              "64-bit/128-bit WEP ",
+              "AES-CCMP ",
+              "TKIP "
+            ],
+            "bluetooth": "Bluetooth 5.4 wireless card"
+          }
+        ]
+      },
+      "audio": {
+        "type": "High Definition Audio ",
+        "controller": "Realtek ALC3204 ",
+        "internal_interface": "High Definition Audio (HDA) interface ",
+        "external_interface": "One global headset jack "
+      },
+      "storage": {
+        "supported_drive_types": [
+          {
+            "type": "3.5-inch, 7200 RPM, hard drive",
+            "interface": "SATA AHCI, up to 6 Gbps",
+            "capacity": "2 TB "
+          },
+          {
+            "type": "3.5-inch, 7200 RPM, hard drive, SAS, Enterprise",
+            "interface": "SATA AHCI, up to 6 Gbps",
+            "capacity": "4 TB, 8 TB "
+          },
+          {
+            "type": "M.2 2230 solid state drive, Class 35",
+            "interface": "PCIe Gen4 x4 NVMe, up to 64 GT/s",
+            "capacity": "256 GB, 512 GB"
+          },
+          {
+            "type": "M.2 2280 self-encrypting Opal 2.0 solid state drive, Class 40",
+            "interface": "PCIe Gen4 x4 NVMe, up to 64 GT/s",
+            "capacity": "512 GB, 1 TB, 2 TB, 4 TB "
+          },
+          {
+            "type": "9.5 mm 8x slimline DVD-RW drive",
+            "interface": "SATA AHCI, up to 1.5 Gbps"
+          }
+        ],
+        "raid_support": "RAID 0 and RAID 1 are supported. "
+      },
+      "power_supply": [
+        {
+          "type": "260 W, Bronze ",
+          "input_voltage": "90 VAC\u2013264 VAC ",
+          "input_frequency": "47 Hz\u201363 Hz",
+          "input_current_max": "4.20 A ",
+          "operating_temp": "5\u00b0C to 45\u00b0C (41\u00b0F to 113\u00b0F) ",
+          "storage_temp": "-40\u00b0C to 70\u00b0C (-40\u00b0F to 158\u00b0F) ",
+          "connectors": [
+            "Two 4-pin connectors for the processor ",
+            "One 6-pin connector for the system board "
+          ]
+        },
+        {
+          "type": "360 W, Platinum ",
+          "input_voltage": "90 VAC\u2013264 VAC ",
+          "input_frequency": "47 Hz\u201363 Hz",
+          "input_current_max": "5 A ",
+          "operating_temp": "5\u00b0C to 45\u00b0C (41\u00b0F to 113\u00b0F) ",
+          "storage_temp": "-40\u00b0C to 70\u00b0C (-40\u00b0F to 158\u00b0F) ",
+          "connectors": [
+            "Two 4-pin connectors for the processor ",
+            "One 6-pin connector for the system board "
+          ]
+        }
+      ],
+      "gpu": {
+        "integrated": [
+          {
+            "controller": "Intel Graphics ",
+            "memory_size": "Shared system memory ",
+            "processor": "Intel Core Ultra 5/7/9 "
+          }
+        ],
+        "discrete": [
+          {
+            "controller": "NVIDIA RTX A400",
+            "memory_size": "4 GB ",
+            "memory_type": "GDDR6 "
+          },
+          {
+            "controller": "NVIDIA RTX A1000",
+            "memory_size": "8 GB ",
+            "memory_type": "GDDR6 "
+          },
+          {
+            "controller": "NVIDIA RTX 2000 Ada",
+            "memory_size": "16 GB",
+            "memory_type": "GDDR6"
+          },
+          {
+            "controller": "NVIDIA RTX 4000 SFF Ada",
+            "memory_size": "20 GB ",
+            "memory_type": "GDDR6 "
+          }
+        ]
+      },
+      "hardware_security": [
+        "Chassis intrusion switch",
+        "Chassis lock slot support",
+        "Intel Authenticate",
+        "Intel Secure Boot",
+        "Security-cable slot (Kensington lock)",
+        "Local hard drive data wipe through BIOS (Secure Erase)",
+        "Microsoft 10 Device Guard and Credential Guard (Enterprise SKU)",
+        "Microsoft Windows BitLocker",
+        "Padlock ring",
+        "SafeBIOS: includes Dell Off-host BIOS Verification, BIOS Resilience, BIOS Recovery, and additional BIOS Controls",
+        "SafeID including Trusted Platform Module (TPM) 2.0 ",
+        "Self-encrypting storage drives (Opal, FIPS)",
+        "Smart card keyboard (FIPS)",
+        "Supply chain tamper alerts",
+        "Trusted Platform Module TPM 2.0"
+      ],
+      "environment": {
+        "operating_temperature": "0\u00b0C to 35\u00b0C (32\u00b0F to 95\u00b0F) ",
+        "storage_temperature": "-40\u00b0C to 65\u00b0C (-40\u00b0F to 149\u00b0F) ",
+        "operating_humidity": "10% to 90% (non-condensing) ",
+        "storage_humidity": "0% to 95% (non-condensing) ",
+        "operating_vibration": "0.66 GRMS",
+        "storage_vibration": "1.30 GRMS",
+        "operating_shock": "110 G\u2020 ",
+        "storage_shock": "160 G\u2020 ",
+        "operating_altitude": "-15.2 m to 3048 m (-49.87 ft to 10000 ft) ",
+        "storage_altitude": "-15.2 m to 10668 m (-49.87 ft to 35000 ft) "
+      }
+    },
+    "troubleshooting": {
+      "diagnostic_light_codes": [
+        {
+          "code": "1,1",
+          "description": "TPM Detection Failure "
+        },
+        {
+          "code": "1,2",
+          "description": "Unrecoverable SPI Flash Failure "
+        },
+        {
+          "code": "1,5",
+          "description": "EC unable to program i-Fuse "
+        },
+        {
+          "code": "1,6",
+          "description": "Generic catch-all for ungraceful EC code flow errors "
+        },
+        {
+          "code": "1,7",
+          "description": "Non-RPMC Flash on Boot Guard fused system "
+        },
+        {
+          "code": "1,8",
+          "description": "Chipset \u201cCatastrophic Error\u201d signal has tripped "
+        },
+        {
+          "code": "2,1",
+          "description": "CPU configuration or CPU failure "
+        },
+        {
+          "code": "2,2",
+          "description": "System board: BIOS or Read-Only Memory (ROM) failure "
+        },
+        {
+          "code": "2,3",
+          "description": "No memory or Random-Access Memory (RAM) detected "
+        },
+        {
+          "code": "2,4",
+          "description": "Memory or Random-Access Memory (RAM) failure "
+        },
+        {
+          "code": "2,5",
+          "description": "Invalid memory installed "
+        },
+        {
+          "code": "2,6",
+          "description": "System board/Chipset Error "
+        },
+        {
+          "code": "2,7",
+          "description": "LCD failure SBIOS message "
+        },
+        {
+          "code": "2,8",
+          "description": "Display power-rail failure on the system board "
+        },
+        {
+          "code": "3,1",
+          "description": "CMOS battery failure "
+        },
+        {
+          "code": "3,2",
+          "description": "PCI of Video card/chip failure "
+        },
+        {
+          "code": "3,3",
+          "description": "Recovery image not found "
+        },
+        {
+          "code": "3,4",
+          "description": "Recovery image found but invalid "
+        },
+        {
+          "code": "3,5",
+          "description": "EC power-rail error "
+        },
+        {
+          "code": "3,6",
+          "description": "Flash corruption detected by SBIOS "
+        },
+        {
+          "code": "3,7",
+          "description": "Timeout waiting on ME to reply to HECI message "
+        },
+        {
+          "code": "4,1",
+          "description": "Memory DIMM power rail failure "
+        },
+        {
+          "code": "4,2",
+          "description": "CPU Power cable connection issue "
+        }
+      ]
+    },
+    "components": {
+      "major_components": [
+        "Side cover",
+        "Graphics card",
+        "Processor fan",
+        "Processor fan heat-sink assembly",
+        "Processor",
+        "System board",
+        "Wireless card",
+        "Power-button module",
+        "Chassis",
+        "Front I/O bracket",
+        "Front cover",
+        "Chassis fan",
+        "Intrusion switch",
+        "Power-supply unit",
+        "Internal speaker",
+        "M.2 2280 solid state drive",
+        "Memory module",
+        "Hard drive",
+        "Drive-bay",
+        "Optical drive "
+      ],
+      "screw_list": [
+        {
+          "component": "M.2 2230/2280 solid state drive in slot 0",
+          "screw_type": "M2x3.5 ",
+          "quantity": 1
+        },
+        {
+          "component": "M.2 2230 solid state drive in slot 1",
+          "screw_type": "M2x3.5",
+          "quantity": 1
+        },
+        {
+          "component": "M.2 2230/2280 solid state drive in slot 2",
+          "screw_type": "M2x3.5 ",
+          "quantity": 1
+        },
+        {
+          "component": "Wireless card",
+          "screw_type": "M2x3.5",
+          "quantity": 1
+        },
+        {
+          "component": "Hard drive",
+          "screw_type": "#6-32 ",
+          "quantity": 4
+        },
+        {
+          "component": "Optional-port module",
+          "screw_type": "M2x4",
+          "quantity": 1
+        },
+        {
+          "component": "Legacy Serial-port module (optional)",
+          "screw_type": "M3x4 ",
+          "quantity": 2
+        },
+        {
+          "component": "Antenna modules",
+          "screw_type": "#6-32",
+          "quantity": 1
+        },
+        {
+          "component": "Power-supply unit",
+          "screw_type": "#6-32 ",
+          "quantity": 3
+        },
+        {
+          "component": "Processor fan and heat-sink assembly",
+          "screw_type": "Captive screw",
+          "quantity": 4
+        },
+        {
+          "component": "Front I/O-bracket",
+          "screw_type": "#6-32 ",
+          "quantity": 1
+        },
+        {
+          "component": "System board",
+          "screw_type": "#6-32",
+          "quantity": 5
+        },
+        {
+          "component": "System board",
+          "screw_type": "#6-32, standoff screw ",
+          "quantity": 2
+        }
+      ]
+    }
+  },
+  "Dell Pro Tower QCT1250": {
+    "model_name": "Dell Pro Tower QCT1250",
+    "regulatory_info": {
+      "model": "D34M ",
+      "type": "D34M002/D34M003 "
+    },
+    "specifications": {
+      "dimensions_and_weight": {
+        "height": "324.30 mm (12.77 in.) ",
+        "width": "154 mm (6.06 in.) ",
+        "depth": "293 mm (11.54 in.) ",
+        "weight": {
+          "minimum": "5.44 kg (12 lb) ",
+          "maximum": "6.78 kg (14.95 lb) "
+        }
+      },
+      "processor": [
+        {
+          "type": "Intel Core i3 14100",
+          "wattage": "60 W",
+          "core_count": 4,
+          "thread_count": 8,
+          "speed": "Up to 4.70 GHz ",
+          "cache": "12 MB ",
+          "integrated_graphics": "Intel UHD Graphics 730 ",
+          "ai_technology": "None "
+        },
+        {
+          "type": "Intel Core i5 14500 vPro",
+          "wattage": "65 W",
+          "core_count": 14,
+          "thread_count": 20,
+          "speed": "Up to 5 GHz ",
+          "cache": "24 MB ",
+          "integrated_graphics": "Intel UHD Graphics 770 ",
+          "ai_technology": "None "
+        },
+        {
+          "type": "Intel Core i5 14600 vPro",
+          "wattage": "65 W",
+          "core_count": 14,
+          "thread_count": 20,
+          "speed": "Up to 5.20 GHz ",
+          "cache": "24 MB ",
+          "integrated_graphics": "Intel UHD Graphics 770 ",
+          "ai_technology": "None "
+        },
+        {
+          "type": "Intel Core i7 14700 vPro",
+          "wattage": "65 W",
+          "core_count": 20,
+          "thread_count": 28,
+          "speed": "Up to 5.40 GHz, Turbo Max Boost",
+          "cache": "33 MB ",
+          "integrated_graphics": "Intel UHD Graphics 770 ",
+          "ai_technology": "None "
+        },
+        {
+          "type": "Intel 300",
+          "wattage": "46 W",
+          "core_count": 2,
+          "thread_count": 4,
+          "speed": "3.90 GHz ",
+          "cache": "6 MB ",
+          "integrated_graphics": "Intel UHD Graphics 710 ",
+          "ai_technology": "None "
+        },
+        {
+          "type": "Intel Core Ultra 5 235",
+          "wattage": "65 W ",
+          "core_count": 14,
+          "thread_count": 14,
+          "speed": "Up to 5 GHz ",
+          "cache": "24 MB ",
+          "integrated_graphics": "Intel Graphics ",
+          "ai_technology": "Intel AI Boost ",
+          "npu_performance": "Up to 13 TOPS "
+        },
+        {
+          "type": "Intel Core Ultra 5 245",
+          "wattage": "65 W ",
+          "core_count": 14,
+          "thread_count": 14,
+          "speed": "Up to 5.10 GHz ",
+          "cache": "24 MB ",
+          "integrated_graphics": "Intel Graphics ",
+          "ai_technology": "Intel AI Boost ",
+          "npu_performance": "Up to 13 TOPS "
+        },
+        {
+          "type": "Intel Core Ultra 7 265",
+          "wattage": "65 W ",
+          "core_count": 20,
+          "thread_count": 20,
+          "speed": "Up to 5.30 GHz",
+          "cache": "30 MB ",
+          "integrated_graphics": "Intel Graphics ",
+          "ai_technology": "Intel AI Boost ",
+          "npu_performance": "Up to 13 TOPS "
+        }
+      ],
+      "chipset": [
+        {
+          "processor_family": "Intel Core i3/i5 vPro/i7 vPro, Intel 300 ",
+          "type": "Intel Q670 ",
+          "dram_bus_width": "64-bit/128-bit ",
+          "flash_eprom": "32 MB PRMC + 16 MB nPRMC",
+          "pcie_bus": "Up to Gen3 "
+        },
+        {
+          "processor_family": "Intel Core Ultra 5/7 ",
+          "type": "Intel Q870 ",
+          "dram_bus_width": "64-bit/128-bit ",
+          "flash_eprom": "32 MB PRMC + 32 MB nPRMC",
+          "pcie_bus": "Up to Gen4 "
+        }
+      ],
+      "operating_systems": [
+        "Windows 11 Home ",
+        "Windows 11 Pro ",
+        "Windows 11 Pro National Education ",
+        "Ubuntu Linux 24.04 LTS "
+      ],
+      "memory": {
+        "slots": "Two UDIMM slots ",
+        "type": "DDR5 ",
+        "speed": [
+          "Up to 4800 MT/s ",
+          "Up to 5600 MT/s ",
+          "Up to 6400 MT/s "
+        ],
+        "max_configuration": "64 GB ",
+        "min_configuration": "8 GB",
+        "size_per_slot": [
+          "8 GB",
+          "16 GB",
+          "32 GB "
+        ]
+      },
+      "ports_and_slots": {
+        "external_front": [
+          {
+            "type": "Global headset jack ",
+            "description": "Connect headphones or a headset (headphone and microphone combo). "
+          },
+          {
+            "type": "Two USB 2.0 (480 Mbps) ports ",
+            "description": "Provides data transfer speeds of up to 480 Mbps. "
+          },
+          {
+            "type": "USB 3.2 Gen 1 (5 Gbps) Type-C port ",
+            "description": "Provides data transfer speeds of up to 5 Gbps.  Does not support video/audio streaming. "
+          },
+          {
+            "type": "USB 3.2 Gen 1 (5 Gbps) port ",
+            "description": "Provides data transfer speeds of up to 5 Gbps. "
+          }
+        ],
+        "external_back": [
+          {
+            "type": "DisplayPort 1.4a (HBR2/HBR3) port ",
+            "max_resolution_hbr2": "4096 x 2304 at 60 Hz ",
+            "max_resolution_hbr3": "5120 x 3200 at 60 Hz "
+          },
+          {
+            "type": "HDMI 2.1 (TMDS) port ",
+            "max_resolution": "4096 x 2160 at 60 Hz "
+          },
+          {
+            "type": "Two USB 3.2 Gen 1 (5 Gbps) ports ",
+            "speed": "up to 5 Gbps "
+          },
+          {
+            "type": "Two USB 2.0 (480 Mbps) with SmartPower On ports ",
+            "speed": "up to 480 Mbps "
+          },
+          {
+            "type": "RJ45 ethernet port (1 Gbps) "
+          },
+          {
+            "type": "Legacy serial port (optional) "
+          }
+        ],
+        "optional_external_module": [
+          {
+            "type": "VGA port",
+            "max_resolution": "1920 x 1200 at 60 Hz "
+          },
+          {
+            "type": "HDMI 2.1 (TMDS) port",
+            "max_resolution": "4096 x 2160 at 60 Hz "
+          },
+          {
+            "type": "HDMI 2.1 (FRL) port",
+            "max_resolution": "5120 x 3200 at 60 Hz "
+          },
+          {
+            "type": "DisplayPort 1.4a (HBR3) port",
+            "max_resolution": "5120 x 3200 at 60 Hz "
+          },
+          {
+            "type": "DisplayPort 2.1 (UHBR20) port",
+            "max_resolution": "7680 x 4320 at 60 Hz "
+          },
+          {
+            "type": "Two USB 3.2 Gen 2 (10 Gbps) ports",
+            "speed": "up to 10 Gbps "
+          },
+          {
+            "type": "USB 3.2 Gen 2 (10 Gbps) Type-C with DisplayPort alt mode port",
+            "speed": "up to 10 Gbps ",
+            "max_resolution": "5120 x 3200 at 60 Hz "
+          }
+        ],
+        "internal": [
+          "One M.2 2230 slot for WiFi and Bluetooth combo card ",
+          "One M.2 2230/2280 slot for solid-state drive ",
+          "One SATA 3.0 slot for 3.5-inch hard drive ",
+          "One SATA 3.0 slot for 3.5-inch hard drive or slimline optical drive ",
+          "One full-height PCIe x16 slot ",
+          "Two full-height PCIe x1 slots "
+        ]
+      },
+      "network": {
+        "ethernet": {
+          "model": "Intel i219-LM ",
+          "transfer_rate": "10/100/1000 Mbps "
+        },
+        "wireless": [
+          {
+            "model": "Intel Wi-Fi 6E AX211 ",
+            "transfer_rate": "Up to 2400 Mbps",
+            "frequency_bands": "2.4 GHz/5 GHz/6 GHz ",
+            "standards": [
+              "WiFi 802.11a/b/g ",
+              "Wi-Fi 4 (WiFi 802.11n) ",
+              "Wi-Fi 5 (WiFi 802.11ac) ",
+              "Wi-Fi 6E (WiFi 802.11ax) "
+            ],
+            "encryption": [
+              "64-bit/128-bit WEP ",
+              "AES-CCMP ",
+              "TKIP "
+            ],
+            "bluetooth": "Bluetooth 5.3 "
+          },
+          {
+            "model": "Intel Wi-Fi 7 BE200, 2x2, 802.11be ",
+            "transfer_rate": "Up to 5760 Mbps",
+            "frequency_bands": "2.4 GHz/5 GHz/6 GHz ",
+            "standards": [
+              "WiFi 802.11a/b/g ",
+              "Wi-Fi 4 (WiFi 802.11n) ",
+              "Wi-Fi 5 (WiFi 802.11ac) ",
+              "Wi-Fi 6 (WiFi 802.11ax) ",
+              "Wi-Fi 7 (WiFi 802.11be) "
+            ],
+            "bluetooth": "Bluetooth 5.4 "
+          },
+          {
+            "model": "MediaTek Wi-Fi 6 MT7920 ",
+            "transfer_rate": "Up to 1200 Mbps",
+            "frequency_bands": "2.4 GHz/5 GHz ",
+            "standards": [
+              "WiFi 802.11a/b/g ",
+              "Wi-Fi 4 (WiFi 802.11n) ",
+              "Wi-Fi 5 (WiFi 802.11ac) ",
+              "Wi-Fi 6 (WiFi 802.11ax) "
+            ],
+            "bluetooth": "Bluetooth 5.4 "
+          }
+        ]
+      },
+      "audio": {
+        "type": "High Definition Audio ",
+        "controller": "Realtek ALC3204 ",
+        "internal_interface": "High Definition Audio (HDA) interface ",
+        "external_interface": "One global headset jack "
+      },
+      "storage": {
+        "supported_drive_types": [
+          {
+            "type": "3.5-inch hard drive",
+            "interface": "SATA AHCI, up to 6 Gbps",
+            "capacity": "Up to 2 TB "
+          },
+          {
+            "type": "M.2 2230 QLC solid-state drive",
+            "interface": "PCIe Gen3x4 NVMe, up to 32 GT/s or PCIe Gen4x4 NVMe, up to 64 GT/s ",
+            "capacity": "Up to 1 TB "
+          },
+          {
+            "type": "M.2 2230 TLC solid-state drive",
+            "interface": "PCIe Gen3x4 NVMe, up to 32 GT/s or PCIe Gen4x4 NVMe, up to 64 GT/s ",
+            "capacity": "Up to 1 TB "
+          },
+          {
+            "type": "9.5 mm 8x slimline DVD-RW drive",
+            "interface": "SATA AHCI, up to 1.5 Gbps"
+          }
+        ]
+      },
+      "power_supply": [
+        {
+          "type": "180 W, Bronze ",
+          "input_voltage": "90 VAC\u2013264 VAC ",
+          "input_frequency": "47 Hz\u201363 Hz ",
+          "input_current_max": "3 A ",
+          "operating_temp": "5\u00b0C to 45\u00b0C (41\u00b0F to 113\u00b0F) ",
+          "storage_temp": "-40\u00b0C to 70\u00b0C (-40\u00b0F to 158\u00b0F) ",
+          "connectors": [
+            "One 4-pin connector for processor ",
+            "One 8-pin connector for processor "
+          ]
+        },
+        {
+          "type": "360 W, Platinum ",
+          "input_voltage": "90 VAC\u2013264 VAC ",
+          "input_frequency": "47 Hz\u201363 Hz ",
+          "input_current_max": "5 A ",
+          "operating_temp": "5\u00b0C to 45\u00b0C (41\u00b0F to 113\u00b0F) ",
+          "storage_temp": "-40\u00b0C to 70\u00b0C (-40\u00b0F to 158\u00b0F) ",
+          "connectors": [
+            "Two 4-pin connectors for processor ",
+            "One 8-pin connector for system board ",
+            "One 8-pin connector for graphic card "
+          ]
+        }
+      ],
+      "gpu": {
+        "integrated": [
+          {
+            "controller": "Intel Graphics",
+            "memory_size": "Shared system memory ",
+            "processor": "Intel Core Ultra 5/7 "
+          },
+          {
+            "controller": "Intel UHD Graphics 710",
+            "memory_size": "Shared system memory",
+            "processor": "Intel Core 300"
+          },
+          {
+            "controller": "Intel UHD Graphics 730",
+            "memory_size": "Shared system memory ",
+            "processor": "Intel Core i3 "
+          },
+          {
+            "controller": "Intel UHD Graphics 770",
+            "memory_size": "Shared system memory",
+            "processor": "Intel Core i5 vPro/i7 vPro"
+          }
+        ],
+        "discrete": [
+          {
+            "controller": "AMD Radeon RX 6300",
+            "memory_size": "2 GB ",
+            "memory_type": "GDDR6 ",
+            "external_display_support": "Two DisplayPort 1.4a (HBR2) ports "
+          }
+        ]
+      },
+      "hardware_security": [
+        "Chassis intrusion switch",
+        "Chassis lock slot support",
+        "Intel Authenticate",
+        "Intel Secure Boot",
+        "Security-cable slot (Kensington lock)",
+        "Local hard drive data wipe through BIOS (Secure Erase)",
+        "Lockable cable covers",
+        "Microsoft 10 Device Guard and Credential Guard (Enterprise SKU)",
+        "Microsoft Windows BitLocker",
+        "Padlock ring",
+        "SafeBIOS: includes Dell Off-host BIOS Verification, BIOS Resilience, BIOS Recovery, and additional BIOS Controls",
+        "SafeID including Trusted Platform Module (TPM) 2.0 ",
+        "Self-encrypting storage drives (Opal, FIPS)",
+        "Smart card keyboard (FIPS)",
+        "Supply chain tamper alerts",
+        "Trusted Platform Module TPM 2.0"
+      ],
+      "environment": {
+        "operating_temperature": "10\u00b0C to 35\u00b0C (50\u00b0F to 95\u00b0F) ",
+        "storage_temperature": "-40\u00b0C to 65\u00b0C (-40\u00b0F to 149\u00b0F) ",
+        "operating_humidity": "20% to 80% (non-condensing) ",
+        "storage_humidity": "5% to 95% (non-condensing) ",
+        "operating_vibration": "0.26 GRMS ",
+        "storage_vibration": "1.37 GRMS ",
+        "operating_shock": "40 G\u2020 ",
+        "storage_shock": "105 G\u2020 ",
+        "operating_altitude": "-15.2 m to 3048 m (-49.87 ft to 10000 ft) ",
+        "storage_altitude": "-15.2 m to 10668 m (-49.87 ft to 35000 ft) "
+      }
+    },
+    "troubleshooting": {
+      "diagnostic_light_codes": [
+        {
+          "code": "1,1",
+          "description": "TPM Detection Failure "
+        },
+        {
+          "code": "1,2",
+          "description": "Unrecoverable SPI Flash Failure "
+        },
+        {
+          "code": "1,5",
+          "description": "EC unable to program i-Fuse "
+        },
+        {
+          "code": "1,6",
+          "description": "Generic catch-all for ungraceful EC code flow errors "
+        },
+        {
+          "code": "1,7",
+          "description": "Non-RPMC Flash on Boot Guard fused system "
+        },
+        {
+          "code": "1,8",
+          "description": "Chipset \u201cCatastrophic Error\u201d signal has tripped "
+        },
+        {
+          "code": "2,1",
+          "description": "CPU configuration or CPU failure "
+        },
+        {
+          "code": "2,2",
+          "description": "System board: BIOS or Read-Only Memory (ROM) failure "
+        },
+        {
+          "code": "2,3",
+          "description": "No memory or Random-Access Memory (RAM) detected "
+        },
+        {
+          "code": "2,4",
+          "description": "Memory or Random-Access Memory (RAM) failure "
+        },
+        {
+          "code": "2,5",
+          "description": "Invalid memory installed "
+        },
+        {
+          "code": "2,6",
+          "description": "System board/Chipset Error "
+        },
+        {
+          "code": "2,7",
+          "description": "LCD failure SBIOS message "
+        },
+        {
+          "code": "2,8",
+          "description": "Display power-rail failure on the system board "
+        },
+        {
+          "code": "3,1",
+          "description": "CMOS battery failure "
+        },
+        {
+          "code": "3,2",
+          "description": "PCI of Video card/chip failure "
+        },
+        {
+          "code": "3,3",
+          "description": "Recovery image not found "
+        },
+        {
+          "code": "3,4",
+          "description": "Recovery image found but invalid "
+        },
+        {
+          "code": "3,5",
+          "description": "EC power-rail error "
+        },
+        {
+          "code": "3,6",
+          "description": "Flash corruption detected by SBIOS "
+        },
+        {
+          "code": "3,7",
+          "description": "Timeout waiting on ME to reply to HECI message "
+        },
+        {
+          "code": "4,1",
+          "description": "Memory DIMM power rail failure "
+        },
+        {
+          "code": "4,2",
+          "description": "CPU Power cable connection issue "
+        }
+      ]
+    },
+    "components": {
+      "major_components": [
+        "Left-side cover",
+        "Graphics card",
+        "Processor",
+        "Processor fan and heat-sink assembly ",
+        "M.2 2230 solid-state drive",
+        "System board",
+        "Chassis",
+        "Power-button module",
+        "Wireless card",
+        "Memory module",
+        "Front I/O bracket",
+        "Fan shroud",
+        "Front bezel",
+        "Antenna modules",
+        "Intrusion switch",
+        "Internal speaker",
+        "Power-supply unit",
+        "Hard drive",
+        "Drive bay",
+        "Optical drive"
+      ],
+      "screw_list": [
+        {
+          "component": "Side cover",
+          "screw_type": "6-32# ",
+          "quantity": 2
+        },
+        {
+          "component": "M.2 2230/2280 solid-state drive in slot 0",
+          "screw_type": "M2x3.5",
+          "quantity": 1
+        },
+        {
+          "component": "Wireless card",
+          "screw_type": "M2x3.5 ",
+          "quantity": 1
+        },
+        {
+          "component": "Hard drive",
+          "screw_type": "6-32#",
+          "quantity": 4
+        },
+        {
+          "component": "Optional-port module",
+          "screw_type": "M2x4 ",
+          "quantity": 2
+        },
+        {
+          "component": "Serial-port module",
+          "screw_type": "M3",
+          "quantity": 2
+        },
+        {
+          "component": "Antenna modules",
+          "screw_type": "6-32# ",
+          "quantity": 1
+        },
+        {
+          "component": "Power-supply unit",
+          "screw_type": "6-32#",
+          "quantity": 3
+        },
+        {
+          "component": "Processor fan and heat-sink assembly",
+          "screw_type": "Captive screw ",
+          "quantity": 4
+        },
+        {
+          "component": "Front I/O-bracket",
+          "screw_type": "6-32#",
+          "quantity": 1
+        },
+        {
+          "component": "System board",
+          "screw_type": "6-32# ",
+          "quantity": 5
+        },
+        {
+          "component": "System board",
+          "screw_type": "6-32#, screw mount",
+          "quantity": 1
+        }
+      ]
+    }
+  },
+  "Dell Pro Tower QCT1255": {
+    "model_name": "Dell Pro Tower QCT1255",
+    "regulatory_info": {
+      "model": "D34M ",
+      "type": "D34M004 "
+    },
+    "specifications": {
+      "dimensions_and_weight": {
+        "height": "324.30 mm (12.77 in.) ",
+        "width": "154 mm (6.06 in.) ",
+        "depth": "293 mm (11.54 in.) ",
+        "weight": {
+          "minimum": "6 kg (13.23 lb) ",
+          "maximum": "6.76 kg (14.91 lb) "
+        }
+      },
+      "processor": [
+        {
+          "type": "AMD Ryzen 3 8300G",
+          "wattage": "65 W ",
+          "core_count": 4,
+          "thread_count": 8,
+          "speed": "Up to 4.90 GHz ",
+          "cache": "12 MB ",
+          "integrated_graphics": "AMD Radeon 740M Graphics ",
+          "ai_technology": "None "
+        },
+        {
+          "type": "AMD Ryzen 3 PRO 8300G",
+          "wattage": "65 W ",
+          "core_count": 4,
+          "thread_count": 8,
+          "speed": "Up to 4.90 GHz ",
+          "cache": "12 MB ",
+          "integrated_graphics": "AMD Radeon 740M Graphics ",
+          "ai_technology": "None "
+        },
+        {
+          "type": "AMD Ryzen 5 8500G",
+          "wattage": "65 W ",
+          "core_count": 6,
+          "thread_count": 12,
+          "speed": "Up to 5 GHz ",
+          "cache": "22 MB ",
+          "integrated_graphics": "AMD Radeon 740M Graphics ",
+          "ai_technology": "None "
+        },
+        {
+          "type": "AMD Ryzen 5 PRO 8500G",
+          "wattage": "65 W ",
+          "core_count": 6,
+          "thread_count": 12,
+          "speed": "Up to 5 GHz ",
+          "cache": "22 MB ",
+          "integrated_graphics": "AMD Radeon 740M Graphics ",
+          "ai_technology": "None "
+        },
+        {
+          "type": "AMD Ryzen 5 8600G",
+          "wattage": "65 W ",
+          "core_count": 6,
+          "thread_count": 12,
+          "speed": "Up to 5 GHz ",
+          "cache": "22 MB ",
+          "integrated_graphics": "AMD Radeon 760M Graphics ",
+          "ai_technology": "AMD Ryzen AI ",
+          "npu_performance": "Up to 16 TOPS "
+        },
+        {
+          "type": "AMD Ryzen 5 PRO 8600G",
+          "wattage": "65 W ",
+          "core_count": 6,
+          "thread_count": 12,
+          "speed": "Up to 5 GHz ",
+          "cache": "22 MB ",
+          "integrated_graphics": "AMD Radeon 760M Graphics ",
+          "ai_technology": "AMD Ryzen AI ",
+          "npu_performance": "Up to 16 TOPS "
+        },
+        {
+          "type": "AMD Ryzen 7 8700G",
+          "wattage": "65 W ",
+          "core_count": 8,
+          "thread_count": 16,
+          "speed": "Up to 5.10 GHz ",
+          "cache": "24 MB ",
+          "integrated_graphics": "AMD Radeon 780M Graphics ",
+          "ai_technology": "AMD Ryzen AI ",
+          "npu_performance": "Up to 16 TOPS "
+        },
+        {
+          "type": "AMD Ryzen 7 PRO 8700G",
+          "wattage": "65 W ",
+          "core_count": 8,
+          "thread_count": 16,
+          "speed": "Up to 5.10 GHz ",
+          "cache": "24 MB ",
+          "integrated_graphics": "AMD Radeon 780M Graphics ",
+          "ai_technology": "AMD Ryzen AI ",
+          "npu_performance": "Up to 16 TOPS "
+        }
+      ],
+      "chipset": {
+        "type": "AMD PRO 665 ",
+        "processor_support": "AMD Ryzen 3/5/7 ",
+        "dram_bus_width": "128-bit ",
+        "flash_eprom": "64 MB + 2 MB",
+        "pcie_bus": "Up to Gen4 "
+      },
+      "operating_systems": [
+        "Windows 11 Home",
+        "Windows 11 Pro",
+        "Windows 11 Pro National Education",
+        "Ubuntu Linux 24.04 LTS"
+      ],
+      "memory": {
+        "slots": "Two UDIMM slots ",
+        "type": "DDR5 ",
+        "speed": "4800 MT/s ",
+        "max_configuration": "64 GB",
+        "min_configuration": "8 GB ",
+        "size_per_slot": [
+          "8 GB",
+          "16 GB",
+          "32 GB"
+        ],
+        "supported_configurations": [
+          "8 GB: 1 x 8 GB, single-channel DDR5, up to 4800 MT/s ",
+          "16 GB: 2 x 8 GB, dual-channel DDR5, up to 4800 MT/s ",
+          "32 GB: 2 x 16 GB, dual-Channel DDR5, up to 4800 MT/s ",
+          "64 GB: 2 x 32 GB, dual-Channel DDR5, up to 4800 MT/s"
+        ]
+      },
+      "ports_and_slots": {
+        "external_front": [
+          {
+            "type": "Global headset port ",
+            "description": "Connect headphones or a headset (headphone and microphone combo). "
+          },
+          {
+            "type": "Two USB 2.0 (480 Mbps) ports ",
+            "description": "Provides data transfer speeds of up to 480 Mbps. "
+          },
+          {
+            "type": "USB 3.2 Gen 1 (5 Gbps) Type-C port ",
+            "description": "Provides data transfer speeds of up to 5 Gbps.  Does not support video/audio streaming. "
+          },
+          {
+            "type": "USB 3.2 Gen 1 (5 Gbps) port ",
+            "description": "Provides data transfer speeds of up to 5 Gbps. "
+          }
+        ],
+        "external_back": [
+          {
+            "type": "DisplayPort 1.4a (HBR3) port ",
+            "max_resolution": "5120 x 3200 at 60 Hz "
+          },
+          {
+            "type": "HDMI 2.1 (TMDS) port ",
+            "max_resolution": "4096 x 2160 at 60 Hz "
+          },
+          {
+            "type": "Two USB 3.2 Gen 1 (5 Gbps) ports ",
+            "speed": "up to 5 Gbps "
+          },
+          {
+            "type": "Two USB 2.0 (480 Mbps) with SmartPower On ports ",
+            "speed": "up to 480 Mbps "
+          },
+          {
+            "type": "RJ45 ethernet port (1 Gbps) "
+          },
+          {
+            "type": "Legacy serial port (optional) "
+          }
+        ],
+        "optional_external_module": [
+          {
+            "type": "VGA port",
+            "max_resolution": "1920 x 1200 at 60 Hz "
+          },
+          {
+            "type": "HDMI 2.1 (FRL) port",
+            "max_resolution": "5120 x 3200 at 60 Hz "
+          },
+          {
+            "type": "DisplayPort 1.4a (HBR3) port",
+            "max_resolution": "5120 x 3200 at 60 Hz "
+          },
+          {
+            "type": "Two USB 3.2 Gen 2 (10 Gbps) ports",
+            "speed": "up to 10 Gbps "
+          },
+          {
+            "type": "USB 3.2 Gen 2 (10 Gbps) Type-C with DisplayPort port",
+            "speed": "up to 10 Gbps ",
+            "max_resolution": "5120 x 3200 at 60 Hz "
+          }
+        ],
+        "internal": [
+          "One M.2 2230 slot for WiFi and Bluetooth combo card ",
+          "One M.2 2230/2280 slot for solid-state drive ",
+          "One SATA 3.0 slot for 3.5-inch hard drive ",
+          "One SATA 3.0 slot for 3.5-inch hard drive or slimline optical drive ",
+          "One full-height PCIe x16 slot ",
+          "Two full-height PCIe x1 slots "
+        ]
+      },
+      "network": {
+        "ethernet": {
+          "model": "Realtek RTL8111EPP ",
+          "transfer_rate": "10/100/1000 Mbps "
+        },
+        "wireless": [
+          {
+            "model": "MediaTek Wi-Fi 6 MT7920 ",
+            "transfer_rate": "Up to 1200 Mbps ",
+            "frequency_bands": "2.4 GHz/5 GHz ",
+            "standards": [
+              "WiFi 802.11a/b/g ",
+              "Wi-Fi 4 (WiFi 802.11n) ",
+              "Wi-Fi 5 (WiFi 802.11ac) ",
+              "Wi-Fi 6 (WiFi 802.11ax) "
+            ],
+            "encryption": [
+              "64-bit/128-bit WEP ",
+              "AES-CCMP ",
+              "TKIP "
+            ],
+            "bluetooth": "Bluetooth 5.4 "
+          },
+          {
+            "model": "MediaTek Wi-Fi 7 MT7925 ",
+            "transfer_rate": "Up to 5760 Mbps ",
+            "frequency_bands": "2.4 GHz/5 GHz/6 GHz ",
+            "standards": [
+              "WiFi 802.11a/b/g ",
+              "Wi-Fi 4 (WiFi 802.11n) ",
+              "Wi-Fi 5 (WiFi 802.11ac) ",
+              "Wi-Fi 6 (WiFi 802.11ax) ",
+              "Wi-Fi 7 (WiFi 802.11be) "
+            ],
+            "encryption": [
+              "64-bit/128-bit WEP ",
+              "AES-CCMP ",
+              "TKIP "
+            ],
+            "bluetooth": "Bluetooth 5.4 "
+          }
+        ]
+      },
+      "audio": {
+        "type": "High Definition Audio ",
+        "controller": "Realtek ALC3204 ",
+        "internal_interface": "High Definition Audio (HDA) interface ",
+        "external_interface": "One global headset port "
+      },
+      "storage": {
+        "supported_drive_types": [
+          {
+            "type": "3.5-inch hard drive",
+            "interface": "SATA AHCI, up to 6 Gbps",
+            "capacity": "Up to 2 TB "
+          },
+          {
+            "type": "M.2 2230 QLC solid-state drive",
+            "interface": "PCIe Gen4x4 NVMe, up to 64 GT/s",
+            "capacity": "Up to 1 TB "
+          },
+          {
+            "type": "M.2 2230 TLC solid-state drive",
+            "interface": "PCIe Gen4x4 NVMe, up to 64 GT/s",
+            "capacity": "Up to 1 TB "
+          },
+          {
+            "type": "9.5 mm 8x slimline DVD-RW drive",
+            "interface": "SATA AHCI, up to 1.5 Gbps"
+          }
+        ]
+      },
+      "power_supply": [
+        {
+          "type": "180 W, Bronze ",
+          "input_voltage": "90 VAC\u2013264 VAC ",
+          "input_frequency": "47 Hz\u201363 Hz ",
+          "input_current_max": "3 A ",
+          "operating_temp": "5\u00b0C to 45\u00b0C (41\u00b0F to 113\u00b0F) ",
+          "storage_temp": "-40\u00b0C to 70\u00b0C (-40\u00b0F to 158\u00b0F) ",
+          "connectors": [
+            "One 4-pin connector for processor ",
+            "One 8-pin connector for processor "
+          ]
+        },
+        {
+          "type": "360 W, Platinum ",
+          "input_voltage": "90 VAC\u2013264 VAC ",
+          "input_frequency": "47 Hz\u201363 Hz ",
+          "input_current_max": "5 A ",
+          "operating_temp": "5\u00b0C to 45\u00b0C (41\u00b0F to 113\u00b0F) ",
+          "storage_temp": "-40\u00b0C to 70\u00b0C (-40\u00b0F to 158\u00b0F) ",
+          "connectors": [
+            "Two 4-pin connectors for processor ",
+            "One 8-pin connector for system board ",
+            "One 8-pin connector for graphic card "
+          ]
+        }
+      ],
+      "gpu": {
+        "integrated": [
+          {
+            "controller": "AMD Radeon 740M Graphics",
+            "memory_size": "Shared system memory ",
+            "processor": "AMD Ryzen 3/5 "
+          },
+          {
+            "controller": "AMD Radeon 760M Graphics",
+            "memory_size": "Shared system memory",
+            "processor": "AMD Ryzen 5"
+          },
+          {
+            "controller": "AMD Radeon 780M Graphics",
+            "memory_size": "Shared system memory ",
+            "processor": "AMD Ryzen 7 "
+          }
+        ],
+        "discrete": []
+      },
+      "hardware_security": [
+        "Chassis intrusion switch",
+        "Chassis lock slot support",
+        "Security-cable slot (Kensington lock)",
+        "Local hard drive data wipe through BIOS (Secure Erase)",
+        "Lockable cable covers",
+        "Microsoft 10 Device Guard and Credential Guard (Enterprise SKU)",
+        "Microsoft Windows BitLocker",
+        "Padlock ring",
+        "SafeBIOS: includes Dell Off-host BIOS Verification, BIOS Resilience, BIOS Recovery, and additional BIOS Controls",
+        "SafeID including Trusted Platform Module (TPM) 2.0",
+        "Self-encrypting storage drives (Opal, FIPS) ",
+        "Smart card keyboard (FIPS)",
+        "Supply chain tamper alerts",
+        "Trusted Platform Module TPM 2.0"
+      ],
+      "environment": {
+        "operating_temperature": "10\u00b0C to 35\u00b0C (50\u00b0F to 95\u00b0F) ",
+        "storage_temperature": "-40\u00b0C to 65\u00b0C (-40\u00b0F to 149\u00b0F) ",
+        "operating_humidity": "20% to 80% (non-condensing) ",
+        "storage_humidity": "5% to 95% (non-condensing) ",
+        "operating_vibration": "0.26 GRMS",
+        "storage_vibration": "1.37 GRMS",
+        "operating_shock": "40 G\u2020 ",
+        "storage_shock": "105 G\u2020 ",
+        "operating_altitude": "-15.2 m to 3048 m (-49.87 ft to 10000 ft) ",
+        "storage_altitude": "-15.2 m to 10668 m (-49.87 ft to 35000 ft) "
+      }
+    },
+    "troubleshooting": {
+      "diagnostic_light_codes": [
+        {
+          "code": "1,1",
+          "description": "TPM Detection Failure "
+        },
+        {
+          "code": "1,2",
+          "description": "Unrecoverable SPI Flash Failure "
+        },
+        {
+          "code": "1,5",
+          "description": "EC unable to program i-Fuse "
+        },
+        {
+          "code": "1,6",
+          "description": "Generic catch-all for ungraceful EC code flow errors "
+        },
+        {
+          "code": "1,7",
+          "description": "Non-RPMC Flash on Boot Guard fused system "
+        },
+        {
+          "code": "1,8",
+          "description": "Chipset \u201cCatastrophic Error\u201d signal has tripped "
+        },
+        {
+          "code": "2,1",
+          "description": "CPU configuration or CPU failure "
+        },
+        {
+          "code": "2,2",
+          "description": "System board: BIOS or Read-Only Memory (ROM) failure "
+        },
+        {
+          "code": "2,3",
+          "description": "No memory or Random-Access Memory (RAM) detected "
+        },
+        {
+          "code": "2,4",
+          "description": "Memory or Random-Access Memory (RAM) failure "
+        },
+        {
+          "code": "2,5",
+          "description": "Invalid memory installed "
+        },
+        {
+          "code": "2,6",
+          "description": "System board/Chipset Error "
+        },
+        {
+          "code": "2,7",
+          "description": "LCD failure SBIOS message "
+        },
+        {
+          "code": "2,8",
+          "description": "Display power-rail failure on the system board "
+        },
+        {
+          "code": "3,1",
+          "description": "CMOS battery failure "
+        },
+        {
+          "code": "3,2",
+          "description": "PCI of Video card/chip failure "
+        },
+        {
+          "code": "3,3",
+          "description": "Recovery image not found "
+        },
+        {
+          "code": "3,4",
+          "description": "Recovery image found but invalid "
+        },
+        {
+          "code": "3,5",
+          "description": "EC power-rail error "
+        },
+        {
+          "code": "3,6",
+          "description": "Flash corruption detected by SBIOS "
+        },
+        {
+          "code": "3,7",
+          "description": "Timeout waiting on ME to reply to HECI message "
+        },
+        {
+          "code": "4,1",
+          "description": "Memory DIMM power rail failure "
+        },
+        {
+          "code": "4,2",
+          "description": "CPU Power cable connection issue "
+        }
+      ]
+    },
+    "components": {
+      "major_components": [
+        "Left-side cover",
+        "Graphics card",
+        "Processor",
+        "Processor fan and heat-sink assembly ",
+        "M.2 2230 solid-state drive",
+        "System board",
+        "Chassis",
+        "Power-button module",
+        "Wireless card",
+        "Memory module",
+        "Front I/O bracket",
+        "Fan shroud",
+        "Front bezel",
+        "Antenna modules",
+        "Intrusion switch",
+        "Internal speaker",
+        "Power-supply unit",
+        "Hard drive",
+        "Drive bay",
+        "Optical drive"
+      ],
+      "screw_list": [
+        {
+          "component": "Side cover",
+          "screw_type": "6-32# ",
+          "quantity": 2
+        },
+        {
+          "component": "M.2 2230/2280 solid-state drive in slot 0",
+          "screw_type": "M2x3.5",
+          "quantity": 1
+        },
+        {
+          "component": "Wireless card",
+          "screw_type": "M2x3.5 ",
+          "quantity": 1
+        },
+        {
+          "component": "Hard drive",
+          "screw_type": "6-32#",
+          "quantity": 4
+        },
+        {
+          "component": "Optional-port module",
+          "screw_type": "M2x4 ",
+          "quantity": 2
+        },
+        {
+          "component": "Serial-port module",
+          "screw_type": "M3",
+          "quantity": 2
+        },
+        {
+          "component": "Antenna modules",
+          "screw_type": "6-32# ",
+          "quantity": 1
+        },
+        {
+          "component": "Power-supply unit",
+          "screw_type": "6-32#",
+          "quantity": 3
+        },
+        {
+          "component": "Processor fan and heat-sink assembly",
+          "screw_type": "Captive screw ",
+          "quantity": 4
+        },
+        {
+          "component": "Front I/O-bracket",
+          "screw_type": "6-32#",
+          "quantity": 1
+        },
+        {
+          "component": "System board",
+          "screw_type": "6-32# ",
+          "quantity": 6
+        },
+        {
+          "component": "System board",
+          "screw_type": "6-32#, screw mount",
+          "quantity": 1
+        }
+      ]
+    }
+  },
+  "Dell Pro Max Micro FCM2250": {
+    "model_name": "Dell Pro Max Micro FCM2250",
+    "regulatory_info": {
+      "model": "D20U",
+      "type": "D20U001"
+    },
+    "specifications": {
+      "dimensions_and_weight": {
+        "height": "206.00 mm (8.11 in.)",
+        "width": "79.30 mm (3.12 in.)",
+        "depth": "178 mm (7.00 in.)",
+        "weight": {
+          "minimum": "1.89 kg (4.16 lb)",
+          "maximum": "2.54 kg (5.59 lb)"
+        }
+      },
+      "processor": [
+        {
+          "type": "Intel Core Ultra 9 285 vPro",
+          "wattage": "65 W",
+          "core_count": 24,
+          "thread_count": 24,
+          "speed": "2.50 GHz to 5.60 GHz",
+          "cache": "36 MB",
+          "integrated_graphics": "Intel Graphics"
+        },
+        {
+          "type": "Intel Core Ultra 7 265 vPro",
+          "wattage": "65 W",
+          "core_count": 20,
+          "thread_count": 20,
+          "speed": "2.40 GHz to 5.30 GHz",
+          "cache": "30 MB",
+          "integrated_graphics": "Intel Graphics"
+        },
+        {
+          "type": "Intel Core Ultra 5 245 vPro",
+          "wattage": "65 W",
+          "core_count": 14,
+          "thread_count": 14,
+          "speed": "3.50 GHz to 5.10 GHz",
+          "cache": "24 MB",
+          "integrated_graphics": "Intel Graphics"
+        },
+        {
+          "type": "Intel Core Ultra 5 235 vPro",
+          "wattage": "65 W",
+          "core_count": 14,
+          "thread_count": 14,
+          "speed": "3.40 GHz to 5 GHz",
+          "cache": "24 MB",
+          "integrated_graphics": "Intel Graphics"
+        }
+      ],
+      "chipset": {
+        "type": "W880",
+        "processor_support": "Intel Core Ultra 9/7/5 vPro processors",
+        "dram_bus_width": "64-bit",
+        "flash_eprom": "32 MB + 32 MB",
+        "pcie_bus": "Up to Gen4"
+      },
+      "operating_systems": [
+        "Windows 11 Home, 64-bit",
+        "Windows 11 Pro, 64-bit",
+        "Windows 11 Pro National Education, 64-bit",
+        "Windows 11 Pro for Workstations",
+        "Ubuntu Linux 24.04 LTS, 64-bit"
+      ],
+      "memory": {
+        "slots": "Two-SODIMM slots",
+        "type": "DDR5",
+        "speed": [
+          "5600 MT/s",
+          "6400 MT/s"
+        ],
+        "max_configuration": "64 GB",
+        "min_configuration": "8 GB",
+        "size_per_slot": "8 GB, 16 GB, 32 GB",
+        "supported_configurations": [
+          "8 GB: 1 x 8 GB, DDR5, 5600 MT/s, Non-ECC, single-channel",
+          "16 GB: 1 x 16 GB, DDR5, 5600 MT/s, Non-ECC, single-channel",
+          "16 GB: 2 x 8 GB, DDR5, 5600 MT/s, Non-ECC, dual-channel",
+          "32 GB: 1 x 32 GB, DDR5, 5600 MT/s, Non-ECC, single-channel",
+          "32 GB: 2 x 16 GB, DDR5, 5600 MT/s, Non-ECC, dual-channel",
+          "64 GB: 2 x 32 GB, DDR5, 5600 MT/s, Non-ECC, dual-channel",
+          "16 GB: 1 x 16 GB, DDR5, 5600 MT/s, ECC, single-channel",
+          "16 GB: 2 x 8 GB, DDR5, 5600 MT/s, ECC, dual-channel",
+          "32 GB: 1 x 32 GB, DDR5, 5600 MT/s, ECC, single-channel",
+          "32 GB: 2 x 16 GB, DDR5, 5600 MT/s, ECC, dual-channel",
+          "64 GB: 2 x 32 GB, DDR5, 5600 MT/s, ECC, dual-channel",
+          "8 GB: 1 x 8 GB, DDR5, 6400 MT/s, Non-ECC, single-channel",
+          "16 GB: 1 x 16 GB, DDR5, 6400 MT/s, Non-ECC, single-channel",
+          "16 GB: 2 x 8 GB, DDR5, 6400 MT/s, Non-ECC, dual-channel",
+          "32 GB: 1 x 32 GB, DDR5, 6400 MT/s, Non-ECC, single-channel",
+          "32 GB: 2 x 16 GB, DDR5, 6400 MT/s, Non-ECC, dual-channel",
+          "64 GB: 2 x 32 GB, DDR5, 6400 MT/s, Non-ECC, dual-channel"
+        ]
+      },
+      "ports_and_slots": {
+        "external_front": [
+          {
+            "type": "Headset port",
+            "description": "Connect headphones or a headset (headphone and microphone combo)."
+          },
+          {
+            "type": "USB 3.2 Gen 2 port",
+            "description": "Provides data transfer speeds up to 10 Gbps."
+          },
+          {
+            "type": "USB 3.2 Gen 2 port with PowerShare",
+            "description": "Provides data transfer speeds up to 10 Gbps. PowerShare enables you to charge connected USB devices."
+          },
+          {
+            "type": "USB 3.2 Gen 2x2 Type-C port",
+            "description": "Provides data transfer rate of up to 20 Gbps."
+          }
+        ],
+        "external_back": [
+          {
+            "type": "Three DisplayPort 1.4a (HBR3) ports",
+            "description": "Connect an external display or a projector."
+          },
+          {
+            "type": "USB 3.2 Gen 1 (5 Gbps) port",
+            "description": "Provides data transfer speeds up to 5 Gbps."
+          },
+          {
+            "type": "USB 3.2 Gen 1 (5 Gbps) with Smart Power On port",
+            "description": "Provides data transfer speeds up to 5 Gbps."
+          },
+          {
+            "type": "Two USB 3.2 Gen 2 (10 Gbps) ports",
+            "description": "Provides data transfer speeds up to 10 Gbps."
+          },
+          {
+            "type": "USB 3.2 Gen 2 (10 Gbps) Type-C port",
+            "description": "Provides data transfer speeds up to 10 Gbps. PowerShare enables you to charge connected USB devices."
+          },
+          {
+            "type": "RJ45 ethernet port (1 Gbps)",
+            "description": "Maximum 1 Gbps."
+          },
+          {
+            "type": "External antenna connector ports",
+            "description": "Ports for an optional external antenna."
+          }
+        ],
+        "optional_external_module": [
+          "One VGA port",
+          "One HDMI 2.1 FRL port",
+          "One DisplayPort 2.1 (UHBR20)",
+          "One Serial port",
+          "One PS2 port",
+          "One USB Type-C with DisplayPort Alt Mode",
+          "Two USB Type-A ports",
+          "One Thunderbolt 4 port and one USB Type-C port",
+          "One 5G Optical Fiber port",
+          "One 5GbE LAN NIC port"
+        ],
+        "internal": [
+          "Two half-height Gen4 PCIe x8 slots (x8 and x1 electrically)",
+          "One M.2 2230 slot for Wi-Fi and Bluetooth combo card",
+          "One M.2 2280 Gen5 PCIe NVMe single-sided SSD",
+          "One M.2 2280 Gen4 PCIe NVMe single-sided SSD"
+        ]
+      },
+      "network": {
+        "ethernet": {
+          "model": "Intel ethernet connection I219-LM",
+          "transfer_rate": "10/100/1000 Mbps"
+        },
+        "wireless": [
+          {
+            "model": "Intel BE200",
+            "transfer_rate": "5760 Mbps",
+            "frequency_bands": "2.40 GHz/5 GHz/6 GHz",
+            "standards": [
+              "Wi-Fi 802.11a/b/g",
+              "Wi-Fi 4 (Wi-Fi 802.11n)",
+              "Wi-Fi 5 (Wi-Fi 802.11ac)",
+              "Wi-Fi 6E (Wi-Fi 802.11ax)",
+              "Wi-Fi 7 (Wi-Fi 802.11be)"
+            ],
+            "bluetooth": "Bluetooth 5.4 wireless card"
+          },
+          {
+            "model": "Qualcomm FastConnect 7800 DBS",
+            "transfer_rate": "5760 Mbps",
+            "frequency_bands": "2.40 GHz/5 GHz/6 GHz",
+            "standards": [
+              "Wi-Fi 802.11a/b/g",
+              "Wi-Fi 4 (Wi-Fi 802.11n)",
+              "Wi-Fi 5 (Wi-Fi 802.11ac)",
+              "Wi-Fi 6E (Wi-Fi 802.11ax)",
+              "Wi-Fi 7 (Wi-Fi 802.11be)"
+            ],
+            "bluetooth": "Bluetooth 5.4 wireless card"
+          }
+        ]
+      },
+      "audio": {
+        "type": "4 Channel High Definition Audio",
+        "controller": "Realtek ALC3204 Codec",
+        "internal_interface": "Intel HDA (high-definition audio)",
+        "external_interface": "One headset (headphone and microphone combo) port"
+      },
+      "storage": {
+        "supported_drive_types": [
+          {
+            "type": "M.2 2230 solid-state drive",
+            "interface": "TLC Gen4 PCIe NVMe",
+            "capacity": "256 GB, 512 GB"
+          },
+          {
+            "type": "M.2 2280 solid-state drive",
+            "interface": "TLC Gen4 PCIe NVMe, Self-Encrypting Opal 2.0",
+            "capacity": "512 GB, 1 TB, 2 TB, 4 TB"
+          }
+        ],
+        "raid_support": "RAID 0 or RAID 1 supported for dual SSD configurations with same capacity."
+      },
+      "power_adapter": [
+        {
+          "type": "180 W AC adapter, 7.4mm barrel",
+          "input_voltage": "100 VAC x 240 VAC",
+          "input_frequency": "50 Hz x 60 Hz",
+          "input_current_max": "2.34 A",
+          "output_current_continuous": "9.23 A",
+          "rated_output_voltage": "19.50 VDC"
+        },
+        {
+          "type": "280 W AC adapter, 7.4mm barrel",
+          "input_voltage": "100 VAC x 240 VAC",
+          "input_frequency": "50 Hz x 60 Hz",
+          "input_current_max": "4 A",
+          "output_current_continuous": "14.36 A",
+          "rated_output_voltage": "19.50 VDC"
+        }
+      ],
+      "gpu": {
+        "integrated": {
+          "controller": "Intel Graphics",
+          "memory_size": "Shared system memory",
+          "processor": "Intel Core Ultra 9/7/5"
+        },
+        "discrete": [
+          {
+            "controller": "NVIDIA RTX A400",
+            "memory_size": "4 GB",
+            "memory_type": "GDDR6"
+          },
+          {
+            "controller": "NVIDIA RTX A1000",
+            "memory_size": "8 GB",
+            "memory_type": "GDDR6"
+          },
+          {
+            "controller": "NVIDIA RTX 2000 Ada Generation",
+            "memory_size": "16 GB",
+            "memory_type": "GDDR6"
+          },
+          {
+            "controller": "NVIDIA RTX 4000 SFF Ada Generation",
+            "memory_size": "20 GB",
+            "memory_type": "GDDR6"
+          }
+        ]
+      },
+      "hardware_security": [
+        "Kensington security-cable slot",
+        "Padlock loop",
+        "Chassis intrusion switch",
+        "Chassis lock slot support",
+        "Lockable cable covers",
+        "Supply chain tamper alerts",
+        "SafeID including Trusted Platform Module (TPM) 2.0",
+        "Smart card keyboard (FIPS)",
+        "Microsoft 10 Device Guard and Credential Guard (Enterprise SKU)",
+        "Microsoft Windows BitLocker",
+        "Local hard drive data wipe through BIOS (Secure Erase)",
+        "Self-encrypting storage drives (Opal, FIPS)",
+        "Trusted Platform Module TPM 2.0",
+        "China TPM",
+        "Intel Secure Boot",
+        "Intel Authenticate",
+        "SafeBIOS"
+      ]
+    },
+    "troubleshooting": {
+      "diagnostic_light_codes": [
+        {
+          "code": "1,1",
+          "description": "TPM Detection Failure"
+        },
+        {
+          "code": "1,2",
+          "description": "Unrecoverable SPI Flash Failure"
+        },
+        {
+          "code": "1,5",
+          "description": "EC unable to program i-Fuse"
+        },
+        {
+          "code": "1,6",
+          "description": "Generic catch-all for ungraceful EC code flow errors"
+        },
+        {
+          "code": "1,7",
+          "description": "Non-RPMC Flash on Boot Guard fused system"
+        },
+        {
+          "code": "1,8",
+          "description": "Chipset \u201cCatastrophic Error\u201d signal has tripped"
+        },
+        {
+          "code": "2,1",
+          "description": "CPU configuration or CPU failure"
+        },
+        {
+          "code": "2,2",
+          "description": "System board: BIOS or Read-Only Memory (ROM) failure"
+        },
+        {
+          "code": "2,3",
+          "description": "No memory or Random-Access Memory (RAM) detected"
+        },
+        {
+          "code": "2,4",
+          "description": "Memory or Random-Access Memory (RAM) failure"
+        },
+        {
+          "code": "2,5",
+          "description": "Invalid memory installed"
+        },
+        {
+          "code": "2,6",
+          "description": "System board/Chipset Error"
+        },
+        {
+          "code": "2,7",
+          "description": "LCD failure SBIOS message"
+        },
+        {
+          "code": "2,8",
+          "description": "Display power-rail failure on the system board"
+        },
+        {
+          "code": "3,1",
+          "description": "CMOS battery failure"
+        },
+        {
+          "code": "3,2",
+          "description": "PCI of Video card/chip failure"
+        },
+        {
+          "code": "3,3",
+          "description": "BIOS Recovery image not found"
+        },
+        {
+          "code": "3,4",
+          "description": "Recovery image found but invalid"
+        },
+        {
+          "code": "3,5",
+          "description": "Power rail failure"
+        },
+        {
+          "code": "3,6",
+          "description": "Flash corruption detected by SBIOS."
+        },
+        {
+          "code": "3,7",
+          "description": "Timeout waiting on ME to reply to HECI message"
+        },
+        {
+          "code": "4,1",
+          "description": "Memory DIMM power rail failure"
+        },
+        {
+          "code": "4,2",
+          "description": "CPU Power cable connection issue"
+        }
+      ]
+    }
+  },
+  "Dell Pro Micro Plus QBM1250": {
+    "model_name": "Dell Pro Micro Plus QBM1250",
+    "regulatory_info": {
+      "model": "D19U",
+      "type": "D19U001"
+    },
+    "specifications": {
+      "dimensions_and_weight": {
+        "height": "182.00 mm (7.17 in.)",
+        "width": "36.00 mm (1.42 in.)",
+        "depth": "178.00 mm (7.01 in.)",
+        "weight": {
+          "minimum": "1.22 kg (2.71 lbs)",
+          "maximum": "1.43 kg (3.15 lbs)"
+        }
+      },
+      "processor": [
+        {
+          "type": "Intel Core Ultra 9 285 vPro",
+          "wattage": "65 W",
+          "core_count": 24,
+          "thread_count": 24,
+          "speed": "Up to 5.6 GHz",
+          "cache": "36 MB",
+          "integrated_graphics": "Intel Graphics",
+          "ai_technology": "Intel AI Boost",
+          "npu_performance": "Up to 13 TOPS"
+        },
+        {
+          "type": "Intel Core Ultra 9 285T vPro",
+          "wattage": "35 W",
+          "core_count": 24,
+          "thread_count": 24,
+          "speed": "Up to 5.4 GHz",
+          "cache": "36 MB",
+          "integrated_graphics": "Intel Graphics",
+          "ai_technology": "Intel AI Boost",
+          "npu_performance": "Up to 13 TOPS"
+        },
+        {
+          "type": "Intel Core Ultra 7 265 vPro",
+          "wattage": "65 W",
+          "core_count": 20,
+          "thread_count": 20,
+          "speed": "Up to 5.3 GHz",
+          "cache": "30 MB",
+          "integrated_graphics": "Intel Graphics",
+          "ai_technology": "Intel AI Boost",
+          "npu_performance": "Up to 13 TOPS"
+        },
+        {
+          "type": "Intel Core Ultra 7 265T vPro",
+          "wattage": "35 W",
+          "core_count": 20,
+          "thread_count": 20,
+          "speed": "Up to 5.3 GHz",
+          "cache": "30 MB",
+          "integrated_graphics": "Intel Graphics",
+          "ai_technology": "Intel AI Boost",
+          "npu_performance": "Up to 13 TOPS"
+        },
+        {
+          "type": "Intel Core Ultra 5 245 vPro",
+          "wattage": "65 W",
+          "core_count": 14,
+          "thread_count": 14,
+          "speed": "Up to 5.1 GHz",
+          "cache": "24 MB",
+          "integrated_graphics": "Intel Graphics",
+          "ai_technology": "Intel AI Boost",
+          "npu_performance": "Up to 13 TOPS"
+        },
+        {
+          "type": "Intel Core Ultra 5 245T vPro",
+          "wattage": "35 W",
+          "core_count": 14,
+          "thread_count": 14,
+          "speed": "Up to 5.1 GHz",
+          "cache": "24 MB",
+          "integrated_graphics": "Intel Graphics",
+          "ai_technology": "Intel AI Boost",
+          "npu_performance": "Up to 13 TOPS"
+        },
+        {
+          "type": "Intel Core Ultra 5 235 vPro",
+          "wattage": "65 W",
+          "core_count": 14,
+          "thread_count": 14,
+          "speed": "Up to 5.0 GHz",
+          "cache": "24 MB",
+          "integrated_graphics": "Intel Graphics",
+          "ai_technology": "Intel AI Boost",
+          "npu_performance": "Up to 13 TOPS"
+        },
+        {
+          "type": "Intel Core Ultra 5 235T vPro",
+          "wattage": "35 W",
+          "core_count": 14,
+          "thread_count": 14,
+          "speed": "Up to 5.0 GHz",
+          "cache": "24 MB",
+          "integrated_graphics": "Intel Graphics",
+          "ai_technology": "Intel AI Boost",
+          "npu_performance": "Up to 13 TOPS"
+        }
+      ],
+      "chipset": {
+        "type": "Intel Q870",
+        "processor_support": "Intel Core Ultra 9/ Ultra 7/ Ultra 5",
+        "dram_bus_width": "128-bit",
+        "flash_eprom": "32 MB + 32 MB",
+        "pcie_bus": "Up to Gen4"
+      },
+      "operating_systems": [
+        "Windows 11 Home",
+        "Windows 11 Pro",
+        "Windows 11 Enterprise",
+        "Windows 11 Pro National Education",
+        "Ubuntu Linux 24.04 LTS, 64-bit"
+      ],
+      "memory": {
+        "slots": "Two SODIMM slots",
+        "type": "DDR5",
+        "speed": "5600 MT/s, 6400 MT/s",
+        "max_configuration": "64 GB",
+        "min_configuration": "8 GB",
+        "size_per_slot": "8 GB, 16 GB, or 32 GB"
+      },
+      "ports_and_slots": {
+        "external_front": [
+          {
+            "type": "Headset (headphone and microphone combo) port"
+          },
+          {
+            "type": "USB 3.2 Gen 2 (10 Gbps) port"
+          },
+          {
+            "type": "USB 3.2 Gen 2 (10 Gbps) port with PowerShare"
+          },
+          {
+            "type": "USB 3.2 Gen 2x2 (20 Gbps) Type-C port"
+          }
+        ],
+        "external_back": [
+          {
+            "type": "Optional external antenna port"
+          },
+          {
+            "type": "USB 3.2 Gen 1 (5 Gbps) port"
+          },
+          {
+            "type": "Kensington security-cable slot and padlock ring"
+          },
+          {
+            "type": "Power-adapter port"
+          },
+          {
+            "type": "Three DisplayPort 1.4a (HBR3) ports"
+          },
+          {
+            "type": "USB 3.2 Gen 1 (5 Gbps) port with SmartPower On"
+          },
+          {
+            "type": "Two USB 3.2 Gen 2 (10 Gbps) ports"
+          },
+          {
+            "type": "USB 3.2 Gen 2 Type-C (10 Gbps) port"
+          },
+          {
+            "type": "RJ45 ethernet port (1 Gbps)"
+          }
+        ],
+        "optional_external_module": [
+          "Thunderbolt 4 port with DisplayPort Alt Mode and USB 3.2 Gen-2 Type-C port",
+          "DisplayPort 2.1 (UHBR20) port",
+          "HDMI 2.1 FRL port",
+          "VGA port",
+          "USB Type-C with DisplayPort Alt Mode port",
+          "Two USB-A 3.2 Gen 2 port ports",
+          "PS2 port",
+          "Serial port",
+          "Fiber optic port (5 Gbps, peer-to-peer)",
+          "RJ45 ethernet port (5 Gbps)"
+        ],
+        "internal": [
+          "One M.2 2230 slot for Wi-Fi and Bluetooth combo card",
+          "Two M.2 2230/2280 Gen4 slots for solid-state drive"
+        ]
+      },
+      "network": {
+        "ethernet": {
+          "model": "Intel WGI219LM",
+          "transfer_rate": "10/100/1000 Mbps"
+        },
+        "wireless": [
+          {
+            "model": "Intel BE200",
+            "transfer_rate": "Up to 5760 Mbps",
+            "bluetooth": "Bluetooth 5.4"
+          },
+          {
+            "model": "Intel AX211",
+            "transfer_rate": "Up to 2400 Mbps",
+            "bluetooth": "Bluetooth 5.3"
+          },
+          {
+            "model": "MediaTek MT7920",
+            "transfer_rate": "Up to 1200 Mbps",
+            "bluetooth": "Bluetooth 5.4"
+          }
+        ]
+      },
+      "audio": {
+        "type": "4 Channel High-Definition Audio",
+        "controller": "Realtek ALC3204 Codec",
+        "internal_interface": "Intel HDA (High-Definition Audio)",
+        "external_interface": "One headset (headphone and microphone combo) port"
+      },
+      "storage": {
+        "supported_drive_types": [
+          {
+            "type": "M.2 2230 solid-state drive",
+            "interface": "QLC PCIe Gen4 NVMe, Class 25",
+            "capacity": "512 GB"
+          },
+          {
+            "type": "M.2 2230 solid-state drive",
+            "interface": "TLC Gen4 PCIe NVMe, Class 35",
+            "capacity": "Up to 1 TB"
+          },
+          {
+            "type": "M.2 2280 solid-state drive",
+            "interface": "TLC Gen4 PCIe NVMe, Class 40, Self-Encrypting Opal 2.0, Class 40",
+            "capacity": "Up to 2 TB"
+          }
+        ]
+      },
+      "power_adapter": [
+        {
+          "type": "E4 180 W",
+          "input_voltage": "100 VAC\u2013240 VAC",
+          "input_current_max": "2.34 A"
+        },
+        {
+          "type": "E4 130W",
+          "input_voltage": "100 VAC\u2013240 VAC",
+          "input_current_max": "2.50 A"
+        }
+      ],
+      "gpu": {
+        "integrated": {
+          "controller": "Intel Graphics",
+          "memory_size": "Shared system memory",
+          "processor": "Intel Core Ultra 9/Ultra 7/Ultra 5"
+        }
+      },
+      "hardware_security": [
+        "Kensington security-cable slot",
+        "Padlock ring",
+        "Chassis lock slot support",
+        "Chassis intrusion switch",
+        "Lockable cable covers",
+        "Supply chain tamper alerts",
+        "SafeID including Trusted Platform Module (TPM) 2.0",
+        "Smart card keyboard (FIPS)",
+        "Microsoft 10 Device Guard & Credential Guard (Enterprise SKU)",
+        "SafeBIOS: includes Dell Off-host BIOS Verification, BIOS Resilience, BIOS Recovery, and additional BIOS Controls",
+        "Microsoft Windows BitLocker",
+        "Local hard drive data wipe through BIOS (Secure Erase)",
+        "Self-encrypting storage drives (Opal, FIPS)",
+        "Intel Secure Boot",
+        "Intel Authenticate"
+      ]
+    },
+    "troubleshooting": {
+      "diagnostic_light_codes": [
+        {
+          "code": "1,1",
+          "description": "TPM Detection Failure"
+        },
+        {
+          "code": "1,2",
+          "description": "Unrecoverable SPI Flash Failure"
+        },
+        {
+          "code": "1,5",
+          "description": "EC unable to program i-Fuse"
+        },
+        {
+          "code": "1,6",
+          "description": "Generic catch-all for ungraceful EC code flow errors"
+        },
+        {
+          "code": "1,7",
+          "description": "Non-RPMC Flash on Boot Guard fused system"
+        },
+        {
+          "code": "2,1",
+          "description": "CPU configuration or CPU failure"
+        },
+        {
+          "code": "2,2",
+          "description": "System board: BIOS or Read-Only Memory (ROM) failure"
+        },
+        {
+          "code": "2,3",
+          "description": "No memory or Random-Access Memory (RAM) detected"
+        },
+        {
+          "code": "2,4",
+          "description": "Memory or Random-Access Memory (RAM) failure"
+        },
+        {
+          "code": "2,5",
+          "description": "Invalid memory installed"
+        },
+        {
+          "code": "2,6",
+          "description": "System board/Chipset Error"
+        },
+        {
+          "code": "2,7",
+          "description": "LCD failure SBIOS message"
+        },
+        {
+          "code": "2,8",
+          "description": "Display power-rail failure on the system board"
+        },
+        {
+          "code": "3,1",
+          "description": "CMOS battery failure"
+        },
+        {
+          "code": "3,2",
+          "description": "PCI of Video card/chip failure"
+        },
+        {
+          "code": "3,3",
+          "description": "Recovery image not found"
+        },
+        {
+          "code": "3,4",
+          "description": "Recovery image found but invalid"
+        },
+        {
+          "code": "3,5",
+          "description": "EC power-rail error"
+        },
+        {
+          "code": "3,6",
+          "description": "Flash corruption detected by SBIOS"
+        },
+        {
+          "code": "3,7",
+          "description": "Timeout waiting on ME to reply to HECI message"
+        },
+        {
+          "code": "4,1",
+          "description": "Memory DIMM power rail failure"
+        },
+        {
+          "code": "4,2",
+          "description": "CPU Power cable connection issue"
+        }
+      ]
+    }
+  },
+  "Dell Pro Micro QCM1250": {
+    "model_name": "Dell Pro Micro QCM1250",
+    "regulatory_info": {
+      "model": "D19U",
+      "type": "D19U002/D19U003"
+    },
+    "specifications": {
+      "dimensions_and_weight": {
+        "height": "182.00 mm (7.17 in.)",
+        "width": "36.00 mm (1.42 in.)",
+        "depth": "178.00 mm (7.01 in.)",
+        "weight": {
+          "minimum": "1.16 kg (2.56 lbs)",
+          "maximum": "1.40 kg (3.09 lbs)"
+        }
+      },
+      "processor": [
+        {
+          "type": "Intel Core Ultra 7 265T vPro",
+          "wattage": "35 W",
+          "core_count": 20
+        },
+        {
+          "type": "Intel Core Ultra 5 245T vPro",
+          "wattage": "35 W",
+          "core_count": 14
+        },
+        {
+          "type": "Intel Core Ultra 5 235T vPro",
+          "wattage": "35 W",
+          "core_count": 14
+        },
+        {
+          "type": "Intel Core i7 14700T vPro",
+          "wattage": "35 W",
+          "core_count": 20
+        },
+        {
+          "type": "Intel Core i5 14600T vPro",
+          "wattage": "35 W",
+          "core_count": 14
+        },
+        {
+          "type": "Intel Core i5 14500T",
+          "wattage": "35 W",
+          "core_count": 14
+        },
+        {
+          "type": "Intel Core i3 14100T",
+          "wattage": "35 W",
+          "core_count": 4
+        },
+        {
+          "type": "Intel Core 300T",
+          "wattage": "35 W",
+          "core_count": 2
+        }
+      ],
+      "chipset": [
+        {
+          "type": "Intel Q870",
+          "processor_support": "Intel Core Ultra 7/ Ultra 5"
+        },
+        {
+          "type": "Intel Q670",
+          "processor_support": "Intel Core i7/i5/i3 and 300T"
+        }
+      ],
+      "operating_systems": [
+        "Windows 11 Home",
+        "Windows 11 Pro",
+        "Windows 11 Enterprise",
+        "Windows 11 Pro National Education",
+        "Ubuntu Linux 24.04 LTS, 64-bit"
+      ],
+      "memory": {
+        "slots": "Two SODIMM slots",
+        "type": "DDR5",
+        "speed": "4800 MT/s, 5600 MT/s, 6400 MT/s",
+        "max_configuration": "64 GB",
+        "min_configuration": "8 GB",
+        "size_per_slot": "8 GB, 16 GB, or 32 GB"
+      },
+      "ports_and_slots": {
+        "external_front": [
+          {
+            "type": "Headset (headphone and microphone combo) port"
+          },
+          {
+            "type": "USB 3.2 Gen 1 (5 Gbps) port"
+          },
+          {
+            "type": "USB 3.2 Gen 2 (10 Gbps) Type-C port"
+          }
+        ],
+        "external_back": [
+          {
+            "type": "Optional external antenna port"
+          },
+          {
+            "type": "USB 3.2 Gen 1 (5 Gbps) port"
+          },
+          {
+            "type": "Kensington security-cable slot and padlock ring"
+          },
+          {
+            "type": "Power-adapter port"
+          },
+          {
+            "type": "DisplayPort 1.4a port"
+          },
+          {
+            "type": "HDMI 2.1 port"
+          },
+          {
+            "type": "USB 3.2 Gen 1 (5 Gbps) port with SmartPower On"
+          },
+          {
+            "type": "Two USB 2.0 (480 Mbps) port"
+          },
+          {
+            "type": "RJ45 ethernet port (1 Gbps)"
+          }
+        ],
+        "optional_external_module": [
+          "HDMI 2.1 FRL port",
+          "DisplayPort 2.1 (UHBR20) port",
+          "HDMI 2.1 TMDS port",
+          "DisplayPort 1.4a (HBR3) port",
+          "VGA port",
+          "USB Type-C with DisplayPort Alt Mode port (Power In)",
+          "Two USB 3.2 Gen 2 ports",
+          "PS2 port",
+          "Serial port",
+          "Fiber optic (5 Gbps, peer-to-peer) port"
+        ],
+        "internal": [
+          "One M.2 2230 slot for Wi-Fi and Bluetooth combo card",
+          "Two M.2 2230/2280 Gen4 slots for solid-state drive"
+        ]
+      },
+      "network": {
+        "ethernet": {
+          "model": "Intel WGI219LM",
+          "transfer_rate": "10/100/1000 Mbps"
+        },
+        "wireless": [
+          {
+            "model": "Intel BE200",
+            "transfer_rate": "Up to 5760 Mbps",
+            "bluetooth": "Bluetooth 5.4"
+          },
+          {
+            "model": "Intel AX211",
+            "transfer_rate": "Up to 2400 Mbps",
+            "bluetooth": "Bluetooth 5.3"
+          },
+          {
+            "model": "MediaTek MT7920",
+            "transfer_rate": "Up to 1200 Mbps",
+            "bluetooth": "Bluetooth 5.4"
+          }
+        ]
+      },
+      "storage": {
+        "supported_drive_types": [
+          {
+            "type": "M.2 2230 solid-state drive",
+            "interface": "QLC PCIe Gen4 NVMe, Class 25",
+            "capacity": "Up to 1 TB"
+          },
+          {
+            "type": "M.2 2230 solid-state drive",
+            "interface": "TLC Gen4 PCIe NVMe, Class 35",
+            "capacity": "Up to 1 TB"
+          },
+          {
+            "type": "M.2 2280 solid-state drive",
+            "interface": "TLC Gen4 PCIe NVMe, Class 40, Self-Encrypting Opal 2.0, Class 40",
+            "capacity": "Up to 1 TB"
+          }
+        ]
+      },
+      "power_adapter": [
+        {
+          "type": "90 W",
+          "input_voltage": "100 VAC\u2013240 VAC",
+          "input_current_max": "1.50 A"
+        },
+        {
+          "type": "65 W",
+          "input_voltage": "100 VAC\u2013240 VAC",
+          "input_current_max": "1.70 A"
+        }
+      ],
+      "gpu": {
+        "integrated": [
+          {
+            "controller": "Intel Graphics",
+            "processor": "Intel Core Ultra 9/Ultra 7/Ultra 5"
+          },
+          {
+            "controller": "Intel UHD Graphics 770/730/710",
+            "processor": "Intel Core i3/i5/i7/300T"
+          }
+        ]
+      },
+      "hardware_security": [
+        "Kensington security-cable slot",
+        "Padlock ring",
+        "Chassis lock slot support",
+        "Chassis intrusion switch",
+        "Lockable cable covers",
+        "Supply chain tamper alerts",
+        "SafeID including Trusted Platform Module (TPM) 2.0",
+        "Smart card keyboard (FIPS)",
+        "Microsoft 10 Device Guard & Credential Guard (Enterprise SKU)",
+        "SafeBIOS",
+        "Microsoft Windows BitLocker",
+        "Local hard drive data wipe through BIOS (Secure Erase)",
+        "Self-encrypting storage drives (Opal, FIPS)",
+        "Intel Secure Boot",
+        "Intel Authenticate"
+      ]
+    },
+    "troubleshooting": {
+      "diagnostic_light_codes": [
+        {
+          "code": "1,1",
+          "description": "TPM Detection Failure"
+        },
+        {
+          "code": "1,2",
+          "description": "Unrecoverable SPI Flash Failure"
+        },
+        {
+          "code": "1,5",
+          "description": "EC unable to program i-Fuse"
+        },
+        {
+          "code": "1,6",
+          "description": "Generic catch-all for ungraceful EC code flow errors"
+        },
+        {
+          "code": "1,7",
+          "description": "Non-RPMC Flash on Boot Guard fused system"
+        },
+        {
+          "code": "2,1",
+          "description": "CPU configuration or CPU failure"
+        },
+        {
+          "code": "2,2",
+          "description": "System board: BIOS or Read-Only Memory (ROM) failure"
+        },
+        {
+          "code": "2,3",
+          "description": "No memory or Random-Access Memory (RAM) detected"
+        },
+        {
+          "code": "2,4",
+          "description": "Memory or Random-Access Memory (RAM) failure"
+        },
+        {
+          "code": "2,5",
+          "description": "Invalid memory installed"
+        },
+        {
+          "code": "2,6",
+          "description": "System board/Chipset Error"
+        },
+        {
+          "code": "2,7",
+          "description": "LCD failure SBIOS message"
+        },
+        {
+          "code": "2,8",
+          "description": "Display power-rail failure on the system board"
+        },
+        {
+          "code": "3,1",
+          "description": "CMOS battery failure"
+        },
+        {
+          "code": "3,2",
+          "description": "PCI of Video card/chip failure"
+        },
+        {
+          "code": "3,3",
+          "description": "Recovery image not found"
+        },
+        {
+          "code": "3,4",
+          "description": "Recovery image found but invalid"
+        },
+        {
+          "code": "3,5",
+          "description": "EC power-rail error"
+        },
+        {
+          "code": "3,6",
+          "description": "Flash corruption detected by SBIOS"
+        },
+        {
+          "code": "3,7",
+          "description": "Timeout waiting on ME to reply to HECI message"
+        },
+        {
+          "code": "4,1",
+          "description": "Memory DIMM power rail failure"
+        },
+        {
+          "code": "4,2",
+          "description": "CPU Power cable connection issue"
+        }
+      ]
+    }
+  }
+}
