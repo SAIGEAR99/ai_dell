@@ -23,175 +23,185 @@ const rawDellDatabase = JSON.parse(await fs.readFile(dellDatabasePath, "utf-8"))
 console.log(`ฐานข้อมูลพร้อมใช้งาน, พบ ${Object.keys(rawDellDatabase).length} โมเดลทั้งหมด`);
 
 
-// --- 2. RETRIEVAL STAGE: ให้ Gemini คัดกรองรุ่นที่เกี่ยวข้อง ---
-/**
- * ใช้ Gemini เพื่อกรองรุ่นที่อาจเข้าข่ายจากฐานข้อมูลทั้งหมด (The "R" in RAG)
- * @param {string} torContent - เนื้อหาของ TOR
- * @param {object} database - ฐานข้อมูลคอมพิวเตอร์ทั้งหมด
- * @returns {Promise<string[]>} - Array ของ model keys ที่เกี่ยวข้อง
- */
-async function geminiPreFilter(torContent, database) {
-  console.log("\n[ขั้นตอนที่ 1] 🚀 เริ่มการค้นหาข้อมูล (Retrieval) โดย Gemini...");
-
-  const preFilterPrompt = `
-    คุณคือผู้เชี่ยวชาญ Presales Engineer ของ Dell หน้าที่ของคุณคือวิเคราะห์ TOR ของลูกค้าและคัดกรองรุ่นคอมพิวเตอร์ที่เกี่ยวข้องจากฐานข้อมูลทั้งหมด
-
-    **TOR ของลูกค้า:**
-    ---
-    ${torContent}
-    ---
-
-    **ฐานข้อมูล Dell ทั้งหมด (JSON):**
-    ${JSON.stringify(database, null, 2)}
-
-    **คำสั่ง:**
-    1.  อ่านและทำความเข้าใจ TOR อย่างละเอียด
-    2.  วิเคราะห์คอมพิวเตอร์แต่ละรุ่นในฐานข้อมูล JSON ที่ให้มา
-    3.  **ค้นหาและเลือกรุ่นคอมพิวเตอร์ทั้งหมด** ที่มีความเป็นไปได้ว่าจะตรงตาม TOR ไม่ว่าจะเป็นคุณสมบัติหลัก เช่น CPU, RAM, Storage, Form Factor (Laptop/Desktop/Rugged), หรือคุณสมบัติพิเศษที่ระบุไว้ใน TOR (เช่น Magnesium chassis, Fingerprint,
-        ใส่ Sim card ได้)
-    4.  เป้าหมายคือการสร้าง "รายการตัวเลือกเบื้องต้น" (candidate list) เพื่อให้ทีมวิเคราะห์ในขั้นตอนต่อไป ไม่ใช่การตัดสินใจเลือกรุ่นที่ดีที่สุดในขั้นตอนนี้
-    5.  ผลลัพธ์ของคุณต้องเป็น JSON Array ของ "keys" ของรุ่นที่เลือกเท่านั้น (เช่น "DellPro14_PC14250", "DellPro14Premium_PA14250")
-
-    **สำคัญมาก:**
-    - ผลลัพธ์ต้องเป็น JSON Array ที่ถูกต้องสมบูรณ์เท่านั้น
-    - ห้ามมีข้อความอธิบาย, หมายเหตุ, หรือ markdown formatting ใดๆ นอกเหนือจาก JSON Array
-
+// --- STAGE 0: HARDWARE REQUIREMENT EXTRACTION & PROGRAMMATIC FILTER ---
+async function extractHardRequirements(torContent) {
+  console.log("\n[ด่านที่ 0.1] 🚀 กำลังสกัด 'กฎ' สำหรับการกรองด้วยโค้ด...");
+  const prompt = `
+    จาก TOR ต่อไปนี้ ให้สกัดเฉพาะคุณสมบัติที่เป็นตัวเลขหรือค่าที่ชัดเจนสำหรับใช้กรองข้อมูลเบื้องต้น
+    - min_ram_gb (ตัวเลข)
+    - min_storage_gb (ตัวเลข)
+    - cpu_family (ข้อความสั้นๆ เช่น "Core Ultra 5", "Ryzen 7")
+    - display_size_inches (ตัวเลข)
+    - gpu_required (boolean, true ถ้ามีการระบุการ์ดจอแยก)
+    - keywords (Array ของคำสำคัญอื่นๆ เช่น ["magnesium", "sim card", "fingerprint"])
+    หากไม่พบให้ใช้ null หรือ false.
+    TOR: --- ${torContent} ---
     JSON Output:
   `;
-  
-  // ใช้ 'gemini-1.5-flash-latest' ซึ่งเหมาะกับงานที่ต้องการความเร็วและจัดการข้อมูลขนาดใหญ่ และมีโควต้าฟรีที่สูงกว่า
-  const model = genAI.getGenerativeModel({ model: "gemini-1.5-flash-latest" }); 
-  
   try {
-    const result = await model.generateContent(preFilterPrompt);
-    const responseText = result.response.text().replace(/```json|```/g, "").trim();
-    
-    const modelKeys = JSON.parse(responseText);
-    console.log(`✅ Gemini ค้นหาและคัดเลือกรุ่นที่เกี่ยวข้องมาได้ ${modelKeys.length} รุ่น`);
-    return modelKeys;
-  } catch (error) {
-    console.error("❌ เกิดข้อผิดพลาดร้ายแรงระหว่างการ Retrieval โดย Gemini:", error);
-    console.log("-> ไม่สามารถแปลงผลลัพธ์จาก Gemini เป็น JSON Array ได้ จะคืนค่าเป็น Array ว่างเปล่า");
-    return [];
+    const model = genAI.getGenerativeModel({ model: "gemini-1.5-flash-latest" });
+    const result = await model.generateContent(prompt);
+    const requirements = JSON.parse(result.response.text().replace(/```json|```/g, "").trim());
+    console.log("✅ ได้กฎสำหรับกรอง:", JSON.stringify(requirements));
+    return requirements;
+  } catch (e) {
+    console.error("❌ เกิดข้อผิดพลาดในการสกัดกฎ:", e);
+    return null;
   }
 }
 
-// --- 3. GENERATION STAGE: ให้ DeepSeek จัดอันดับจากข้อมูลที่ถูกเสริม (Augmented) ---
-/**
- * ใช้ DeepSeek เพื่อวิเคราะห์และจัดอันดับ 2 รุ่นที่ดีที่สุดจากรายการที่กรองมาแล้ว (The "G" in RAG)
- * @param {string} torContent - เนื้อหาของ TOR
- * @param {object[]} candidates - Array ของข้อมูลรุ่นที่ผ่านการกรองมาแล้ว (พร้อม full specs)
- * @returns {Promise<string>} - JSON string ที่มีผลการจัดอันดับ
- */
-async function deepseekFinalRanker(torContent, candidates) {
-  console.log(`\n[ขั้นตอนที่ 2] 🏆 ส่ง ${candidates.length} รุ่นที่ผ่านการกรองให้ DeepSeek เพื่อทำการวิเคราะห์และสร้างคำตอบ (Generation)...`);
+function programmaticFilter(requirements, database) {
+  console.log("\n[ด่านที่ 0.2] ⚙️  กำลังกรองด้วยโค้ด (ไม่ใช้ Token)...");
+  if (!requirements) return Object.values(database);
   
-  const candidateData = {};
-  candidates.forEach(c => {
-    // ใช้ model_name ที่ไม่ซ้ำกันเป็น key
-    const uniqueKey = Object.keys(rawDellDatabase).find(key => rawDellDatabase[key].model_name === c.model_name);
-    if(uniqueKey) {
-        candidateData[uniqueKey] = c;
+  const candidates = Object.values(database).filter(pc => {
+    const specs = pc.specifications;
+    if (!specs) return false;
+
+    if (requirements.min_ram_gb && (parseInt(specs.memory?.max_configuration?.match(/\d+/)?.[0] || '0') < requirements.min_ram_gb)) return false;
+    if (requirements.gpu_required === true && !specs.gpu?.discrete) return false;
+    if (requirements.cpu_family && !(specs.processor || []).some(p => p.type.toLowerCase().includes(requirements.cpu_family.toLowerCase()))) return false;
+    if (requirements.keywords?.length > 0) {
+        const pcJsonString = JSON.stringify(pc).toLowerCase();
+        if (!requirements.keywords.every(kw => pcJsonString.includes(kw.toLowerCase()))) return false;
     }
+    return true;
   });
 
-  const arbiterPrompt = `
-    **บทบาท:**
-    คุณคือหัวหน้าฝ่ายจัดซื้อ (Chief Procurement Officer) ที่มีอำนาจในการตัดสินใจสูงสุด ภารกิจของคุณคือการเลือกคอมพิวเตอร์ 2 รุ่นที่ดีที่สุดสำหรับองค์กร
+  console.log(`✅ กรองด้วยโค้ด: จาก ${Object.keys(database).length} เหลือ ${candidates.length} รุ่น`);
+  return candidates;
+}
 
-    **โจทย์ (TOR):**
-    ---
-    ${torContent}
-    ---
+// --- STAGE 1 & 2: AI-ASSISTED FILTERING (REUSABLE FUNCTION) ---
+async function aiFilter(torContent, candidates, modelName, stageName) {
+    console.log(`\n[${stageName}] 🤖 กำลังกรองด้วย ${modelName} (${candidates.length} รุ่น)...`);
+    if (candidates.length === 0) return [];
 
-    **บริบทเสริม (Augmented Context):**
-    นี่คือข้อมูลจำเพาะ (specifications) ของรุ่นที่ AI ขั้นต้นได้คัดกรองมาให้แล้วว่ามีความเกี่ยวข้องกับ TOR มากที่สุด:
-    ---
-    ${JSON.stringify(candidateData, null, 2)}
-    ---
+    const prompt = `
+      คุณคือ Presales Engineer ที่ได้รับรายการคอมพิวเตอร์ที่ผ่านการกรองเบื้องต้นมาแล้ว
+      **TOR ลูกค้า:**
+      ---
+      ${torContent}
+      ---
+      **รายการคอมพิวเตอร์ (Candidates):**
+      ${JSON.stringify(candidates.map(c => ({model_name: c.model_name, key: Object.keys(rawDellDatabase).find(key => rawDellDatabase[key].model_name === c.model_name)})))}
+      
+      **ข้อมูลสเปคเต็ม:**
+      ${JSON.stringify(candidates, null, 2)}
+      
+      **คำสั่ง:**
+      วิเคราะห์และคัดเลือกรุ่นที่ยังคงมีความเกี่ยวข้องกับ TOR มากที่สุด
+      ผลลัพธ์ต้องเป็น JSON Array ของ "key" ของรุ่นที่เลือกเท่านั้น
+      
+      JSON Output:
+    `;
 
-    **คำสั่ง:**
-    1.  **วิเคราะห์เชิงลึก:** เปรียบเทียบคุณสมบัติของคอมพิวเตอร์ "แต่ละรุ่น" ในบริบทเสริม กับ "แต่ละข้อ" ใน TOR อย่างละเอียด
-    2.  **ให้คะแนน:** ประเมินว่าแต่ละรุ่นตอบโจทย์ TOR ได้ดีแค่ไหน ทั้งในแง่คุณสมบัติที่ตรงตามข้อกำหนด, เกินข้อกำหนด, หรือขาดหายไป
-    3.  **จัดอันดับ:** เลือก 2 รุ่นที่ดีที่สุดและเหมาะสมที่สุดตามลำดับ
-        - **อันดับที่ 1:** รุ่นที่ตรงตาม TOR มากที่สุดและคุ้มค่าที่สุด
-        - **อันดับที่ 2:** รุ่นที่เป็นตัวเลือกสำรองที่ดีที่สุด
-    4.  **ให้เหตุผล:** สำหรับแต่ละอันดับ ให้สรุปเหตุผลที่เลือกอย่างชัดเจนและกระชับ ว่าทำไมถึงเหมาะสมกับ TOR
-
-    **รูปแบบผลลัพธ์ (สำคัญมาก):**
-    ผลลัพธ์สุดท้ายของคุณต้องเป็น JSON object ที่ถูกต้องสมบูรณ์ ตามโครงสร้างนี้เท่านั้น ห้ามมีข้อความหรือ markdown อื่นๆ ปนมาเด็ดขาด
-
-    {
-      "rank_1": {
-        "model_name": "ชื่อรุ่นอันดับ 1",
-        "reason": "สรุปเหตุผลที่เลือกรุ่นนี้เป็นอันดับ 1 โดยอ้างอิงกับ TOR"
-      },
-      "rank_2": {
-        "model_name": "ชื่อรุ่นอันดับ 2",
-        "reason": "สรุปเหตุผลที่เลือกรุ่นนี้เป็นอันดับ 2 และจุดที่อาจด้อยกว่าอันดับ 1"
-      }
+    try {
+        const model = genAI.getGenerativeModel({ model: modelName });
+        const result = await model.generateContent(prompt);
+        const responseText = result.response.text().replace(/```json|```/g, "").trim();
+        const modelKeys = JSON.parse(responseText);
+        console.log(`✅ ${stageName}: เหลือ ${modelKeys.length} รุ่น`);
+        return modelKeys.map(key => rawDellDatabase[key]).filter(Boolean);
+    } catch (e) {
+        console.error(`❌ เกิดข้อผิดพลาดใน ${stageName}:`, e);
+        return candidates; // ถ้า error ให้ส่งของเดิมกลับไป
     }
-
-    JSON Output:
-  `;
-  
-  const result = await deepseek.chat.completions.create({
-      model: "deepseek-chat",
-      messages: [{ role: "user", content: arbiterPrompt }],
-      response_format: { type: "json_object" } // ใช้ JSON mode เพื่อความแน่นอน
-  });
-  console.log("✅ DeepSeek ทำการวิเคราะห์และจัดอันดับเสร็จสิ้น");
-  return result.choices[0].message.content;
 }
 
 
+// --- STAGE 3 & 4: CROSS-VALIDATION & ARBITRATION ---
+async function getInitialRecommendations(torContent, candidates) {
+    console.log(`\n[ด่านที่ 3] 🕵️‍♂️ กำลังส่ง ${candidates.length} รุ่นสุดท้ายให้ AI 2 ตัวช่วยกันวิเคราะห์...`);
+    // ... (โค้ดฟังก์ชันนี้เหมือนเดิม ไม่ต้องแก้ไข) ...
+    const prompt = `คุณคือผู้เชี่ยวชาญที่ต้องเลือกรุ่นที่ดีที่สุด 1 รุ่นจากรายการนี้ ให้ตรงตาม TOR มากที่สุด:
+    TOR: ${torContent}
+    Candidates: ${JSON.stringify(candidates.map(c=>c.model_name))}
+    ข้อมูลเต็ม: ${JSON.stringify(candidates, null, 2)}
+    
+    รูปแบบคำตอบ:
+    ชื่อรุ่น: [Model Name]
+    เหตุผล: [Your reason]`;
+
+    const [geminiResult, deepseekResult] = await Promise.all([
+      genAI.getGenerativeModel({ model: "gemini-1.5-flash-latest" }).generateContent(prompt),
+      deepseek.chat.completions.create({ model: "deepseek-chat", messages: [{ role: "user", content: prompt }] }),
+    ]);
+    console.log("✅ AI ทั้งสองวิเคราะห์เสร็จสิ้น");
+    return {
+      gemini_recommendation: geminiResult.response.text(),
+      deepseek_recommendation: deepseekResult.choices[0].message.content,
+    };
+}
+
+async function getFinalDecision(initialRecommendations, torContent) {
+    console.log("\n[ด่านที่ 4] 🏛️ AI เห็นต่างกัน! กำลังส่งให้ DeepSeek ช่วยตัดสินชี้ขาด...");
+    // ... (โค้ดฟังก์ชันนี้เหมือนเดิม ไม่ต้องแก้ไข) ...
+     const arbiterPrompt = `คุณคือหัวหน้าฝ่ายจัดซื้อ จงวิเคราะห์คำแนะนำทั้งสองเทียบกับ TOR แล้ว "เลือกคำตอบที่ตรงและใกล้เคียงที่สุด" เพียงหนึ่งเดียว.
+        TOR: ${torContent}
+        ---
+        คำแนะนำที่ 1 (จาก Gemini):
+        ${initialRecommendations.gemini_recommendation}
+        ---
+        คำแนะนำที่ 2 (จาก DeepSeek):
+        ${initialRecommendations.deepseek_recommendation}
+        ---
+        รูปแบบคำตอบ: ให้ระบุ "ชื่อรุ่นสุดท้ายที่เลือก" และ "สรุปเหตุผล"`;
+
+    const result = await deepseek.chat.completions.create({
+        model: "deepseek-chat",
+        messages: [{ role: "user", content: arbiterPrompt }],
+    });
+    console.log("✅ การตัดสินใจสิ้นสุด");
+    return result.choices[0].message.content;
+}
+
 /**
- * Main Function
+ * Main Orchestrator
  */
 async function main() {
   try {
     const torPath = path.join(process.cwd(), "data", "tor.txt");
     const torContent = await fs.readFile(torPath, "utf-8");
-    console.log("--- 🚀 เริ่มกระบวนการ RAG (Gemini Retrieval -> DeepSeek Generation) ---");
+    console.log("--- 🚀 เริ่มกระบวนการ RAG แบบ Ultimate 5-Stage ---");
 
-    // ขั้นตอนที่ 1: Retrieval
-    const relevantModelKeys = await geminiPreFilter(torContent, rawDellDatabase);
+    // ด่านที่ 0
+    const hardRequirements = await extractHardRequirements(torContent);
+    let candidates = programmaticFilter(hardRequirements, rawDellDatabase);
+    if (candidates.length === 0) { console.log("ไม่พบรุ่นที่ผ่านการกรองด้วยโค้ด"); return; }
+    console.log("รุ่นที่ผ่านด่าน 0:", candidates.map(c => c.model_name));
 
-    if (!relevantModelKeys || relevantModelKeys.length === 0) {
-        console.log("\n--- 🌟 ผลลัพธ์ ---");
-        console.log("ไม่พบรุ่นคอมพิวเตอร์ที่เกี่ยวข้องตามการกรองของ Gemini");
-        console.log("💡 ข้อเสนอแนะ: อาจเป็นเพราะไม่มีรุ่นในฐานข้อมูลที่ตรงกับ TOR หรือ Prompt สำหรับ Gemini ต้องได้รับการปรับปรุง");
-        return;
+    // ด่านที่ 1
+    candidates = await aiFilter(torContent, candidates, "gemini-1.0-pro", "ด่านที่ 1: Broad AI Filter");
+    if (candidates.length === 0) { console.log("ไม่พบรุ่นที่ผ่านการกรองด้วย Gemini 1.0 Pro"); return; }
+    console.log("รุ่นที่ผ่านด่าน 1:", candidates.map(c => c.model_name));
+    
+    // ด่านที่ 2
+    candidates = await aiFilter(torContent, candidates, "gemini-1.5-flash-latest", "ด่านที่ 2: Refined AI Filter");
+    if (candidates.length === 0) { console.log("ไม่พบรุ่นที่ผ่านการกรองด้วย Gemini 1.5 Flash"); return; }
+    console.log("รุ่นที่ผ่านด่าน 2 (Final Candidates):", candidates.map(c => c.model_name));
+
+    // ด่านที่ 3
+    const initialRecs = await getInitialRecommendations(torContent, candidates);
+    const extractModelName = (recommendation) => (recommendation.match(/ชื่อรุ่น:\s*(.*)/i) || [])[1]?.trim();
+    const geminiModelName = extractModelName(initialRecs.gemini_recommendation);
+    const deepseekModelName = extractModelName(initialRecs.deepseek_recommendation);
+    
+    let finalAnswer;
+
+    // ด่านที่ 4
+    if (geminiModelName && deepseekModelName && geminiModelName === deepseekModelName) {
+        console.log("\n[ด่านที่ 4] ✅ AI ทั้งสองเห็นตรงกัน!");
+        finalAnswer = `**ผลการวิเคราะห์เป็นเอกฉันท์:**\n\n${initialRecs.gemini_recommendation}`;
+    } else {
+        finalAnswer = await getFinalDecision(initialRecs, torContent);
     }
 
-    // ขั้นตอนที่ 2: Augmentation - สร้าง list ของ candidates จาก keys ที่ได้มา
-    const candidates = relevantModelKeys
-      .map(key => rawDellDatabase[key])
-      .filter(Boolean); 
-
-    console.log("\nรุ่นที่ Gemini ค้นหาและส่งต่อให้ DeepSeek:", candidates.map(c => c.model_name));
-
-    // ขั้นตอนที่ 3: Generation
-    const finalDecisionJson = await deepseekFinalRanker(torContent, candidates);
-    
-    const finalDecision = JSON.parse(finalDecisionJson);
-
-    console.log("\n\n--- 🌟 สรุปผลลัพธ์สุดท้ายจากการจัดอันดับโดย DeepSeek 🌟 ---\n");
-    console.log(`🏆 อันดับที่ 1: ${finalDecision.rank_1.model_name}`);
-    console.log(`   เหตุผล: ${finalDecision.rank_1.reason}\n`);
-    console.log(`🥈 อันดับที่ 2: ${finalDecision.rank_2.model_name}`);
-    console.log(`   เหตุผล: ${finalDecision.rank_2.reason}`);
-    console.log("\n--------------------------------------------------------");
+    console.log("\n\n--- 🌟 สรุปผลลัพธ์สุดท้าย (Final Decision) 🌟 ---");
+    console.log(finalAnswer);
 
   } catch (error) {
-    console.error(`\n--- ❌ เกิดข้อผิดพลาดร้ายแรงในกระบวนการหลัก ---`);
-    if (error instanceof OpenAI.APIError && error.status === 429) {
-        console.error("สาเหตุ: เครดิตหรือโควต้าการใช้งาน DeepSeek API หมดแล้ว");
-    } else if (error.message.includes("rate limit")) {
-        console.error("สาเหตุ: เครดิตหรือโควต้าการใช้งาน Gemini API หมดแล้ว หรือเรียกใช้งานถี่เกินไป");
-    } else {
-        console.error("รายละเอียดข้อผิดพลาด:", error);
-    }
+    console.error(`\n--- ❌ เกิดข้อผิดพลาดร้ายแรงในกระบวนการหลัก ---`, error);
   } finally {
     console.log("\n--- ✅ สิ้นสุดกระบวนการ ---");
   }
