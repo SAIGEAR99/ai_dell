@@ -1,0 +1,532 @@
+{
+    "Product_Data": {
+        "model_name": "Dell Pro 16",
+        "model_number": "PC16250",
+        "regulatory_info": {
+            "model": "P134F",
+            "type": "P134F001/P134F002"
+        },
+        "specifications": {
+            "dimensions_and_weight": {
+                "hight": "18.89 mm (0.74 in.)",
+                "width": "358.00 mm (14.09 in.)",
+                "deep": "251.82 mm (9.91 in.)",
+                "weight": {
+                    "minimum": "1.92 kg (4.23 lb)"
+                }
+            },
+            "processor": [
+                {
+                    "series": "13th Generation Intel",
+                    "type": "Intel Core i3-1315U",
+                    "wattage": "15 W",
+                    "core_count": 5,
+                    "thread_count": 6,
+                    "speed": "Up to 4.3 GHz",
+                    "cache": "8 MB",
+                    "integrated_graphics": "Intel UHD Graphics"
+                },
+                {
+                    "series": "Intel",
+                    "type": "Core i3 100U",
+                    "wattage": "15 W",
+                    "core_count": 6,
+                    "thread_count": 8,
+                    "speed": "Up to 4.5 GHz",
+                    "cache": "10 MB",
+                    "integrated_graphics": "Intel UHD Graphics"
+                },
+                {
+                    "series": "Intel",
+                    "type": "Core i5 120U",
+                    "wattage": "15 W",
+                    "core_count": 6,
+                    "thread_count": 8,
+                    "speed": "Up to 4.7 GHz",
+                    "cache": "10 MB",
+                    "integrated_graphics": "Intel Graphics"
+                },
+                {
+                    "series": "Intel",
+                    "type": "Core i5 220U",
+                    "wattage": "15 W",
+                    "core_count": 10,
+                    "thread_count": 12,
+                    "speed": "Up to 5.0 GHz",
+                    "cache": "12 MB",
+                    "integrated_graphics": "Intel Graphics"
+                },
+                {
+                    "series": "Intel",
+                    "type": "Core i7 150U",
+                    "wattage": "15 W",
+                    "core_count": 10,
+                    "thread_count": 12,
+                    "speed": "Up to 5.4 GHz",
+                    "cache": "12 MB",
+                    "integrated_graphics": "Intel Graphics"
+                },
+                {
+                    "series": "Intel",
+                    "type": "Core i7 250U",
+                    "wattage": "15 W",
+                    "core_count": 10,
+                    "thread_count": 12,
+                    "speed": "Up to 5.4 GHz",
+                    "cache": "12 MB",
+                    "integrated_graphics": "Intel Graphics"
+                },
+                {
+                    "series": "Intel",
+                    "type": "Core Ultra 5 225U",
+                    "wattage": "15 W",
+                    "core_count": 12,
+                    "thread_count": 14,
+                    "speed": "Up to 4.8 GHz",
+                    "cache": "12 MB",
+                    "integrated_graphics": "Intel Graphics"
+                },
+                {
+                    "series": "Intel",
+                    "type": "Core Ultra 5 235U",
+                    "wattage": "15 W",
+                    "core_count": 12,
+                    "thread_count": 14,
+                    "speed": "Up to 4.9 GHz",
+                    "cache": "12 MB",
+                    "integrated_graphics": "Intel Graphics"
+                },
+                {
+                    "series": "Intel",
+                    "type": "Core Ultra 7 255U",
+                    "wattage": "15 W",
+                    "core_count": 12,
+                    "thread_count": 14,
+                    "speed": "Up to 5.2 GHz",
+                    "cache": "12 MB",
+                    "integrated_graphics": "Intel Graphics"
+                },
+                {
+                    "series": "Intel",
+                    "type": "Core Ultra 7 265U",
+                    "wattage": "15 W",
+                    "core_count": 12,
+                    "thread_count": 14,
+                    "speed": "Up to 5.3 GHz",
+                    "cache": "12 MB",
+                    "integrated_graphics": "Intel Graphics"
+                },
+                {
+                    "series": "Intel",
+                    "type": "Core i5 120U",
+                    "wattage": "15 W",
+                    "core_count": 10,
+                    "thread_count": 12,
+                    "speed": "Up to 5.0 GHz",
+                    "cache": "12 MB",
+                    "integrated_graphics": "Intel Graphics"
+                }
+            ],
+            "chipset": {
+                "type": "Integrated in the processor",
+                "pcie_bus": "Up to Gen4"
+            },
+            "operating_systems": [
+                "Windows 11 Home",
+                "Windows 11 Professional",
+                "Ubuntu 24.04 LTS"
+            ],
+            "memory": {
+                "memory_configurations": [
+                    {
+                        "type": "DDR5",
+                        "speed": "5200 MT/s",
+                        "capacity_options": [
+                            "8 GB",
+                            "16 GB",
+                            "32 GB"
+                        ]
+                    },
+                    {
+                        "type": "DDR5",
+                        "speed": "5600 MT/s",
+                        "capacity_options": [
+                            "8 GB",
+                            "16 GB",
+                            "32 GB"
+                        ]
+                    }
+                ],
+                "maximum_memory": "64 GB",
+                "memory_slots": "Two SODIMM slots"
+            },
+            "gpu": {
+                "integrated": [
+                    "Intel UHD Graphics",
+                    "Intel Graphics"
+                ],
+                "discrete": []
+            },
+            "ports_and_slots": {
+                "external_left": [
+                    "USB 3.2 Gen 1 port",
+                    "USB 3.2 Gen 1 port with PowerShare",
+                    "RJ45 ethernet port (1 Gbps)",
+                    "Ethernet status LED",
+                    "Security-cable slot"
+                ],
+                "external_right": [
+                    "Power-adapter port",
+                    "Battery-status light",
+                    "HDMI 2.1 Transition-minimized differential signaling (TMDS) port",
+                    "Thunderbolt 4.0 port with DisplayPort and Power Delivery",
+                    "USB 3.2 Gen 2 Type-C port with DisplayPort 1.4a and Power Delivery",
+                    "Global headset port"
+                ],
+                "internal": [
+                    "One M.2 2230 slot for solid state drive",
+                    "One M.2 2230 slot for WLAN card, Wi-Fi/Bluetooth"
+                ],
+                "port_2.0_3.0_typeC": "See external_left and external_right for details"
+            },
+            "display": {
+                "inch": "16-inch",
+                "resolution": [
+                    "1920 x 1200"
+                ],
+                "hz": [
+                    "60 Hz"
+                ],
+                "touch": "Touch",
+                "non_touch": "Non-Touch",
+                "2_in_1_pen_support": "Not found in manual",
+                "monitor_details": {}
+            },
+            "storage": {
+                "storage_configuration_boot_driver": "Not found in manual",
+                "supported_drive_types": [
+                    "Universal Flash Storage (onboard)",
+                    "M.2 2230 solid state drive"
+                ],
+                "1st_storage": "Details in supported_drive_types",
+                "2nd_storage": "Details in supported_drive_types",
+                "3rd_storage": "Not found in manual",
+                "hdd": "Not supported in this model",
+                "raid_connectivity": "Not found in manual",
+                "optical_drive": "Not found in manual",
+                "media_card_reader": "Not applicable"
+            },
+            "camera": {
+                "Number of cameras": "Two",
+                "Camera type": [
+                    "HD RGB",
+                    "FHD RGB",
+                    "FHD RGB + IR"
+                ],
+                "Camera location": "Front camera",
+                "Camera sensor type": "CMOS sensor technology",
+                "Camera resolution:Still image": [
+                    "0.92 megapixels (HD)",
+                    "2.07 megapixels (FHD)"
+                ],
+                "Camera resolution:Video": [
+                    "1280 x 720 (HD) at 30 fps",
+                    "1920 x 1080 (FHD) at 30 fps"
+                ],
+                "Infrared camera resolution:Still image": "0.23 megapixels",
+                "Infrared camera resolution:Video": "640 x 360 at 15 fps",
+                "Diagonal viewing angle:Camera": [
+                    "75.0 degrees (HD)",
+                    "80.2 degrees (FHD)"
+                ],
+                "Diagonal viewing angle:Infrared camera": "86.60 degrees"
+            },
+            "audio": {
+                "speaker": "Two"
+            },
+            "networking": {
+                "network_card": {
+                    "wlan": {
+                        "Model number": [
+                            "MediaTek MT7920",
+                            "Intel AX211",
+                            "Intel BE202"
+                        ],
+                        "Transfer rate": [
+                            "Up to 1200 Mbps",
+                            "Up to 2400 Mbps",
+                            "Up to 2400 Mbps"
+                        ],
+                        "Frequency bands supported": [
+                            "2.4 GHz/5 GHz",
+                            "2.4 GHz/5 GHz/6 Ghz",
+                            "2.4 GHz/5 GHz/6 Ghz"
+                        ],
+                        "Wireless standards": [
+                            "WiFi 802.11a/b/g",
+                            "Wi-Fi 4 (WiFi 802.11n)",
+                            "Wi-Fi 5 (WiFi 802.11ac)",
+                            "Wi-Fi 6 (WiFi 802.11ax)",
+                            "Wi-Fi 7 (WiFi 802.11be)"
+                        ],
+                        "Encryption": [
+                            "64-bit/128-bit WEP",
+                            "AES-CCMP",
+                            "TKIP"
+                        ],
+                        "Bluetooth wireless card": [
+                            "Bluetooth 5.4",
+                            "Bluetooth 5.3",
+                            "Bluetooth 5.4"
+                        ]
+                    },
+                    "wwan": {
+                        "Not found in manual": ""
+                    }
+                },
+                "network_port_rj45": "One RJ45 ethernet port (1 Gbps)",
+                "wireless": "See network_card details"
+            }
+        },
+        "components_and_extras": {
+            "keyboard": {
+                "Keyboard type": [
+                    "Backlit keyboard with Copliot key and fingerprint reader",
+                    "Backlit keyboard with Copliot key",
+                    "Non-backlit keyboard with Copliot key and fingerprint reader",
+                    "Non-backlit keyboard with Copliot key"
+                ],
+                "Keyboard layout": [
+                    "Arabic, Chinese (Traditional), English International, English US, Hebrew, Ukrainian",
+                    "Belgian, Bulgarian, Czech and Slovakian (MUI), English UK, French (European), French (European), German, Hungarian, Greek, Hebrew, Italian, Nordic (MUI), Portuguese Iberian, Portuguese Brazil, Russian, Spanish (Castillian), Spanish (Latin America), Swiss European (MUI), Turkish",
+                    "Japanese"
+                ],
+                "Number of keys": [
+                    "99 keys with numeric keypad",
+                    "100 keys with numeric keypad",
+                    "103 keys with numeric keypad"
+                ],
+                "Key pitch": "Horizontal= 18.05 mm (Numeric keypad: 17.05 mm) Vertical= 18.05 mm"
+            },
+            "mouse": "Not found in manual",
+            "sim": "Not found in manual",
+            "finger_print_reader": {
+                "Sensor technology": "Capacitive",
+                "Sensor resolution": "500 dpi",
+                "Sensor pixel size": "108 mm x 88 mm"
+            },
+            "fan": "Not found in manual",
+            "thermal_cooling": "Not found in manual",
+            "power_cord": "Not found in manual",
+            "cables_and_dongle": "Not found in manual",
+            "cable_cover": "Not found in manual",
+            "dust_protection": "Not found in manual",
+            "chassis_option": "Not found in manual",
+            "label": "Not found in manual",
+            "documentation": "Not found in manual"
+        },
+        "power_and_battery": {
+            "psu_power": [
+                "65W",
+                "60W"
+            ],
+            "charger_port": "One 4.5 mm x 2.9 mm DC-in",
+            "charger_cable": "Not found in manual",
+            "battery": {
+                "Battery type": [
+                    "3-cell, 45 Wh, ExpressCharge 1.0, ExpressCharge Boost",
+                    "3-cell, 45 Wh, ExpressCharge 1.0, Long Life Cycle Capable",
+                    "3-cell, 55 Wh, ExpressCharge 1.0, ExpressCharge Boost",
+                    "3-cell, 55 Wh, ExpressCharge Boost, Long Life Cycle Capable"
+                ],
+                "Battery voltage": [
+                    "11.25 VDC",
+                    "11.70 VDC"
+                ],
+                "Battery weight (maximum)": [
+                    "0.20 kg (0.44 lb)",
+                    "0.21 kg (0.48 lb)"
+                ],
+                "Battery dimensions:Height": "6.30 mm (0.25 in.)",
+                "Battery dimensions:Width": "255.05 mm (10.04 in.)",
+                "Battery dimensions:Depth": "73.00 mm (2.87 in.)",
+                "Temperature range:Operating": [
+                    "0°C to 45°C (32°F to 113°F)",
+                    "0°C to 70°C (32°F to 158°F)"
+                ],
+                "Temperature range:Storage": "-20°C to 60°C (-4°F to 140°F)",
+                "Battery operating time": "Varies depending on operating conditions and can significantly reduce under certain power-intensive conditions.",
+                "Battery charging time": [
+                    "0°C to 15°C—4 hours (when the computer is off)",
+                    "16°C to 45°C—2 hours (when the computer is off)",
+                    "46°C to 50°C—3 hours(when the computer is off)"
+                ],
+                "Coin-cell battery": "Not supported"
+            },
+            "power_cord": "Not found in manual"
+        },
+        "compliance_and_software": {
+            "energy_star": "Not found in manual",
+            "epeat_2018": "Not found in manual",
+            "epeat_gold_silver": "Not found in manual",
+            "driver": "Not found in manual",
+            "bios": "Not found in manual",
+            "microsoft_office": "Not found in manual",
+            "intel_responsive_technology": "Not found in manual"
+        },
+        "services": {
+            "standard_hardware_support_service": "Not found in manual",
+            "extended_service": "Not found in manual",
+            "custom_delivery": "Not found in manual"
+        },
+        "technical_details": {
+            "information_about_cpu_when_use_V_U_H_its_has_or_not_has_RJ45": "Not found in manual",
+            "chipset": {},
+            "screw_list": [
+                {
+                    "Component": "Base cover",
+                    "Screw type": "M2.5x6 (Captive)",
+                    "Quantity": 9,
+                    "Screw torque strength": "2.55 kgf-cm to 3.45 kgf-cm"
+                },
+                {
+                    "Component": "Battery",
+                    "Screw type": "M2x3 (Captive)",
+                    "Quantity": 4,
+                    "Screw torque strength": "1.36 Kgf-cm to 1.84 Kgf-cm"
+                },
+                {
+                    "Component": "Battery",
+                    "Screw type": "M2x4",
+                    "Quantity": 1,
+                    "Screw torque strength": "1.98 Kgf-cm to 2.42 Kgf-cm"
+                },
+                {
+                    "Component": "Solid state drive",
+                    "Screw type": "M2x3",
+                    "Quantity": 1,
+                    "Screw torque strength": "1.36 Kgf-cm to 1.84 Kgf-cm"
+                },
+                {
+                    "Component": "Wireless card",
+                    "Screw type": "M2x3",
+                    "Quantity": 1,
+                    "Screw torque strength": "1.36 Kgf-cm to 1.84 Kgf-cm"
+                },
+                {
+                    "Component": "Fan",
+                    "Screw type": "M2x3",
+                    "Quantity": 2,
+                    "Screw torque strength": "1.36 Kgf-cm to 1.84 Kgf-cm"
+                },
+                {
+                    "Component": "Power-adapter port",
+                    "Screw type": "M2.5x5",
+                    "Quantity": 3,
+                    "Screw torque strength": "2.55 kgf-cm to 3.45 kgf-cm"
+                },
+                {
+                    "Component": "Heat sink",
+                    "Screw type": "M2x5.4 (Captive)",
+                    "Quantity": 4,
+                    "Screw torque strength": "1.36 Kgf-cm to 1.84 Kgf-cm"
+                },
+                {
+                    "Component": "I/O board",
+                    "Screw type": "M2.5x5",
+                    "Quantity": 3,
+                    "Screw torque strength": "2.55 kgf-cm to 3.45 kgf-cm"
+                },
+                {
+                    "Component": "I/O board",
+                    "Screw type": "M2x3",
+                    "Quantity": 3,
+                    "Screw torque strength": "1.36 Kgf-cm to1.84 Kgf-cm"
+                },
+                {
+                    "Component": "System board",
+                    "Screw type": "M2.5x5",
+                    "Quantity": 3,
+                    "Screw torque strength": "2.55 kgf-cm to 3.45 kgf-cm"
+                },
+                {
+                    "Component": "System board",
+                    "Screw type": "M2x3",
+                    "Quantity": 3,
+                    "Screw torque strength": "1.36 Kgf-cm to 1.84 Kgf-cm"
+                },
+                {
+                    "Component": "System board",
+                    "Screw type": "M2x5",
+                    "Quantity": 2,
+                    "Screw torque strength": "1.36 Kgf-cm to 1.84 Kgf-cm"
+                },
+                {
+                    "Component": "USB Type-C module",
+                    "Screw type": "M2x5",
+                    "Quantity": 3,
+                    "Screw torque strength": "1.36 Kgf-cm to 1.84 Kgf-cm"
+                },
+                {
+                    "Component": "Keyboard",
+                    "Screw type": "M2x2.2",
+                    "Quantity": 22,
+                    "Screw torque strength": "1.36 Kgf-cm to 1.84 Kgf-cm"
+                },
+                {
+                    "Component": "Keyboard support plate",
+                    "Screw type": "M2x2.2",
+                    "Quantity": 8,
+                    "Screw torque strength": "1.36 Kgf-cm to1.84 Kgf-cm"
+                },
+                {
+                    "Component": "Display assembly",
+                    "Screw type": "M2.5x5",
+                    "Quantity": 6,
+                    "Screw torque strength": "2.55 kgf-cm to 3.45 kgf-cm"
+                },
+                {
+                    "Component": "Display-panel assembly",
+                    "Screw type": "M2.5x2.5",
+                    "Quantity": 6,
+                    "Screw torque strength": "2.55 kgf-cm to 3.45 kgf-cm"
+                },
+                {
+                    "Component": "Display-panel assembly",
+                    "Screw type": "M2.5x3.5",
+                    "Quantity": 4,
+                    "Screw torque strength": "2.55 kgf-cm to 3.45 kgf-cm"
+                }
+            ],
+            "error_code": {
+                "Diagnostic light codes (Amber, White)": [
+                    "1,1 TPM Detection Failure",
+                    "1,2 Unrecoverable SPI Flash Failure",
+                    "1,5 EC unable to program i-Fuse",
+                    "1,6 Generic catch-all for ungraceful EC code flow errors",
+                    "1,7 Non-RPMC Flash on Boot Guard fused system",
+                    "1,8 Chipset “Catastrophic Error” signal has tripped",
+                    "2,1 CPU configuration or CPU failure",
+                    "2,2 System board: BIOS or Read-Only Memory (ROM) failure",
+                    "2,3 No memory or Random-Access Memory (RAM) detected",
+                    "2,4 Memory or Random-Access Memory (RAM) failure",
+                    "2,5 Invalid memory installed",
+                    "2,6 System board/Chipset Error",
+                    "2,7 LCD failure SBIOS message",
+                    "2,8 Display power-rail failure on the system board",
+                    "3,1 RTC power failure",
+                    "3,2 PCI of Video card/chip failure",
+                    "3,3 Recovery image not found",
+                    "3,4 Recovery image found but invalid",
+                    "3,5 EC power-rail error",
+                    "3,6 Flash corruption detected by SBIOS",
+                    "3,7 Timeout waiting on ME to reply to HECI message",
+                    "4,1 Memory DIMM power rail failure",
+                    "4,2 CPU Power cable connection issue",
+                    "4,4 LCD Power Rail Failure"
+                ]
+            },
+            "all_information": "A catch-all for any other relevant information found in the document."
+        }
+    }
+}

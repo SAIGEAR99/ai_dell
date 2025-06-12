@@ -1,0 +1,329 @@
+{
+    "Product_Data": {
+        "model_name": "Dell Pro 13 Premium",
+        "model_number": "PA13250",
+        "regulatory_info": {
+            "model": "P191G",
+            "type": "P191G001"
+        },
+        "specifications": {
+            "dimensions_and_weight": {
+                "hight": "16.85 mm (0.66 in)",
+                "width": "295.64 mm (11.64 in)",
+                "deep": "208.93 mm (8.23 in)",
+                "weight": {
+                    "minimum": "1.20 kg (2.63 lb)"
+                }
+            },
+            "processor": [
+                {
+                    "series": "Intel Core Ultra 5",
+                    "type": "236V vPro Enterprise",
+                    "wattage": "17 W",
+                    "core_count": 8,
+                    "thread_count": 8,
+                    "speed": "up to 4.7 GHz",
+                    "cache": "8 MB",
+                    "integrated_graphics": "Intel Arc Graphics 130V"
+                },
+                {
+                    "series": "Intel Core Ultra 5",
+                    "type": "238V vPro Enterprise",
+                    "wattage": "17 W",
+                    "core_count": 8,
+                    "thread_count": 8,
+                    "speed": "up to 4.7 GHz",
+                    "cache": "8 MB",
+                    "integrated_graphics": "Intel Arc Graphics 130V"
+                },
+                {
+                    "series": "Intel Core Ultra 7",
+                    "type": "266V vPro Enterprise",
+                    "wattage": "17 W",
+                    "core_count": 8,
+                    "thread_count": 8,
+                    "speed": "up to 5 GHz",
+                    "cache": "12 MB",
+                    "integrated_graphics": "Intel Arc Graphics 140V"
+                },
+                {
+                    "series": "Intel Core Ultra 7",
+                    "type": "268V vPro Enterprise",
+                    "wattage": "17 W",
+                    "core_count": 8,
+                    "thread_count": 8,
+                    "speed": "up to 5 GHz",
+                    "cache": "12 MB",
+                    "integrated_graphics": "Intel Arc Graphics 140V"
+                }
+            ],
+            "chipset": {
+                "type": "Integrated in the processor",
+                "pcie_bus": "up to Gen4"
+            },
+            "operating_systems": [
+                "Windows 11 24H2",
+                "Windows 11 23H2",
+                "Windows 10 22H2",
+                "Ubuntu Linux 24.04"
+            ],
+            "memory": {
+                "memory_configurations": [
+                    {
+                        "type": "LPDDR5x",
+                        "speed": "8533 MT/s",
+                        "capacity_options": [
+                            "16 GB",
+                            "32 GB"
+                        ]
+                    }
+                ],
+                "maximum_memory": "32 GB",
+                "memory_slots": "Onboard memory"
+            },
+            "gpu": {
+                "integrated": [
+                    "Intel Arc Graphics 130V",
+                    "Intel Arc Graphics 140V"
+                ],
+                "discrete": []
+            },
+            "ports_and_slots": {
+                "external_left": [
+                    "HDMI 2.1 port",
+                    "Global headset jack",
+                    "Battery indicator LED",
+                    "Thunderbolt 4 port with DisplayPort Alt Mode/USB4/Power Delivery"
+                ],
+                "external_right": [
+                    "nano-SIM card slot",
+                    "Thunderbolt 4 port with DisplayPort Alt Mode/USB4/Power Delivery",
+                    "Wedge-shaped lock slot",
+                    "USB 3.2 Gen 1 port with PowerShare"
+                ],
+                "internal": [
+                    "One M.2 2230 slot for solid-state drive",
+                    "One M.2 3052 slot for 5G WWAN card"
+                ],
+                "port_2.0_3.0_typeC": "See external_left and external_right for details"
+            },
+            "display": {
+                "inch": "Not found in manual",
+                "resolution": [
+                    "1920 x 1200",
+                    "2560 x 1600"
+                ],
+                "hz": [
+                    "48 Hz to 60 Hz",
+                    "30 Hz to 60 Hz",
+                    "48 Hz to 60 Hz"
+                ],
+                "touch": "Yes",
+                "non_touch": "No",
+                "2_in_1_pen_support": "Not found in manual",
+                "monitor_details": {}
+            },
+            "storage": {
+                "storage_configuration_boot_driver": "M.2 2230 solid-state drive",
+                "supported_drive_types": [
+                    "M.2 2230 solid-state drive, Class 35 TLC PCIe Gen4 NVMe",
+                    "M.2 2230 solid-state drive, Self-encrypting drive, Opal 2.0, Class 35",
+                    "M.2 2230 solid state drive, Class 25 QLC PCIe Gen4 NVMe"
+                ],
+                "1st_storage": "Details in supported_drive_types",
+                "2nd_storage": "Details in supported_drive_types",
+                "3rd_storage": "Not found in manual",
+                "hdd": "Not supported in this model",
+                "raid_connectivity": "Not found in manual",
+                "optical_drive": "Not found in manual",
+                "media_card_reader": "Not supported"
+            },
+            "camera": {
+                "Number of cameras": "Two",
+                "Camera type": [
+                    "IR Camera",
+                    "IR Camera with Presence Detection (Synaptics)"
+                ],
+                "Camera location": "Front camera",
+                "Camera sensor type": "CMOS sensor technology",
+                "Camera resolution: Still image": "8.0 megapixel",
+                "Camera resolution: Video": "2560 x 1440 at 30 fps",
+                "Infrared camera resolution: Still image": "0.23 megapixel",
+                "Infrared camera resolution: Video": "640 x 360 at 30 fps",
+                "Diagonal viewing angle: Camera": "88.1 degrees",
+                "Diagonal viewing angle: Infrared camera": "86.6 degrees"
+            },
+            "audio": {
+                "speaker": "Four"
+            },
+            "networking": {
+                "network_card": {
+                    "wlan": {
+                        "Model number": "Intel WiFi 7 BE201",
+                        "Transfer rate": "5670 Mbps",
+                        "Frequency bands supported": "2.4 GHz/5 GHz/6 GHz",
+                        "Wireless standards": [
+                            "WiFi 802.11a/b/g",
+                            "Wi-Fi 4 (WiFi 802.11n)",
+                            "Wi-Fi 5 (WiFi 802.11ac)",
+                            "Wi-Fi 6E (WiFi 802.11ax)",
+                            "Wi-Fi 7 (WiFi 802.11be)"
+                        ],
+                        "Encryption": [
+                            "64-bit/128-bit WEP",
+                            "AES-CCMP",
+                            "TKIP"
+                        ],
+                        "Bluetooth wireless card": "Bluetooth 5.4"
+                    },
+                    "wwan": {
+                        "Model number": "Qualcomm Snapdragon X72 Global 5G Modem (DW5934e)",
+                        "Form factor": "M.2 3052 Key-B",
+                        "Host interface": "PCIe Gen3",
+                        "Network standard": "NR FR1(Sub6) FDD/TDD, LTE FDD/TDD, WCDMA/HSPA+, GPS/GLONASS/Galileo/Beidou",
+                        "Transfer data rate": [
+                            "5G NR: DL 4.14Gbps/UL 900Mbps",
+                            "LTE: DL 2.0Gbps (CAT20)/UL 211Mbps (CAT18)",
+                            "UMTS: DL DC-HSPA+ Rel8:42 Mbps/UL 5.76 Mbps"
+                        ],
+                        "Operating frequency bands": [
+                            "NR(n1, n2, n3, n5, n7, n8, n12, n13, n14, 18, n20, n25, n26, n28, n29, n30, n38, n40, n41, n48, n66, n67, n70, n71, n75, n76, n77, n78, n79, n91, n92, n93, n94)",
+                            "LTE (B1, B2, B3, B4, B5, B7, B8, B12, B13, B14, B17, B18, B19, B20, B25, B26, B28, B29, B30, B32, B34, B38, B39, B40, B41, B42, B43, B46, B48, B66, B67, B68, B70, B71)",
+                            "WCDMA/HSPA+ (1, 2, 4, 5, 8)"
+                        ],
+                        "Power supply": "DC 3.135V to 3.63V, typical 3.3V",
+                        "SIM card": "Supported through external SIM slot",
+                        "eSIM with dual SIM (DSSA)": "Supported",
+                        "Antenna diversity": "Supported",
+                        "Radio on/off": "Supported",
+                        "Wake On Wireless": "Supported in Morden Standby mode",
+                        "Temperature": [
+                            "Normal operating temperature: –30°C to +70°C",
+                            "Extended operating temperature: –40°C to +85°C",
+                            "Storage temperature: –40°C to +85°C"
+                        ],
+                        "Antenna connector": [
+                            "WWAN Main Antenna x 1",
+                            "WWAN Diversity Antenna x 1",
+                            "4x4 MIMO Antenna x 2"
+                        ]
+                    }
+                },
+                "network_port_rj45": "Not found in manual",
+                "wireless": "See network_card details"
+            }
+        },
+        "components_and_extras": {
+            "keyboard": {
+                "Keyboard type": "Battery-saving mini LED backlit zero-lattice keyboard",
+                "Keyboard layout": [
+                    "QWERTY",
+                    "English US, English International, Arabic, Canada bilingual (MUI), Chinese traditional, French-Canadian, Greek, Hebrew, Korean, Russian, Thai, Ukrainian: 79 keys",
+                    "French-Canadian Quebec, Belgian, Bulgarian, Czech & Slovakian (MUI), Danish, English UK, Estonian, French European, German, Hungarian, Icelandic, Italian, Nordic (MUI), Norwegian, Portugese Iberian, Slovenian, Spanish (Castillian), Spanish (Latin America), Swedish/Finnish, Swiss European (MUI), Turkish, Turkish (F): 80 keys",
+                    "Japanese: 83 keys",
+                    "Portuguese Brazilian: 81 keys"
+                ],
+                "Keyboard size": "X=18.05 mm key pitch Y=18.05 mm key pitch"
+            },
+            "mouse": "Not found in manual",
+            "sim": "Not found in manual",
+            "finger_print_reader": {
+                "Sensor technology": "Trans-capacitive sensing",
+                "Sensor resolution": "500 dpi",
+                "Sensor pixel size": [
+                    "X: 108",
+                    "Y: 88"
+                ]
+            },
+            "fan": "Not found in manual",
+            "thermal_cooling": "Not found in manual",
+            "power_cord": "Not found in manual",
+            "cables_and_dongle": "Not found in manual",
+            "cable_cover": "Not found in manual",
+            "dust_protection": "Not found in manual",
+            "chassis_option": "Not found in manual",
+            "label": "Not found in manual",
+            "documentation": "Not found in manual"
+        },
+        "power_and_battery": {
+            "psu_power": [
+                "100 W",
+                "60W",
+                "65 W"
+            ],
+            "charger_port": "USB Type-C",
+            "charger_cable": "Not found in manual",
+            "battery": {
+                "Battery type": [
+                    "2-cell, 40 Wh, Lithium Ion, ExpressCharge 2.0, ExpressCharge Boost",
+                    "3-cell, 60 Wh, Lithium Ion, ExpressCharge, ExpressCharge Boost, Long Life Cycle Boost",
+                    "2-cell, 40 Wh, Lithium Ion, ExpressCharge 2.0, ExpressCharge Boost",
+                    "3-cell, 60 Wh, Lithium Ion, ExpressCharge, ExpressCharge Boost, Long Life Cycle Boost"
+                ],
+                "Battery voltage": [
+                    "7.80 VDC",
+                    "7.80 VDC",
+                    "11.70 VDC",
+                    "11.70 VDC"
+                ],
+                "Battery weight": [
+                    "155 gm",
+                    "155 gm",
+                    "215 gm",
+                    "215 gm"
+                ],
+                "Battery dimensions: Height": "6.15 mm (0.24 in.)",
+                "Battery dimensions: Width": "248 mm (9.76 in.)",
+                "Battery dimensions: Depth": "65.10 mm (2.56 in.)",
+                "Temperature range: Operating": "0°C to 60°C (32°F to 140°F)",
+                "Temperature range: Storage": "–20°C to 60°C (-4°F to 140°F)",
+                "Battery operating time": "Varies depending on operating conditions and can significantly reduce under certain power-intensive conditions.",
+                "Battery charging time": [
+                    "Express Charge Method: ● 0 - 15°C maximum allowable charge time from 0 to 100% RSOC is 4 hours ● 16 - 45°C normal express charge allowable charge time from 0 to 100% RSOC is 4 hours ● 46 - 50°C maximum allowable charge time from 0 to 100% RSOC is 3 hours Standard Charge/Predominately AC User Charge Method: ● 0 - 15°C maximum allowable charge time from 0 to 100% RSOC is 4 hours ● 16 - 50°C maximum allowable charge time from 0 to 100% RSOC is 4 hours Express Charge Boost Charge Method (Fast Charge for Initial 35%): ● 16 - 45°C target charge time from 0 to 35% RSOC is 20 mins for Accelerated Charge ",
+                    "Express Charge Method: ● 0 - 15°C maximum allowable charge time from 0 to 100% RSOC is 4 hours ● 16 - 45°C normal express charge allowable charge time from 0 to 100% RSOC is 4 hours ● 46 - 50°C maximum allowable charge time from 0 to 100% RSOC is 3 hours Standard Charge/Predominately AC User Charge Method: ● 0 - 15°C maximum allowable charge time from 0 to 100% RSOC is 4 hours ● 16 - 50°C maximum allowable charge time from 0 to 100% RSOC is 4 hours Express Charge Boost Charge Method (Fast Charge for Initial 35%): ● 16 - 45°C target charge time from 0 to 35% RSOC is 20 mins for Accelerated Charge"
+                ]
+            },
+            "Coin-cell battery": "Not Supported"
+        },
+        "power_cord": "Not found in manual"
+    },
+    "compliance_and_software": {
+        "energy_star": "Not found in manual",
+        "epeat_2018": "Not found in manual",
+        "epeat_gold_silver": "Not found in manual",
+        "driver": "Not found in manual",
+        "bios": "Not found in manual",
+        "microsoft_office": "Not found in manual",
+        "intel_responsive_technology": "Not found in manual"
+    },
+    "services": {
+        "standard_hardware_support_service": "Not found in manual",
+        "extended_service": "Not found in manual",
+        "custom_delivery": "Not found in manual"
+    },
+    "technical_details": {
+        "information_about_cpu_when_use_V_U_H_its_has_or_not_has_RJ45": "Not found in manual",
+        "chipset": {},
+        "screw_list": [
+            "M2.5x7 (Captive screw)",
+            "M1.6x2 (Captive screw)",
+            "M1.6x5.5 (Captive screw)",
+            "M2x4.5 (Captive screw)",
+            "M1.6x2.3 (Captive screw)",
+            "M1.6x3",
+            "M2x3.5 (Captive screw)",
+            "M2x2",
+            "M1.6x5.5",
+            "M1.6x2.5",
+            "M2x5",
+            "M1.6x2.3 (Captive screw)",
+            "M1.6x5.5 (Captive screw)",
+            "M2.5x5",
+            "M1.6x2.5",
+            "M1.4x1.2",
+            "M1.6x2"
+        ],
+        "error_code": {},
+        "all_information": "A catch-all for any other relevant information found in the document."
+    }
+}

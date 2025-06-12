@@ -1,0 +1,16 @@
+--- PRE-EXTRACTED DATA LOG ---
+
+{
+    "memory": {
+        "Description": "Option five / Option six / Option seven / Option eight",
+        "Processor type": "Intel Core 5 220U / Intel Core 7 150U / Intel Core 7 250U / Intel Core Ultra 5 225U",
+        "Processor wattage": "15 W / 15 W / 15 W / 15 W",
+        "Processor total core count": "10 / 10 / 10 / 12",
+        "Performance-cores": "2 / 2 / 2 / 2",
+        "Efficient-cores": "8 / 8 / 8 / 8",
+        "Processor total thread count NOTE: Intel Hyper-Threading Technology is only available on Performance- cores.": "12 / 12 / 12 / 14",
+        "Processor speed": "Up to 5.0 GHz / Up to 5.4 GHz / Up to 5.4 GHz / Up to 4.8 GHz",
+        "Processor cache": "12 MB / 12 MB / 12 MB / 12 MB",
+        "Integrated graphics": "Intel Graphics / Intel Graphics / Intel Graphics / Intel Graphics"
+    }
+}
